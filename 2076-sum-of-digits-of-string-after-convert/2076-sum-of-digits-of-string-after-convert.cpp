@@ -8,8 +8,6 @@ public:
         {
             number+= to_string(elem - 'a' + 1);
         }
-
-        
         
         while(k!=0)
         {
