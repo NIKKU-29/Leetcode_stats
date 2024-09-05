@@ -30,3 +30,10 @@ public:
             
     }
 };
+
+static const int kds = []() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+    return 0;
+}();
