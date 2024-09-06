@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0906-walking-robot-simulation](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0906-walking-robot-simulation) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## String
 |  |
 | ------- |
@@ -28,8 +29,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0906-walking-robot-simulation](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0906-walking-robot-simulation) |
 | [2155-find-missing-observations](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2155-find-missing-observations) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Math
 |  |
 | ------- |
 | [2155-find-missing-observations](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2155-find-missing-observations) |
+## Linked List
+|  |
+| ------- |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 <!---LeetCode Topics End-->
