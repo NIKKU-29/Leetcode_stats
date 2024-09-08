@@ -28,8 +28,11 @@ public:
        vector<ListNode*>vec(k,NULL);
        ListNode* curr=head;
 
-       for(int i=0; i<k && curr!=nullptr ;i++)
+       for(int i=0; i<k;i++)
        {
+            if(curr!=nullptr)
+            {
+
              vec[i]=curr;
 
              int limit = normalnodes;
@@ -50,6 +53,7 @@ public:
         
 
        }
+            }
 
         return vec;
         
