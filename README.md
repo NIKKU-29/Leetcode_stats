@@ -24,11 +24,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0906-walking-robot-simulation](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0906-walking-robot-simulation) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2155-find-missing-observations](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2155-find-missing-observations) |
+| [2411-spiral-matrix-iv](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2411-spiral-matrix-iv) |
 ## Array
 |  |
 | ------- |
 | [0906-walking-robot-simulation](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0906-walking-robot-simulation) |
 | [2155-find-missing-observations](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2155-find-missing-observations) |
+| [2411-spiral-matrix-iv](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2411-spiral-matrix-iv) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Math
 |  |
@@ -40,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0061-rotate-list](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0061-rotate-list) |
 | [0725-split-linked-list-in-parts](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0725-split-linked-list-in-parts) |
 | [1484-linked-list-in-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1484-linked-list-in-binary-tree) |
+| [2411-spiral-matrix-iv](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2411-spiral-matrix-iv) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Tree
 |  |
@@ -61,4 +64,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0061-rotate-list](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0061-rotate-list) |
+## Matrix
+|  |
+| ------- |
+| [2411-spiral-matrix-iv](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2411-spiral-matrix-iv) |
 <!---LeetCode Topics End-->
