@@ -29,7 +29,7 @@ public:
             }
             top++;
 
-            for(int i=top;i<=bottom;++i)
+            for(int i=top;i<=bottom && curr!=nullptr;++i)
             {
                 ans[i][right]=curr->val;
                 curr=curr->next;
@@ -38,7 +38,7 @@ public:
 
             if(top<=bottom)
             {
-            for(int k=right;k>=left;--k)
+            for(int k=right;k>=left && curr!=nullptr;--k)
             {
                 ans[bottom][k]=curr->val;
                 curr=curr->next;
@@ -48,7 +48,7 @@ public:
 
             if(left<=right)
             {
-            for(int l=bottom;l>=top;--l)
+            for(int l=bottom;l>=top && curr!=nullptr;--l)
             {
                 ans[l][left]=curr->val;
                 curr=curr->next;
