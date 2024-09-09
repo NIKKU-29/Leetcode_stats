@@ -68,4 +68,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2411-spiral-matrix-iv](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2411-spiral-matrix-iv) |
+## Database
+|  |
+| ------- |
+| [0197-rising-temperature](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0197-rising-temperature) |
 <!---LeetCode Topics End-->
