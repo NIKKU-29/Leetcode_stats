@@ -12,12 +12,12 @@
 class Solution {
 public:
 
-    bool solver(TreeNode* left,Treenode* right)
+    bool solver(TreeNode* left,TreeNode* right)
     {
         if(left == nullptr && right == nullptr) return true;
         if(left == nullptr || right == nullptr) return false;
 
-        return (left->val == right->val) && solver(left->left,->right) && solver(right->left,left->right); 
+        return (left->val == right->val) && solver(left->left,right->right) && solver(right->left,left->right); 
     }
 
 
