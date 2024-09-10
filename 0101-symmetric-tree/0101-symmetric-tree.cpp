@@ -20,7 +20,6 @@ public:
         return (left->val == right->val) && solver(left->left,right->right) && solver(right->left,left->right); 
     }
 
-
     bool isSymmetric(TreeNode* root) {
 
             if(root==nullptr) return true;
