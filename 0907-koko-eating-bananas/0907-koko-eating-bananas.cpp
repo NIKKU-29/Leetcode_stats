@@ -17,17 +17,7 @@ public:
 
             for(auto elem : piles)
             {
-                long quotient=elem / mid;
-                long remainder=elem % mid;
-
-                if(remainder>0)
-                {
-                    count+=quotient + 1;
-                }
-                else 
-                {
-                    count+=quotient;
-                }
+                count+=ceil((double)elem/mid);
             }
 
             if(count <= h)
