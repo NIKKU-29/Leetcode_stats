@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int minEatingSpeed(vector<int>& piles, int h) {
+    long minEatingSpeed(vector<int>& piles, int h) {
 
         int maxi = *max_element(piles.begin(),piles.end());
         
