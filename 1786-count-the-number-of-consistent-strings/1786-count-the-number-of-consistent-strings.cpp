@@ -13,12 +13,12 @@ public:
         {
             for(int i=0;i<elem.size();i++)
             {
-                while(st.find(elem[i])==st.end())
+                if(st.find(elem[i])==st.end())
                 {
                     break;
                 }
 
-                if(i==elem.size()-1)
+                else if(i==elem.size()-1)
                 {
                     count++;
                 }
