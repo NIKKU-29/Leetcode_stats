@@ -10,19 +10,21 @@ public:
         }
 
         for(auto elem : words)
-        {
+        {   
+            bool valid=true;
+
             for(int i=0;i<elem.size();i++)
             {
-                if(st.find(elem[i])==st.end())
+                while(st.find(elem[i])==st.end())
                 {
+                    valid=false;
                     break;
                 }
+            }
 
-                else if(i==elem.size()-1)
-                {
-                    count++;
-                }
-                
+            if(valid==true)
+            {
+                count++;
             }
         }
 
