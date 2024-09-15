@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0001-two-sum) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0906-walking-robot-simulation](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0906-walking-robot-simulation) |
 | [0907-koko-eating-bananas](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0907-koko-eating-bananas) |
 | [1435-xor-queries-of-a-subarray](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1435-xor-queries-of-a-subarray) |
@@ -128,4 +129,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0021-merge-two-sorted-lists) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0121-best-time-to-buy-and-sell-stock) |
 <!---LeetCode Topics End-->
