@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0021-merge-two-sorted-lists) |
 | [0061-rotate-list](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0061-rotate-list) |
 | [0092-reverse-linked-list-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0092-reverse-linked-list-ii) |
 | [0725-split-linked-list-in-parts](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0725-split-linked-list-in-parts) |
@@ -123,4 +124,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0020-valid-parentheses) |
+## Recursion
+|  |
+| ------- |
+| [0021-merge-two-sorted-lists](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0021-merge-two-sorted-lists) |
 <!---LeetCode Topics End-->
