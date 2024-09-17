@@ -15,12 +15,10 @@ public:
         {
             mp[word]++;
         }
-
         while(ss2 >> word)
         {
             mp[word]++;
         }
-
 
         for(auto elem : mp)
         {
@@ -29,8 +27,6 @@ public:
             vec.push_back(elem.first);
             }
         }
-
-
         return vec;
         
     }
