@@ -6,7 +6,6 @@ public:
         vector<string>vec;
         stringstream ss1(s1);
         stringstream ss2(s2);
-
         string word="";
 
         unordered_map<string,int>mp;
