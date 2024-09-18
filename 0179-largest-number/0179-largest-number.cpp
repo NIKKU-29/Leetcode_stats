@@ -1,29 +1,38 @@
 class Solution {
 public:
-    static bool customComp(const string &a, const string &b) {
-        return (a + b) > (b + a);
+
+    static bool comp(const string& a,const string& b)
+    {
+        if( a + b > b + a) return true;
+
+        else return false;
     }
 
+
     string largestNumber(vector<int>& nums) {
-        int n = nums.size();
-        vector<string> ToS(n);
 
-        for (int i = 0; i < n; ++i) {
-            ToS[i] = to_string(nums[i]);
-        }
 
-        sort(ToS.begin(), ToS.end(), customComp);
+        vector<string>vec;
 
-        string result;
-        for (const string& num : ToS) {
-            result += num;
-        }
-
-        if(result[0]=='0')
+        for(auto elem : nums)
         {
-            return "0";
+            vec.push_back(to_string(elem));
         }
 
-        return result;
+            sort(vec.begin(),vec.end(),comp);
+
+            string ans="";
+
+            for(auto elem : vec)
+            {
+                ans+=elem;
+            }
+
+            if(ans[0]=='0')
+            {
+                return "0";
+            }
+
+        return ans;
     }
 };
