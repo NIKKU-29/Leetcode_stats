@@ -28,7 +28,7 @@ public:
                 ans+=elem;
             }
 
-            if(stoi(ans)==0)
+            if(ans[0]==0)
             {
                 return "0";
             }
