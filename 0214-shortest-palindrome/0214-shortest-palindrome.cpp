@@ -2,23 +2,43 @@ class Solution {
 public:
     string shortestPalindrome(string s) {
 
-        string compare=s;
+        string rev=s;
         int n=s.size();
         if(n==0) return s;
-        reverse(compare.begin(),compare.end());
-        string prefix="";
+        reverse(rev.begin(),rev.end());
 
+        string lps= s + "&" + rev;
 
-        for(int i=0;i<n;i++)
+        vector<int>LPS;
+        LPS.resize(lps.size());
+        int length=0;
+        LPS[0]=0;
+        int i=1;
+
+        while(i<lps.size())
         {
-            if(!memcmp(s.c_str(),compare.c_str()+i,n-i))
+            if(lps[length]==lps[i])
             {
-                prefix=compare.substr(0,i);
-                break;
+                length++;
+                LPS[i]=length;
+                i++;
             }
-        }
+
+            else{
+                    if(length!=0)
+                    {
+                        length=LPS[length-1];
+                    }
+
+                    else{
+                        LPS[i]=0;
+                        i++;
+                    }
+            }
+        } 
+  
 
 
-        return prefix + s;        
+         return rev.substr(0,n-LPS[lps.size()-1]) + s;
     }
 };
