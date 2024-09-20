@@ -11,7 +11,7 @@ public:
 
         for(int i=0;i<n;i++)
         {
-            if(memcmp(s.c_str(),compare.c_str()+i,n-i)==0)
+            if(!memcmp(s.c_str(),compare.c_str()+i,n-i))
             {
                 prefix=compare.substr(0,i);
                 break;
