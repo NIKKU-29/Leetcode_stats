@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0101-symmetric-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0101-symmetric-tree) |
 | [0226-invert-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0226-invert-binary-tree) |
+| [0386-lexicographical-numbers](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0386-lexicographical-numbers) |
 | [0733-flood-fill](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0733-flood-fill) |
 | [1484-linked-list-in-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1484-linked-list-in-binary-tree) |
 ## Breadth-First Search
@@ -187,4 +188,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0214-shortest-palindrome) |
+## Trie
+|  |
+| ------- |
+| [0386-lexicographical-numbers](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0386-lexicographical-numbers) |
 <!---LeetCode Topics End-->
