@@ -33,7 +33,7 @@ public:
 
             else
             {
-                if(currnum%10 == 9 || currnum>=n)
+                while(currnum%10 == 9 || currnum>=n)
                 {
                     currnum/=10;
                 }
