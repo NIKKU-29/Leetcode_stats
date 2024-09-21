@@ -118,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0197-rising-temperature](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0197-rising-temperature) |
 | [0584-find-customer-referee](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0584-find-customer-referee) |
+| [0595-big-countries](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0595-big-countries) |
 | [1908-recyclable-and-low-fat-products](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1908-recyclable-and-low-fat-products) |
 ## Number Theory
 |  |
