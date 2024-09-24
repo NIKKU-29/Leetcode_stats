@@ -14,16 +14,18 @@ public:
 
         int maxi = 0;
 
-        // Check prefixes of numbers in arr2
         for (auto elem : arr2) {
-            // Store the original value for prefix length calculation
+          
             int temp = elem;
-            while (temp != 0) {
+
+            while(temp!=0)
+            {
                 if (st.count(temp)) {
-                    maxi = max(maxi, (int)to_string(temp).length()); // Update maximum length
-                }
-                temp /= 10; // Remove the last digit
+                    maxi = max(maxi, (int)to_string(temp).length());
             }
+                temp /= 10; 
+        }
+
         }
 
         return maxi;
