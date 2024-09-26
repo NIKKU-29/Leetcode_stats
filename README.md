@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0179-largest-number](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0179-largest-number) |
 | [0539-minimum-time-difference](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0539-minimum-time-difference) |
+| [0729-my-calendar-i](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0729-my-calendar-i) |
 | [0733-flood-fill](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0733-flood-fill) |
 | [0792-binary-search](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0792-binary-search) |
 | [0906-walking-robot-simulation](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0906-walking-robot-simulation) |
@@ -159,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0729-my-calendar-i](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0729-my-calendar-i) |
 | [0792-binary-search](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0907-koko-eating-bananas) |
 ## Counting
@@ -225,4 +227,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2755-extra-characters-in-a-string](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2755-extra-characters-in-a-string) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
+## Design
+|  |
+| ------- |
+| [0729-my-calendar-i](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0729-my-calendar-i) |
+## Segment Tree
+|  |
+| ------- |
+| [0729-my-calendar-i](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0729-my-calendar-i) |
+## Ordered Set
+|  |
+| ------- |
+| [0729-my-calendar-i](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0729-my-calendar-i) |
 <!---LeetCode Topics End-->
