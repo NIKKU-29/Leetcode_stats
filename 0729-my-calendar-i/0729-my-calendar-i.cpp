@@ -9,13 +9,15 @@ public:
     
     bool book(int start, int end) {
 
-
         auto it=st.lower_bound({start,end});
 
-        if(it!=st.end() && it->first<end)
+        if(it!=st.end()) 
+        {
+            if(it->first<end)
             {
                 return false;
             }
+        }
 
         if(it!=st.begin())
         {
