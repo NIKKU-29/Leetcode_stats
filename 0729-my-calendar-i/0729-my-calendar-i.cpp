@@ -1,55 +1,32 @@
-// class MyCalendar {
-
-// private: 
-//             map<int,int>event;
-// public:
-//     MyCalendar() {
-        
-//     }
-    
-//     bool book(int start, int end) {
-
-//         event[start]++;
-//         event[end]--;
-
-//         int current=0;
-
-//         for(auto & elem : event)
-//         {
-//             current += elem.second;
-
-//             if(current > 1)
-//             {
-//                 event[start]--;
-//                 event[end]++;
-//                 return false;
-//             }
-//         }
-        
-//         return true;
-//     }
-// };
-
-// /**
-//  * Your MyCalendar object will be instantiated and called as such:
-//  * MyCalendar* obj = new MyCalendar();
-//  * bool param_1 = obj->book(start,end);
-//  */
-
 class MyCalendar {
-    map<int, int> intervals; // Stores intervals with start as key and end as value
-public:
-    MyCalendar() {}
 
+    set<pair<int,int>>st;
+
+public:
+    MyCalendar() {
+        
+    }
+    
     bool book(int start, int end) {
-        auto next = intervals.lower_bound(start); // Find next interval
-        if (next != intervals.end() && next->first < end) {
-            return false; // Overlaps with next interval
+
+
+        auto it=st.lower_bound({start,end});
+
+        if(it!=st.end() && it->first<end)
+            {
+                return false;
+            }
+
+        if(it!=st.begin())
+        {
+            auto previous=prev(it);
+            if(previous->second > start)
+            {
+                return false;
+            }
         }
-        if (next != intervals.begin() && prev(next)->second > start) {
-            return false; // Overlaps with previous interval
-        }
-        intervals[start] = end; // No overlap, add interval
+
+        st.insert({start,end});
         return true;
     }
 };
