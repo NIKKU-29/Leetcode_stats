@@ -172,9 +172,7 @@ public:
         set<pair<int,string>>st;
 
 
-    AllOne() {
-           
-    }
+    
     
     void inc(string key) {
 
