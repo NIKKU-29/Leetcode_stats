@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/design-a-stack-with-increment-operation">1497. Design a Stack With Increment Operation</a></h2><h3>Medium</h3><hr><p>Design a stack that supports increment operations on its elements.</p>
+<h2><a href="https://leetcode.com/problems/design-a-stack-with-increment-operation">1381. Design a Stack With Increment Operation</a></h2><h3>Medium</h3><hr><p>Design a stack that supports increment operations on its elements.</p>
 
 <p>Implement the <code>CustomStack</code> class:</p>
 
