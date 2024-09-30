@@ -26,8 +26,8 @@ public:
     }
     
      void increment(int k, int val) {
-        int limit = std::min(k, (int)dq.size()); 
-        for (int i = (int)dq.size()-limit; i < (int)dq.size() ; i++) {       
+        int limit = min(k, (int)dq.size()); 
+        for (int i = dq.size()-limit; i < dq.size() ; i++) {        
             dq[i] += val;
         }
         
