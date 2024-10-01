@@ -20,25 +20,34 @@ public:
     }
 
     vector<string> letterCombinations(string digits) {
-
-         unordered_map<char, string> mp; // Map for digit to corresponding letters
+        unordered_map<char, string> mp;
+        char elem = 'a';
         vector<string> ans;
 
-        // If digits is empty, return an empty vector
         if (digits.empty()) return {};
 
-        // Initialize the mapping for the digits to letters
-        mp['2'] = "abc";
-        mp['3'] = "def";
-        mp['4'] = "ghi";
-        mp['5'] = "jkl";
-        mp['6'] = "mno";
-        mp['7'] = "pqrs";
-        mp['8'] = "tuv";
-        mp['9'] = "wxyz";
+        for (char i = '2'; i <= '9'; i++) { // Start from '2' to '9'
+            string s = ""; // Reset string for each digit
+            int counter = 0;
 
-        backtrack(digits,mp,0,"",ans);
+            if (i == '7' || i == '9') { // 7 and 9 have 4 letters
+                while (counter < 4) {
+                    s += elem;
+                    elem++;
+                    counter++;
+                }
+            } else { // 2, 3, 4, 5, 6, 8 have 3 letters
+                while (counter < 3) {
+                    s += elem;
+                    elem++;
+                    counter++;
+                }
+            }
 
-        return ans;
+            mp[i] = s; // Store the corresponding letters for each digit
+        }
+
+        backtrack(digits, mp, 0, "", ans); // Start backtracking
+        return ans; // Return the result
     }
 };
