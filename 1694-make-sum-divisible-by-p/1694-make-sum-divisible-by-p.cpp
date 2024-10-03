@@ -11,7 +11,7 @@ public:
         {
             sum=(sum + elem)%p;
         }
-        int target=(sum%p)%p;
+        int target=(sum)%p;
         if(target==0) return 0;
         int ans=n;
 
