@@ -1,42 +1,42 @@
 class Solution {
 public:
-    long long dividePlayers(vector<int>& skill) {
-        int n = skill.size();
-        if (n % 2 != 0) return -1;  // There must be an even number of players
-        
-        unordered_map<int, int> mp;
-        long long Total = 0;
+    
+    typedef long long ll;
 
-        // Calculate the total skill sum and store frequency of each skill level
-        for (int i = 0; i < n; i++) {
-            mp[skill[i]]++;
-            Total += skill[i];
+    ll dividePlayers(vector<int>& skill) {
+
+        int n=skill.size();
+        unordered_map<int,int>mp;
+ 
+        int paircount=n/2;
+        int Total=0;
+
+        for(auto & elem : skill)
+        {
+            mp[elem]++;
+            Total+=elem;
         }
 
-        // Calculate the target sum for each pair
-        int paircount = n / 2;
-        int Target = Total / paircount;
 
-        long long ans = 0;
-        
-        // Form the pairs
-        for (int i = 0; i < n; i++) {
-            int currSkill = skill[i];
-            if (mp[currSkill] <= 0) continue;  // Skip already paired players
+        int Target=Total/paircount;
+        ll ans=0;
 
-            int Aim = Target - currSkill;
-            if (mp.find(Aim) != mp.end() && mp[Aim] > 0) {
-                // Add the product of the pair
-                ans += currSkill * Aim;
-                // Decrement the frequencies of both elements
-                mp[currSkill]--;
+        for(int i=0;i<n;i++)
+        {
+            if(mp[skill[i]] <= 0) continue;
+
+            int Aim=Target-skill[i];
+            if(mp.find(Aim)!=mp.end() && mp[Aim]>0)
+            {
+                ans+=Aim * skill[i];
+                mp[skill[i]]--;
                 mp[Aim]--;
-            } else {
-                // Pairing is not possible
+            }else{
                 return -1;
             }
         }
 
         return ans;
+
     }
 };
