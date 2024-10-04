@@ -17,7 +17,6 @@ public:
             Total+=elem;
         }
 
-
         int Target=Total/paircount;
         ll ans=0;
 
@@ -31,7 +30,9 @@ public:
                 ans+=Aim * skill[i];
                 mp[skill[i]]--;
                 mp[Aim]--;
-            }else{
+
+            }
+            else{
                 return -1;
             }
         }
