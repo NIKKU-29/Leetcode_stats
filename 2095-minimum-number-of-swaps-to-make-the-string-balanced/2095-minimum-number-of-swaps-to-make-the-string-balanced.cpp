@@ -13,17 +13,18 @@ public:
             }
 
             else{
-
-
-                c_count++;
+                
+               
 
                 if(o_count>0)
                 {
                     o_count--;
-                    c_count--;
+                    
                 }
 
-                
+                else{
+                    c_count++;
+                }
             }
         }
 
