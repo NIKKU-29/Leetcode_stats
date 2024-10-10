@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0859-design-circular-deque](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0859-design-circular-deque) |
 | [0906-walking-robot-simulation](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0906-walking-robot-simulation) |
 | [0907-koko-eating-bananas](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0907-koko-eating-bananas) |
+| [1002-maximum-width-ramp](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1002-maximum-width-ramp) |
 | [1256-rank-transform-of-an-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1256-rank-transform-of-an-array) |
 | [1435-xor-queries-of-a-subarray](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1435-xor-queries-of-a-subarray) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1497-design-a-stack-with-increment-operation) |
@@ -218,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0020-valid-parentheses) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1002-maximum-width-ramp](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1002-maximum-width-ramp) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1497-design-a-stack-with-increment-operation) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2800-minimum-string-length-after-removing-substrings) |
@@ -301,4 +303,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0078-subsets](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0078-subsets) |
+## Monotonic Stack
+|  |
+| ------- |
+| [1002-maximum-width-ramp](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1002-maximum-width-ramp) |
 <!---LeetCode Topics End-->
