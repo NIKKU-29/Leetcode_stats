@@ -4,30 +4,29 @@ public:
 
     bool isvalid(string& current)
     {
-        stack<char>st;
+       int counter=0;
 
         for(auto elem : current)
         {
             if(elem=='(')
             {
-                st.push(elem);
+                counter++;
             }
 
-            else if(!st.empty() && st.top()=='(' && elem == ')')
+            else if(counter>0 && elem ==')')
             {
-                st.pop();
+                counter--;
             }
 
             else{
                 return false;
             }
 
-            
         }
 
-        if(st.empty())  return true;
+        if(counter!=0) return false;
 
-        return false;
+        return true;
     }
 
     void solver(string curr , int siz , vector<string>&ans)
