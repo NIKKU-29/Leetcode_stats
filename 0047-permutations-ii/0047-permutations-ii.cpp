@@ -12,19 +12,19 @@ public:
             return;
         }
 
-        for(auto& [nums,count] : mp)
+        for(auto& elem : mp)
         {
-            if(count==0)
+            if(elem.second==0)
             {
                 continue;
             }
 
             
-                temp.push_back(nums);
-                mp[nums]--;
+                temp.push_back(elem.first);
+                mp[elem.first]--;
                 solver(mp,temp);
                 temp.pop_back();
-                mp[nums]++;
+                mp[elem.first]++;
             
         }
     }
