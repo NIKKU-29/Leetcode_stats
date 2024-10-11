@@ -4,9 +4,12 @@ public:
     int t[21][21];
 
     bool solve(int i, int j, string s, string p) {
-        if (j == p.length()) {
-            return i == s.length();
+        if (j == p.length() && i == s.length()) 
+        {
+            return true;
         }
+
+        
 
         bool first_match = false;
 
@@ -20,7 +23,7 @@ public:
             bool take = first_match && solve(i + 1, j, s, p);
             bool notake = solve(i, j + 2, s, p);
 
-            return  t[i][j]= take || notake;
+            return  t[i][j] = take || notake;
         }
 
         return  t[i][j]= first_match && solve(i + 1, j + 1, s, p);
