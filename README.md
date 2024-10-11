@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0010-regular-expression-matching](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0010-regular-expression-matching) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0022-generate-parentheses) |
@@ -235,12 +236,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0010-regular-expression-matching](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0010-regular-expression-matching) |
 | [0021-merge-two-sorted-lists](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0206-reverse-linked-list) |
 | [0241-different-ways-to-add-parentheses](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0241-different-ways-to-add-parentheses) |
 ## Dynamic Programming
 |  |
 | ------- |
+| [0010-regular-expression-matching](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0010-regular-expression-matching) |
 | [0022-generate-parentheses](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0022-generate-parentheses) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0241-different-ways-to-add-parentheses](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0241-different-ways-to-add-parentheses) |
