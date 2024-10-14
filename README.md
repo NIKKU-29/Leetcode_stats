@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0022-generate-parentheses) |
+| [0079-word-search](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0125-valid-palindrome) |
 | [0179-largest-number](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0179-largest-number) |
 | [0214-shortest-palindrome](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0214-shortest-palindrome) |
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0047-permutations-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0047-permutations-ii) |
 | [0051-n-queens](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0079-word-search) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0179-largest-number](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0179-largest-number) |
 | [0539-minimum-time-difference](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0539-minimum-time-difference) |
@@ -169,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0079-word-search](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0079-word-search) |
 | [0733-flood-fill](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0733-flood-fill) |
 | [2411-spiral-matrix-iv](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2411-spiral-matrix-iv) |
 ## Database
@@ -335,6 +338,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0047-permutations-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0047-permutations-ii) |
 | [0051-n-queens](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0079-word-search) |
 ## Monotonic Stack
 |  |
 | ------- |
