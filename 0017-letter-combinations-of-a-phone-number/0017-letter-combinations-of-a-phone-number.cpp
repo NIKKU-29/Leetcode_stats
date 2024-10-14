@@ -1,47 +1,46 @@
+#include <vector>
+#include <string>
+#include <unordered_map>
+
 class Solution {
 public:
-        void solver(int i , string temp,string digits,unordered_map<int,string>&mp,vector<string>&ans)
-        {
-
-            if(i==digits.size())
-            {
-                ans.push_back(temp);
-                return;
-            }
-            
-
-            char elem = digits[i];
-            string act=mp[elem];
-
-            for(auto ele : act)
-            {
-                solver(i+1,temp + ele,digits,mp,ans);
-            }
-
-            
-        }
-
-
     vector<string> letterCombinations(string digits) {
-
+        // Base case: if the input string is empty, return an empty vector.
         if(digits.empty()) return {};
 
-        unordered_map<int,string>mp;
+        // Mapping of digits to letters.
+        unordered_map<char, string> mp = {
+            {'2', "abc"},
+            {'3', "def"},
+            {'4', "ghi"},
+            {'5', "jkl"},
+            {'6', "mno"},
+            {'7', "pqrs"},
+            {'8', "tuv"},
+            {'9', "wxyz"}
+        };
 
-            mp['2']="abc";
-            mp['3']="def";
-            mp['4']="ghi";
-            mp['5']="jkl";
-            mp['6']="mno";
-            mp['7']="pqrs";
-            mp['8']="tuv";
-            mp['9']="wxyz";
-    
-        vector<string>ans;
-      
-        solver(0,"",digits,mp,ans);
+        // Vector to store the combinations.
+        vector<string> ans;
+        ans.push_back("");  // Start with an empty combination.
 
-        return ans;
-        
+        // Iterate through each digit in the input string.
+        for (char digit : digits) {
+            string letters = mp[digit];  // Get the corresponding letters for the digit.
+            vector<string> temp;  // Temporary vector to store new combinations.
+
+            // Iterate through each combination formed so far.
+            for (const string& combination : ans) {
+                // Create new combinations by appending each letter to the current combination.
+                for (char letter : letters) {
+                    temp.push_back(combination + letter);
+                }
+            }
+
+            // Update the ans with the new combinations formed for the current digit.
+            ans = temp;
+        }
+
+        return ans;  // Return the final combinations.
     }
 };
