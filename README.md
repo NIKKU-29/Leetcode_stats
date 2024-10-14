@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0001-two-sum) |
+| [0031-next-permutation](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0031-next-permutation) |
 | [0046-permutations](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0047-permutations-ii) |
 | [0051-n-queens](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0051-n-queens) |
@@ -156,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0031-next-permutation](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0031-next-permutation) |
 | [0061-rotate-list](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0061-rotate-list) |
 | [0125-valid-palindrome](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0125-valid-palindrome) |
 | [0567-permutation-in-string](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0567-permutation-in-string) |
