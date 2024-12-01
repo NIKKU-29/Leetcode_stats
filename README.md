@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0906-walking-robot-simulation](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0906-walking-robot-simulation) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1256-rank-transform-of-an-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1256-rank-transform-of-an-array) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1694-make-sum-divisible-by-p](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1694-make-sum-divisible-by-p) |
@@ -90,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1002-maximum-width-ramp](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1002-maximum-width-ramp) |
 | [1256-rank-transform-of-an-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1256-rank-transform-of-an-array) |
 | [1435-xor-queries-of-a-subarray](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1435-xor-queries-of-a-subarray) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1694-make-sum-divisible-by-p](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1694-make-sum-divisible-by-p) |
@@ -169,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0125-valid-palindrome) |
 | [0567-permutation-in-string](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0567-permutation-in-string) |
 | [0908-middle-of-the-linked-list](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0908-middle-of-the-linked-list) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1923-sentence-similarity-iii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1923-sentence-similarity-iii) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
@@ -224,6 +227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0731-my-calendar-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0731-my-calendar-ii) |
 | [0792-binary-search](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0907-koko-eating-bananas) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1468-check-if-n-and-its-double-exist) |
 ## Counting
 |  |
 | ------- |
@@ -274,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0539-minimum-time-difference](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0539-minimum-time-difference) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [1256-rank-transform-of-an-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1256-rank-transform-of-an-array) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1468-check-if-n-and-its-double-exist) |
 | [2479-meeting-rooms-iii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2479-meeting-rooms-iii) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2581-divide-players-into-teams-of-equal-skill) |
