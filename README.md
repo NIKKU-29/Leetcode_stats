@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0179-largest-number](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0179-largest-number) |
 | [0214-shortest-palindrome](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0214-shortest-palindrome) |
 | [0241-different-ways-to-add-parentheses](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0241-different-ways-to-add-parentheses) |
+| [0459-repeated-substring-pattern](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0459-repeated-substring-pattern) |
 | [0539-minimum-time-difference](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0539-minimum-time-difference) |
 | [0567-permutation-in-string](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0567-permutation-in-string) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0920-uncommon-words-from-two-sentences) |
@@ -307,6 +308,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0214-shortest-palindrome) |
+| [0459-repeated-substring-pattern](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0459-repeated-substring-pattern) |
 | [1508-longest-happy-prefix](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1508-longest-happy-prefix) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 ## Hash Function
