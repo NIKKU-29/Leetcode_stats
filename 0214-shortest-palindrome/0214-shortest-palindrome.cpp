@@ -9,8 +9,8 @@ public:
 
         string lps= s + "&" + rev;
 
-        vector<int>LPS;
-        LPS.resize(lps.size());
+        vector<int>LPS(lps.size());
+        
         int length=0;
         LPS[0]=0;
         int i=1;
