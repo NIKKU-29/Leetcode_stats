@@ -9,7 +9,7 @@ public:
         int j=0;
         for(int i=0 ; i< n ;i++)
         {
-            if(j<m && i == spaces[j])
+            if( j<m && i == spaces[j])
             {
                 ans+=" ";
                 j++;
@@ -17,7 +17,7 @@ public:
             }
 
             else{
-                ans+=s[i];
+                ans+= s[i];
             }
         }
 
