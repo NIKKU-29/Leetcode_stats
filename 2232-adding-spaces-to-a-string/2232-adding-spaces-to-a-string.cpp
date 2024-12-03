@@ -13,12 +13,11 @@ public:
             {
                 ans+=" ";
                 j++;
-                i--;
             }
 
-            else{
-                ans+= s[i];
-            }
+            ans+=s[i];
+
+            
         }
 
         return ans;
