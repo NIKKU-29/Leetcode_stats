@@ -15,14 +15,12 @@ public:
             {
                 j++;
                 if(j==m) return true;
-
             }
 
             i++;
 
         }
-
-
+        
         return false;
         
     }
