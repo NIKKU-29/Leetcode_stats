@@ -7,7 +7,7 @@ public:
         int idx=0;
         for(auto elem : start)
         {   
-            if(elem!='_') starts.emplace_back(elem,idx);
+            if(elem!='_') starts.push_back({elem,idx});
             idx++;
         }
 
