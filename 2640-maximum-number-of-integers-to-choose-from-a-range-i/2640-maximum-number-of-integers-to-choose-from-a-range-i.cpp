@@ -15,7 +15,6 @@ public:
         {
             if(!st.count(i))
             {
-                cout<<i<<endl;
                 if(sum+i <= maxSum) 
                 {
                     sum+=i;
