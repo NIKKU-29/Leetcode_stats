@@ -14,6 +14,21 @@ public:
             cout<<mid<<" <-MID";
             for(auto elem : nums)
             {
+                //pura kHEL BAS IS CONDITION KA HAI KI
+                //Operations ko evenly divide kaise kare taki mimimum
+                //divide ho
+
+                // as in [7,17] , maxoperations=2 
+                // ans is 7
+                // divide happens like
+                // [7,  17     ]
+                // [7,  14,3   ] -> 1 operation
+                // [7,  7,7,3  ] -> 2 operation
+
+                //maximum is 7 
+                //initialy i used (elem - mid) -1 ;
+                //but i was wrong 
+
                operations += (elem -1) / mid  ;
             }
 
