@@ -10,6 +10,7 @@ public:
             vis.insert("0000");
 
             if(st.count("0000")) return -1;
+            int counter=0;
 
             while(!q.empty())
             {
@@ -24,10 +25,14 @@ public:
 
                     for(int i=0 ; i < 4; i++)
                     {
+                        
+                        
+
                         string temp=curr;
                         temp[i]=='9' ? temp[i]= '0' : temp[i]++;
                         if(!st.count(temp) && !vis.count(temp))
                         {
+                            cout<<++counter<<endl;
                             q.push(temp);
                             vis.insert(temp);
                         }
@@ -36,6 +41,7 @@ public:
                         temp[i]=='0' ? temp[i] = '9' : temp[i]--;
                         if(!st.count(temp) && !vis.count(temp))
                         {
+                            cout<<++counter<<endl;
                             q.push(temp);
                             vis.insert(temp);
                         }   
