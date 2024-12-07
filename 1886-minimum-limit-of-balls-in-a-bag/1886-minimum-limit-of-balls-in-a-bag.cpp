@@ -29,10 +29,7 @@ public:
 
                operations += (elem -1) / mid  ;
             }
-
             
-            
-
             if(operations <= maxOperations)
             {
                 ans=min(mid,ans);
