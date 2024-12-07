@@ -32,7 +32,6 @@ public:
                         temp[i]=='9' ? temp[i]= '0' : temp[i]++;
                         if(!st.count(temp) && !vis.count(temp))
                         {
-                            cout<<++counter<<endl;
                             q.push(temp);
                             vis.insert(temp);
                         }
@@ -41,7 +40,6 @@ public:
                         temp[i]=='0' ? temp[i] = '9' : temp[i]--;
                         if(!st.count(temp) && !vis.count(temp))
                         {
-                            cout<<++counter<<endl;
                             q.push(temp);
                             vis.insert(temp);
                         }   
