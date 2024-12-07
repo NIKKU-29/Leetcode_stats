@@ -10,8 +10,6 @@ public:
         {
             int mid= l + (r-l)/2;
             int operations=0;
-
-            cout<<mid<<" <-MID";
             for(auto elem : nums)
             {
                 //pura kHEL BAS IS CONDITION KA HAI KI
@@ -32,7 +30,7 @@ public:
                operations += (elem -1) / mid  ;
             }
 
-            cout<<"----->"<<operations<<endl;
+            
             
 
             if(operations <= maxOperations)
