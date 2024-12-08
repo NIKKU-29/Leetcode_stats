@@ -116,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1923-sentence-similarity-iii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1923-sentence-similarity-iii) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2155-find-missing-observations](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2155-find-missing-observations) |
+| [2164-two-best-non-overlapping-events](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2164-two-best-non-overlapping-events) |
 | [2232-adding-spaces-to-a-string](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2232-adding-spaces-to-a-string) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2411-spiral-matrix-iv](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2411-spiral-matrix-iv) |
@@ -258,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0907-koko-eating-bananas) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
+| [2164-two-best-non-overlapping-events](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2164-two-best-non-overlapping-events) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 ## Counting
 |  |
@@ -301,6 +303,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0022-generate-parentheses) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0241-different-ways-to-add-parentheses](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0241-different-ways-to-add-parentheses) |
+| [2164-two-best-non-overlapping-events](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2164-two-best-non-overlapping-events) |
 | [2755-extra-characters-in-a-string](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2755-extra-characters-in-a-string) |
 ## Sorting
 |  |
@@ -311,6 +314,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [1256-rank-transform-of-an-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1256-rank-transform-of-an-array) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1468-check-if-n-and-its-double-exist) |
+| [2164-two-best-non-overlapping-events](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2164-two-best-non-overlapping-events) |
 | [2479-meeting-rooms-iii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2479-meeting-rooms-iii) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2581-divide-players-into-teams-of-equal-skill) |
@@ -401,6 +405,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
+| [2164-two-best-non-overlapping-events](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2164-two-best-non-overlapping-events) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2479-meeting-rooms-iii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2479-meeting-rooms-iii) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
