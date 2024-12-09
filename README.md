@@ -130,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2755-extra-characters-in-a-string](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2755-extra-characters-in-a-string) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
+| [3427-special-array-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3427-special-array-ii) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Math
 |  |
@@ -261,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2164-two-best-non-overlapping-events](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2164-two-best-non-overlapping-events) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
+| [3427-special-array-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3427-special-array-ii) |
 ## Counting
 |  |
 | ------- |
@@ -276,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1694-make-sum-divisible-by-p](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1694-make-sum-divisible-by-p) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
+| [3427-special-array-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3427-special-array-ii) |
 ## Brainteaser
 |  |
 | ------- |
