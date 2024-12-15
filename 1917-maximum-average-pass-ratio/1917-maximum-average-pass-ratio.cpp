@@ -16,13 +16,17 @@ public:
         for (auto elem : classes) {
             int pass = elem[0];
             int total = elem[1];
-            double currentRatio = (double) pass / total;
+            
             // The improvement for adding one student
             pq.push({calculateGain(pass, total),
                           {pass, total}});
+
+//sabse pale pata laga lia sabko ek student dene pe kitnna gain hora hai taki sabse jyada vala gain utha sake isme ham inital values ko chnage nahi karemge kukui selection ka nahi pata konsa select ho jaye jaise exmaple 1 me 3 no me se koisa bhi ho sakta hai
             
         }
 
+
+        //ab ayi bari select Karne kii
         // Distribute extra students to maximize the average ratio
         while (extraStudents--) {
             // Get the class with the highest potential improvement
