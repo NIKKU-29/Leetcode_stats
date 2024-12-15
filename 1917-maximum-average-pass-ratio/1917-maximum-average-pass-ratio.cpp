@@ -1,14 +1,8 @@
 class Solution {
 public:
     double maxAverageRatio(vector<vector<int>>& classes, int extraStudents) {
-
-         auto calculateGain = [](int passes, int totalStudents) {
-            return (double)(passes + 1) / (totalStudents + 1) -
-                   (double)passes / totalStudents;
-        };
-
         // Max-heap to prioritize classes with the greatest improvement potential
-        priority_queue<pair<double, pair<int, int>>> pq;
+        priority_queue<pair<double, pair<int, int>>, vector<pair<double, pair<int, int>>>, less<pair<double, pair<int, int>>>> pq;
 
         int n = classes.size();
 
@@ -16,17 +10,12 @@ public:
         for (auto elem : classes) {
             int pass = elem[0];
             int total = elem[1];
-            
+            double currentRatio = (double) pass / total;
             // The improvement for adding one student
-            pq.push({calculateGain(pass, total),
-                          {pass, total}});
-
-//sabse pale pata laga lia sabko ek student dene pe kitnna gain hora hai taki sabse jyada vala gain utha sake isme ham inital values ko chnage nahi karemge kukui selection ka nahi pata konsa select ho jaye jaise exmaple 1 me 3 no me se koisa bhi ho sakta hai
-            
+            double improvement = ((double)(pass + 1) / (total + 1)) - currentRatio;
+            pq.push({improvement, {pass, total}});
         }
 
-
-        //ab ayi bari select Karne kii
         // Distribute extra students to maximize the average ratio
         while (extraStudents--) {
             // Get the class with the highest potential improvement
@@ -40,8 +29,8 @@ public:
             int newTotal = total + 1;
 
             // Calculate the new improvement after adding one student
-           pq.push({calculateGain(newPass, newTotal),
-                          {newPass, newTotal}});
+            double newImprovement = ((double)(newPass + 1) / (newTotal + 1)) - ((double)(newPass) / (newTotal));
+            pq.push({newImprovement, {newPass, newTotal}});
         }
 
         // Sum up the final average ratios
