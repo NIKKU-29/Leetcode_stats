@@ -16,7 +16,7 @@ public:
         for (auto elem : classes) {
             int pass = elem[0];
             int total = elem[1];
-           
+            double currentRatio = (double) pass / total;
             // The improvement for adding one student
             pq.push({calculateGain(pass, total),
                           {pass, total}});
