@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1694-make-sum-divisible-by-p](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1694-make-sum-divisible-by-p) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
+| [2300-construct-string-with-repeat-limit](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2300-construct-string-with-repeat-limit) |
 | [2479-meeting-rooms-iii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2479-meeting-rooms-iii) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
@@ -59,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2232-adding-spaces-to-a-string](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2232-adding-spaces-to-a-string) |
+| [2300-construct-string-with-repeat-limit](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2300-construct-string-with-repeat-limit) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2414-move-pieces-to-obtain-a-string) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2755-extra-characters-in-a-string](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2755-extra-characters-in-a-string) |
@@ -287,6 +289,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0920-uncommon-words-from-two-sentences](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1786-count-the-number-of-consistent-strings) |
+| [2300-construct-string-with-repeat-limit](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2300-construct-string-with-repeat-limit) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## Prefix Sum
@@ -352,6 +355,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1917-maximum-average-pass-ratio](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1917-maximum-average-pass-ratio) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2300-construct-string-with-repeat-limit](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2300-construct-string-with-repeat-limit) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
@@ -434,6 +438,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1917-maximum-average-pass-ratio](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1917-maximum-average-pass-ratio) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2164-two-best-non-overlapping-events](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2164-two-best-non-overlapping-events) |
+| [2300-construct-string-with-repeat-limit](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2300-construct-string-with-repeat-limit) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2479-meeting-rooms-iii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2479-meeting-rooms-iii) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
