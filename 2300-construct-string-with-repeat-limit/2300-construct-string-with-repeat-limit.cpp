@@ -1,26 +1,10 @@
 class Solution {
 public:
 
-    void helper(priority_queue<pair<char,int>>&pq,string &ans,pair<char, int> elem,char &prevElem,int repeatLimit)
-    {
-        if(elem.second <= repeatLimit)
-            {
-                ans.append(elem.second, elem.first);
-                prevElem=elem.first;
-            }
-
-            else
-            {
-                    ans.append(repeatLimit,elem.first);
-                    if(elem.second-repeatLimit!=0)
-                    {
-                        pq.push({elem.first,elem.second-repeatLimit});
-                    }    
-                    prevElem=elem.first; 
-                 
-
-            }
-    }
+    // void helper(priority_queue<pair<char,int>>&pq,string &ans,pair<char, int> elem,char &prevElem,int repeatLimit)
+    // {
+       
+    // }
 
     string repeatLimitedString(string s, int repeatLimit) {
 
@@ -48,7 +32,24 @@ public:
 
             if(elem.first!=prevElem) 
             {
-                helper(pq,ans,elem,prevElem,repeatLimit);
+                // helper(pq,ans,elem,prevElem,repeatLimit);
+                 if(elem.second <= repeatLimit)
+            {
+                ans.append(elem.second, elem.first);
+                prevElem=elem.first;
+            }
+
+            else
+            {
+                    ans.append(repeatLimit,elem.first);
+                    if(elem.second-repeatLimit!=0)
+                    {
+                        pq.push({elem.first,elem.second-repeatLimit});
+                    }    
+                    prevElem=elem.first; 
+                 
+
+            }
             }
 
             //if elemnt on top is same as previous then add the next to the top to the string
