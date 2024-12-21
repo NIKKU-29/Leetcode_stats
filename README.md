@@ -181,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0226-invert-binary-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1484-linked-list-in-binary-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2493-reverse-odd-levels-of-binary-tree) |
+| [3058-maximum-number-of-k-divisible-components](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3058-maximum-number-of-k-divisible-components) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 ## Depth-First Search
 |  |
@@ -192,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1484-linked-list-in-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1484-linked-list-in-binary-tree) |
 | [2201-valid-arrangement-of-pairs](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2201-valid-arrangement-of-pairs) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2493-reverse-odd-levels-of-binary-tree) |
+| [3058-maximum-number-of-k-divisible-components](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3058-maximum-number-of-k-divisible-components) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 ## Breadth-First Search
 |  |
