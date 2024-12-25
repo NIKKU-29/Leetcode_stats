@@ -19,36 +19,33 @@ public:
         
         queue<TreeNode*>pq;
         pq.push(root);
-        answer.push_back(root->val);
-
+        
         while(!pq.empty())
         {
             int size=pq.size();
-            vector<int>currnodes;
+            int maxi=INT_MIN;
 
-            while(size--)
-            {
+            for (int i = 0; i < size; i++) {
+
                 TreeNode* temp=pq.front();
                 pq.pop();
+
+
+                maxi=max(maxi,temp->val);
         
                 if(temp->left!=nullptr)
                 {
                     pq.push(temp->left);
-                    currnodes.push_back(temp->left->val);
+                    
                 }
                 if(temp->right!=nullptr)
                 {
                     pq.push(temp->right);
-                    currnodes.push_back(temp->right->val);
                 }
-                    
-            }
 
-            if(!currnodes.empty())
-            {
-                int value=*max_element(currnodes.begin(),currnodes.end());
-                answer.push_back(value);
+
             }
+                  answer.push_back(maxi);  
 
         }
 
