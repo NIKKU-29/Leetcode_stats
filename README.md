@@ -105,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0283-move-zeroes) |
 | [0324-wiggle-sort-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0324-wiggle-sort-ii) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [0494-target-sum](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0494-target-sum) |
 | [0539-minimum-time-difference](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0539-minimum-time-difference) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0729-my-calendar-i](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0729-my-calendar-i) |
@@ -351,6 +352,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0022-generate-parentheses) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0241-different-ways-to-add-parentheses](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0241-different-ways-to-add-parentheses) |
+| [0494-target-sum](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0494-target-sum) |
 | [2164-two-best-non-overlapping-events](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2164-two-best-non-overlapping-events) |
 | [2755-extra-characters-in-a-string](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2755-extra-characters-in-a-string) |
 ## Sorting
@@ -453,6 +455,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0051-n-queens](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0079-word-search) |
+| [0494-target-sum](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0494-target-sum) |
 ## Monotonic Stack
 |  |
 | ------- |
