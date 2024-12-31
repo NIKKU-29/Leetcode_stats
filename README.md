@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0906-walking-robot-simulation](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0906-walking-robot-simulation) |
 | [0907-koko-eating-bananas](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0907-koko-eating-bananas) |
 | [1002-maximum-width-ramp](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1002-maximum-width-ramp) |
+| [1025-minimum-cost-for-tickets](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1025-minimum-cost-for-tickets) |
 | [1063-best-sightseeing-pair](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1063-best-sightseeing-pair) |
 | [1256-rank-transform-of-an-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1256-rank-transform-of-an-array) |
 | [1435-xor-queries-of-a-subarray](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1435-xor-queries-of-a-subarray) |
@@ -358,6 +359,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0241-different-ways-to-add-parentheses](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0241-different-ways-to-add-parentheses) |
 | [0494-target-sum](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0494-target-sum) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
+| [1025-minimum-cost-for-tickets](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1025-minimum-cost-for-tickets) |
 | [1063-best-sightseeing-pair](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1063-best-sightseeing-pair) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [2164-two-best-non-overlapping-events](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2164-two-best-non-overlapping-events) |
