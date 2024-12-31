@@ -1,38 +1,48 @@
 class Solution {
 public:
-    int solve(int index, int n, vector<int>& days, vector<int>& costs, vector<int>& dp) {
-        if (index >= n) 
-            return 0; // Base case: all days are covered
+
+    int solver(int idx,int n,vector<int>&dp,vector<int>& days, vector<int>& costs)
+    {
+        if(idx==n) return 0;
+
+        if(dp[idx]!=-1)  return dp[idx];
         
-        if (dp[index] != -1) 
-            return dp[index]; // Memoization check
+        //1 day passes
+        int total1=costs[0] + solver(idx+1,n,dp,days,costs);
 
-        // Cost for 1-day pass
-        int pass1 = costs[0] + solve(index + 1, n, days, costs, dp);
-
-        // Cost for 7-day pass
-        int jumper = index; // Initialize jumper to current index
-        int maxdays = 7 + days[jumper]; // Calculate the last day covered by the 7-day pass
-        while (jumper < n && days[jumper] < maxdays) {
-            jumper++; // Move jumper to the next index if a specific pass is purchased
+        //7 day passes
+        int idx7=idx;
+        int newdays= days[idx] + 7; //now pass lasts upto current + 7 days;
+        
+        while(idx7 < n && newdays > days[idx7])
+        {
+            idx7++;
         }
-        int pass7 = costs[1] + solve(jumper, n, days, costs, dp); // Note: jumper is used to jump to the next index if a 7-day pass is purchased
 
-        // Cost for 30-day pass
-        jumper = index; // Reinitialize jumper to current index
-        maxdays = 30 + days[jumper]; // Calculate the last day covered by the 30-day pass
-        while (jumper < n && days[jumper] < maxdays) {
-            jumper++; // Move jumper to the next index if a specific pass is purchased
+        int total7=costs[1] + solver(idx7,n,dp,days,costs);
+
+        //30 day passes
+        int idx30=idx;
+        newdays= days[idx] + 30; //now pass lasts upto current + 7 days;
+        
+        while(idx30 < n && newdays > days[idx30])
+        {
+            idx30++;
         }
-        int pass30 = costs[2] + solve(jumper, n, days, costs, dp); // Note: jumper is used to jump to the next index if a 30-day pass is purchased
 
-        // Memoize and return the minimum cost of the three options
-        return dp[index] = min(pass1, min(pass7, pass30));
+        int total30=costs[2] + solver(idx30,n,dp,days,costs);
+
+
+        return dp[idx] = min(total1,min(total7,total30));
+
+
     }
 
+
     int mincostTickets(vector<int>& days, vector<int>& costs) {
-        int n = days.size(); // Correct the size calculation for n
-        vector<int> dp(n, -1); // Initialize dp array with size n
-        return solve(0, n, days, costs, dp);
+        int n=days.size();
+        vector<int>dp(n,-1);
+        return solver(0,n,dp,days,costs);
+        
     }
 };
