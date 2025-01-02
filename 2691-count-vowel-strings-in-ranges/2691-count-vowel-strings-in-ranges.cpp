@@ -4,7 +4,7 @@ public:
 
            
         int n=words.size();
-        vector<int>prefix;
+        vector<int>prefix{0};
         vector<int>answer;
 
         int count=0;
@@ -21,20 +21,7 @@ public:
 
         for(auto elem : queries)
         {
-            if(elem[0]==elem[1] && elem[1]==0)
-            {
-                answer.push_back(0);
-            }
-
-            else if(elem[0]!=elem[1])
-            {
-                if(elem[0]==0) answer.push_back(prefix[elem[1]]);   
-                else answer.push_back(prefix[elem[1]]-prefix[elem[0]-1]);           
-            }
-
-            else{
-                    answer.push_back(prefix[elem[1]]-prefix[elem[0]-1]);
-            }
+            answer.push_back(prefix[elem[1]+1]-prefix[elem[0]]);
         }
 
         return answer;
