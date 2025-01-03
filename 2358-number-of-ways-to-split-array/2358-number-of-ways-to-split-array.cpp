@@ -29,25 +29,37 @@ public:
 
         //to even improve the spae complexity of the code as well as time complexity
 
-        long long totalsum=0;
+        // long long totalsum=0;
         
-        for(auto elem : nums)
-        {
-            totalsum+=elem;
+        // for(auto elem : nums)
+        // {
+        //     totalsum+=elem;
+        // }
+
+        // long long suffsum=0;
+        // int count=0; 
+
+        // for(int i=0 ; i<nums.size()-1 ; i++)
+        // {
+        //     suffsum+=nums[i];
+        //     if( suffsum >= totalsum-suffsum )
+        //     {
+        //         count++;
+        //     }
+        // }
+
+        // return count;
+        
+
+        long long totalSum = accumulate(nums.begin(), nums.end(), 0LL), prefixSum = 0;
+        int count = 0;
+        
+        for (int i = 0; i < nums.size() - 1; ++i) {
+            prefixSum += nums[i];
+            if (prefixSum >= totalSum - prefixSum)
+                ++count;
         }
-
-        long long suffsum=0;
-        int count=0; 
-
-        for(int i=0 ; i<nums.size()-1 ; i++)
-        {
-            suffsum+=nums[i];
-            if( suffsum >= totalsum-suffsum )
-            {
-                count++;
-            }
-        }
-
+        
         return count;
     }
 };
