@@ -25,6 +25,10 @@ public:
             }
         }
 
-        return st.size();
+        int ans=st.size();
+        st.clear();
+
+
+        return ans;
     }
 };
