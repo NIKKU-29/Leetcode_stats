@@ -19,7 +19,7 @@ public:
         int shift = 0;
         for(int j = 0; j < n; j++) {
             shift += changes[j];
-            int Tshift = ((s[j] - 'a' + shift) % 26 + 26) % 26;
+            int Tshift = ((s[j] - 'a' + shift)%26 + 26) % 26;
             s[j] = 'a' + Tshift;
         }
         
