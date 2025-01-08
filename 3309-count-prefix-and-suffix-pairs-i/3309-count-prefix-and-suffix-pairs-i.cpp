@@ -4,59 +4,23 @@ public:
 
     bool isPrefixAndSuffix(string a , string b)
     {
-        int n=a.size();
-        int N=b.size();
-        int i=0;
+         int n = a.size();
+         int m = b.size();
 
-        string prefix="";
-        string suffix="";
 
-        while(i<N)
-        {
-            
-            if(i>=0 && i<= n-1) 
-            {
-                prefix+=b[i];
-            }
-
-            if(i>= N-n &&  i<N)
-            {
-                suffix+=b[i];
-                
-            }
-
-            i++;
-
-        }
-
-        if(prefix == suffix && prefix == a)
-        {
-            return true;
-        }
-
-        return false;
-
+        if (m < n) return false;
+        return b.substr(0, n) == a && b.substr(m - n, n) == a;
+    
     }
 
     int countPrefixSuffixPairs(vector<string>& words) {
         
-        int n=words.size();
-        int count=0;
+         int n = words.size();
+        int count = 0;
 
-        for(int i=0 ; i< n ;i++)
-        {
-            for(int j=0 ; j< n ; j++)
-            {
-                if(words[j].size() < words[i].size())
-                {
-                    continue;
-                }
-
-                if(i!=j && i<j)
-                {
-                    cout<<"hi3-";
-                    count+=isPrefixAndSuffix(words[i],words[j]) == true ? 1 : 0;
-                }
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) { // Avoid redundant checks
+                if (isPrefixAndSuffix(words[i], words[j])) count++;
             }
         }
 
