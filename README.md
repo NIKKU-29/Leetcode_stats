@@ -112,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0179-largest-number](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0179-largest-number) |
 | [0283-move-zeroes](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0283-move-zeroes) |
+| [0303-range-sum-query-immutable](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0303-range-sum-query-immutable) |
 | [0324-wiggle-sort-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0324-wiggle-sort-ii) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0494-target-sum](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0494-target-sum) |
@@ -340,6 +341,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0303-range-sum-query-immutable](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0303-range-sum-query-immutable) |
 | [0731-my-calendar-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0731-my-calendar-ii) |
 | [1435-xor-queries-of-a-subarray](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1435-xor-queries-of-a-subarray) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
@@ -463,6 +465,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0303-range-sum-query-immutable](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0303-range-sum-query-immutable) |
 | [0432-all-oone-data-structure](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0432-all-oone-data-structure) |
 | [0729-my-calendar-i](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0731-my-calendar-ii) |
