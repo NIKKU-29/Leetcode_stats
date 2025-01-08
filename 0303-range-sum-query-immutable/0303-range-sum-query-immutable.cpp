@@ -1,18 +1,21 @@
 class NumArray {
 public:
-    vector<int>user;
+    vector<int>n;
     NumArray(vector<int>& nums) {
-        user=nums;
+
+        int sum=0;
+        for(auto elem : nums)
+        {
+            sum+=elem;
+            n.push_back(sum);
+        }
     }
     
     int sumRange(int left, int right) {
-        int sum=0;
-        for(int i=left ; i<=right;i++)
-        {
-            sum+=user[i];
+        if(left==0){
+            return n[right];
         }
-
-        return sum;
+        return n[right]-n[left-1];
     }
 };
 
