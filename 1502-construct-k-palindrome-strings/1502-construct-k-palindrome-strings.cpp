@@ -1,6 +1,9 @@
 class Solution {
 public:
     bool canConstruct(string s, int k) {
+
+        if (s.length() < k) return false;
+        if (s.length() == k) return true;
         
         unordered_map<char,int>mp;
 
@@ -24,13 +27,13 @@ public:
             sum+=elem.second;
         }
 
-        if(oc > k) return false;
-        else if (sum>=k)return true;
+        // if(oc <= k) return false;
+        // else if (sum>=k)return true;
 
             
 
 
-        return false;
+        return oc <= k;
 
     }
 };
