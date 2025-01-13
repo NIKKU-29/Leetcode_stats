@@ -2,20 +2,20 @@ class Solution {
 public:
     int minimumLength(string s) {
 
-        unordered_map<int,int>mp;
+        vector<int>vec(26,0);
 
         for(auto elem : s)
         {
-            mp[elem]++;
+            vec[elem-'a']++;
         }
 
         int count=0;
 
-        for(auto elem : mp)
+        for(auto elem : vec)
         {
-            if(elem.second >= 3)
+            if(elem >= 3)
             {
-                int num=elem.second;
+                int num=elem;
 
                 while(num >= 3)
                 {
