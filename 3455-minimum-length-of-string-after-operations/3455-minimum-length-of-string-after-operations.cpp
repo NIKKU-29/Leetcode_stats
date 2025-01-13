@@ -1,31 +1,30 @@
-#include <string>
-#include <unordered_map>
-using namespace std;
-
 class Solution {
 public:
     int minimumLength(string s) {
-        unordered_map<char, int> mp;
 
-        // Count the frequency of each character in the string
-        for (auto elem : s) {
+        unordered_map<int,int>mp;
+
+        for(auto elem : s)
+        {
             mp[elem]++;
         }
 
-        // Reduce the frequency count based on the given rule
-        for (auto& elem : mp) { // Use reference to update the map correctly
-            while (elem.second / 3) {
-                elem.second -= 2;
+        int count=0;
+
+        for(auto elem : mp)
+        {
+            if(elem.second >= 3)
+            {
+                int num=elem.second;
+
+                while(num >= 3)
+                {
+                    count+=2;
+                    num-=2;
+                }
             }
         }
 
-        int count = 0;
-
-        // Calculate the resulting length of the string
-        for (auto& elem : mp) {
-            count += elem.second;
-        }
-        
-        return count;
+        return s.size()-count;   
     }
 };
