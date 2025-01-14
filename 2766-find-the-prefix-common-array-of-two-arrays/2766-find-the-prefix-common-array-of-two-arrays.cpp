@@ -3,7 +3,7 @@ public:
     vector<int> findThePrefixCommonArray(vector<int>& A, vector<int>& B) {
         
             int n=A.size();
-            vector<int>freq(1e2,0);
+            vector<int>freq(n+1,0);
             int count=0;
             vector<int>ans;
 
