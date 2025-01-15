@@ -16,8 +16,8 @@ public:
     
     // Step 2: Place remaining set bits in the smallest possible positions
     for (int i = 0; i < 32 && num2_bits > 0; ++i) {
-        if (!((num1 >> i) & 1)) {
-            // If num1 has a 0 bit at this position, place remaining set bits
+        if (((num1 >> i) & 1) == 0) {
+            
             result |= (1 << i);
             num2_bits--;
         }
