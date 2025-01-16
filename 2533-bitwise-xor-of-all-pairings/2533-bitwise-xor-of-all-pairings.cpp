@@ -6,7 +6,7 @@ public:
 
         int ans=0;
 
-        if(n2%2==1 || n2==1)
+        if(n2%2==1)
         {
             for(auto elem : nums1)
             {
@@ -15,7 +15,7 @@ public:
 
         }
 
-        if(n1%2==1 || n1==1)
+        if(n1%2==1)
         {
 
         for(auto elem : nums2)
