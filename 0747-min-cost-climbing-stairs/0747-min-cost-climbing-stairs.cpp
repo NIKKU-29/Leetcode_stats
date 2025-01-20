@@ -1,7 +1,7 @@
 class Solution {
 public:
 
-    int solver(int idx ,vector<int>cost,vector<int>&dp)
+    int solver(int idx ,vector<int>&cost,vector<int>&dp)
     {
         if(idx >= cost.size())
         {
