@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0567-permutation-in-string](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0740-delete-and-earn](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0740-delete-and-earn) |
 | [0753-open-the-lock](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0753-open-the-lock) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [0906-walking-robot-simulation](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0906-walking-robot-simulation) |
@@ -136,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0729-my-calendar-i](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0731-my-calendar-ii) |
 | [0733-flood-fill](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0733-flood-fill) |
+| [0740-delete-and-earn](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0740-delete-and-earn) |
 | [0747-min-cost-climbing-stairs](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0747-min-cost-climbing-stairs) |
 | [0753-open-the-lock](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0753-open-the-lock) |
 | [0780-max-chunks-to-make-sorted](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0780-max-chunks-to-make-sorted) |
@@ -439,6 +441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0338-counting-bits](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0338-counting-bits) |
 | [0494-target-sum](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0494-target-sum) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
+| [0740-delete-and-earn](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0740-delete-and-earn) |
 | [0747-min-cost-climbing-stairs](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0747-min-cost-climbing-stairs) |
 | [1013-fibonacci-number](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1013-fibonacci-number) |
 | [1025-minimum-cost-for-tickets](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1025-minimum-cost-for-tickets) |
