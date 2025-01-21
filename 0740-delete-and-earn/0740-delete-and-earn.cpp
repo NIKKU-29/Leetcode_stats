@@ -1,5 +1,25 @@
 class Solution {
 public:
+
+    int solver(int idx,vector<int>&freq,vector<int>&dp)
+    {
+        if(idx >= freq.size())
+        {
+            return 0;
+        }
+
+        if(dp[idx]!=0)
+        {
+            return dp[idx];
+        }
+
+        int take = freq[idx] + solver(idx+2,freq,dp);
+        int notake = solver(idx+1,freq,dp);
+
+        return dp[idx]=max(take,notake);
+
+    }
+
     int deleteAndEarn(vector<int>& nums) {
         int maxNum = 0;
         for (int num : nums) {
@@ -14,12 +34,6 @@ public:
 
         // DP array to solve the house robber problem
         vector<int> dp(maxNum + 1, 0);
-        dp[1] = freq[1]; // Base case: Only take the first number
-        
-        for (int i = 2; i <= maxNum; ++i) {
-            dp[i] = max(dp[i - 1], dp[i - 2] + freq[i]);
-        }
-
-        return dp[maxNum];
+        return solver(0,freq,dp);
     }
 };
