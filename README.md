@@ -161,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1786-count-the-number-of-consistent-strings](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
+| [1907-count-pairs-with-xor-in-a-range](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1907-count-pairs-with-xor-in-a-range) |
 | [1917-maximum-average-pass-ratio](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1917-maximum-average-pass-ratio) |
 | [1923-sentence-similarity-iii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1923-sentence-similarity-iii) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
@@ -353,6 +354,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1435-xor-queries-of-a-subarray](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1435-xor-queries-of-a-subarray) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1786-count-the-number-of-consistent-strings) |
+| [1907-count-pairs-with-xor-in-a-range](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1907-count-pairs-with-xor-in-a-range) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
@@ -525,6 +527,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0386-lexicographical-numbers](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0386-lexicographical-numbers) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0440-k-th-smallest-in-lexicographical-order) |
+| [1907-count-pairs-with-xor-in-a-range](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1907-count-pairs-with-xor-in-a-range) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2755-extra-characters-in-a-string](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2755-extra-characters-in-a-string) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3309-count-prefix-and-suffix-pairs-i) |
