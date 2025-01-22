@@ -159,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1694-make-sum-divisible-by-p](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1694-make-sum-divisible-by-p) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1786-count-the-number-of-consistent-strings) |
+| [1876-map-of-highest-peak](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1876-map-of-highest-peak) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1907-count-pairs-with-xor-in-a-range](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1907-count-pairs-with-xor-in-a-range) |
@@ -269,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1484-linked-list-in-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1484-linked-list-in-binary-tree) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1876-map-of-highest-peak](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1876-map-of-highest-peak) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
@@ -314,6 +316,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0407-trapping-rain-water-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0407-trapping-rain-water-ii) |
 | [0733-flood-fill](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0733-flood-fill) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1876-map-of-highest-peak](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1876-map-of-highest-peak) |
 | [2145-grid-game](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2145-grid-game) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2411-spiral-matrix-iv](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2411-spiral-matrix-iv) |
