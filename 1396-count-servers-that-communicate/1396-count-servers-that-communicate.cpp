@@ -21,7 +21,7 @@ public:
             }
         }
 
-        int sum=0;
+        int count=0;
 
             for(auto elem : marker)
             {
@@ -29,12 +29,12 @@ public:
                 int B=elem.second;
                 if(rows[A] > 1 || colm[B] > 1)
                 {
-                    sum++;
+                    count++;
                 }   
             }
                 
         
-        return sum;
+        return count;
 
     }
 };
