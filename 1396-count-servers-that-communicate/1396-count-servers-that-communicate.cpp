@@ -27,7 +27,7 @@ public:
             {
                 if(grid[i][j]==1)
                 {
-                    cout<<i<<"<-><->"<<j<<endl;
+                    // cout<<i<<"<-><->"<<j<<endl;
 
                     if(rows[i] > 1 || colm[j] > 1)
                     {
