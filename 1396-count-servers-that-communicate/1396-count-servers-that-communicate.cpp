@@ -6,6 +6,7 @@ public:
 
         vector<int>rows(m,0);
         vector<int>colm(n,0);
+        vector<pair<int,int>>marker;
 
         for(int i=0 ;i< m ;i++)
         {
@@ -15,28 +16,23 @@ public:
                 {
                     rows[i]++;
                     colm[j]++;
+                    marker.push_back({i,j});
                 }
             }
         }
 
         int sum=0;
 
-        for(int i=0 ;i< m ;i++)
-        {
-            for(int j=0 ;j<n ;j++)
+            for(auto elem : marker)
             {
-                if(grid[i][j]==1)
+                int A=elem.first;
+                int B=elem.second;
+                if(rows[A] > 1 || colm[B] > 1)
                 {
-                    // cout<<i<<"<-><->"<<j<<endl;
-
-                    if(rows[i] > 1 || colm[j] > 1)
-                    {
-                        sum++;
-                        // cout<<i<<"<in><in>"<<j<<endl;
-                    }   
-                }
+                    sum++;
+                }   
             }
-        }
+                
         
         return sum;
 
