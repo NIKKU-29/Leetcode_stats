@@ -1,53 +1,57 @@
 class Solution {
 public:
     vector<int> lexicographicallySmallestArray(vector<int>& nums, int limit) {
-
-        vector<int>vec=nums;
-        sort(vec.begin(),vec.end());
-        int grpnum=0;
-
-        //this map stores which numis in whch group like 1 is in 0 3 is in 0 and 5 is in 0
-        //-------------------------------------------------------------
-        // as 1,3,5 have abs diff smaller than limit (group 0)
-        //-------------------------------------------------------------
-        // as 8,9 hasve abs also smaller than 0 but cant be in grp 0 as both them have 
-        // abs diff > limit from all the elements in group 0
-        //-------------------------------------------------------------
-
-        unordered_map<int,int>groups;
-        groups[vec[0]]=grpnum;
-
-        //now a map is needed which contains all the elemnt sin a smae gorp like 0 has
-        // group 0 -> 1,3,5
-        // group 1 -> 8,9
-
-        unordered_map<int,deque<int>>GroupMembers;
-        GroupMembers[grpnum].push_back(vec[0]);
-
-
-
-        for(int i=1 ;i <  nums.size() ;i++)
-        {
-            if(abs(vec[i]-vec[i-1]) > limit)
-            {
-                grpnum++; //array is sorted when condition occurs other grp starts now diff>limit
-            }
-
-            groups[vec[i]]=grpnum;
-            GroupMembers[grpnum].push_back(vec[i]);   
-        }
-
-        vector<int>ans(nums.size());
-        for(int i=0 ;i< nums.size() ;i++)
-        {
-            int num=nums[i];
-            int groupNumber=groups[num];
-            ans[i]=GroupMembers[groupNumber].front();
-            GroupMembers[groupNumber].pop_front();
-        }
-
-
-        return ans;
+        int n = nums.size();
         
+        // Create pairs of (value, original index)
+        vector<pair<int, int>> indexed_nums;
+        for (int i = 0; i < n; i++) {
+            indexed_nums.push_back({nums[i], i});
+        }
+        
+        // Sort by value
+        sort(indexed_nums.begin(), indexed_nums.end());
+        
+        // Group numbers based on the difference limit
+        vector<vector<pair<int, int>>> groups;
+        
+        for (auto& curr : indexed_nums) {
+            // If no groups exist or difference exceeds limit, create a new group
+            if (groups.empty() || 
+                abs(curr.first - groups.back().back().first) > limit) {
+                groups.push_back({curr});
+            } else {
+                // Add to the last group
+                groups.back().push_back(curr);
+            }
+        }
+        
+        // Result array to store the lexicographically smallest array
+        vector<int> ans(n);
+        
+        // Process each group
+        for (auto& group : groups) {
+            // Sort original indices within the group
+            vector<int> original_indices;
+            vector<int> group_values;
+            
+            for (auto& item : group) {
+                original_indices.push_back(item.second);
+                group_values.push_back(item.first);
+            }
+            
+            // Sort original indices
+            sort(original_indices.begin(), original_indices.end());
+            
+            // Sort group values
+            sort(group_values.begin(), group_values.end());
+            
+            // Place values in original indices
+            for (int i = 0; i < group.size(); i++) {
+                ans[original_indices[i]] = group_values[i];
+            }
+        }
+        
+        return ans;
     }
 };
