@@ -1,47 +1,43 @@
 class Solution {
 public:
-    long long solve(vector<int> &nums)
+
+    int solve(vector<int>vec)
     {
-        int n = nums.size();
-        
-        if (n == 0) {
-            return 0;
-        }
+        int n=vec.size();
+        if(n==0) return 0;
 
-        int prev1 = nums[0];
-        int prev2 = 0;
+        int prev1=vec[0];
+        int prev2=0;
 
-        for (int i = 1; i < n; i++)
+        for(int i=1;i<n;i++)
         {
-            int select = nums[i] + prev2;
-            int skip = prev1;
-            prev2 = prev1;
-            prev1 = max(select, skip);
+            int take=vec[i]+prev2;
+            int notake=prev1;
+
+            prev2=prev1;
+            prev1=max(take,notake);
         }
-        return prev1;
+       
+       return prev1;
     }
 
-    long long rob(vector<int>& nums) {
-        int n = nums.size();
-        
-        if (n == 0) {
-            return 0;
-        }
-        if (n == 1) {
-            return nums[0];
-        }
+    int rob(vector<int>& nums) {
 
-        vector<int> v1, v2;
+        int n=nums.size();
+        if(n==0) return 0;
+        if(n==1) return nums[0];
 
-        for (int i = 0; i < n; i++)
+        vector<int>v1;
+        vector<int>v2;
+
+        for(int i=0;i< n ;i++)
         {
-            if (i != 0)
-                v1.push_back(nums[i]);
-            if (i != n - 1)
-                v2.push_back(nums[i]);
+            if(i!=0) v1.push_back(nums[i]);
+            if(i!=n-1) v2.push_back(nums[i]);
         }
 
-        int ans = max(solve(v1), solve(v2));
-        return ans;
+
+        return max(solve(v1),solve(v2));
+        
     }
 };
