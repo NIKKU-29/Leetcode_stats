@@ -127,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0213-house-robber-ii) |
 | [0283-move-zeroes](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0283-move-zeroes) |
+| [0300-longest-increasing-subsequence](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0300-longest-increasing-subsequence) |
 | [0303-range-sum-query-immutable](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0303-range-sum-query-immutable) |
 | [0322-coin-change](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0322-coin-change) |
 | [0324-wiggle-sort-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0324-wiggle-sort-ii) |
@@ -389,6 +390,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0300-longest-increasing-subsequence](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0300-longest-increasing-subsequence) |
 | [0611-valid-triangle-number](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0611-valid-triangle-number) |
 | [0729-my-calendar-i](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0731-my-calendar-ii) |
@@ -469,6 +471,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0213-house-robber-ii) |
 | [0241-different-ways-to-add-parentheses](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0241-different-ways-to-add-parentheses) |
+| [0300-longest-increasing-subsequence](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0322-coin-change) |
 | [0337-house-robber-iii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0337-house-robber-iii) |
 | [0338-counting-bits](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0338-counting-bits) |
