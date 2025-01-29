@@ -1,20 +1,37 @@
 class Solution {
 public:
     
+    int n;
+
+    int solver(int idx,vector<int>&dp,vector<int>& nums,int target)
+    {
+
+        if(target==0) return 1;
+
+        if(target < 0) return 0;
+
+        if(dp[target] != -1) return dp[target];
+        
+
+        int count=0;
+
+        for(int i=idx; i < n ;i++)
+        {
+            count +=solver(idx,dp,nums,target-nums[i]);
+        }
+
+        dp[target]=count;
+
+        return dp[target];
+
+    }
+
     int combinationSum4(vector<int>& nums, int target) {
 
-        vector<unsigned int> dp(target + 1, 0);
-        dp[0] = 1; // Base case: one way to make sum 0 (use nothing)
-        
-        for (int i = 1; i <= target; ++i) {
-            for (int num : nums) {
-                if (num <= i) {
-                    dp[i] += dp[i - num];
-                }
-            }
-        }
-        
-        return dp[target];
+        n=nums.size();
+        vector<int>dp(target+1,-1);
+        return solver(0,dp,nums,target);
+         
         
     }
 };
