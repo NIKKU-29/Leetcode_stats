@@ -212,6 +212,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0070-climbing-stairs) |
 | [0241-different-ways-to-add-parentheses](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0241-different-ways-to-add-parentheses) |
 | [0539-minimum-time-difference](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0539-minimum-time-difference) |
@@ -471,6 +472,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0010-regular-expression-matching](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0010-regular-expression-matching) |
 | [0022-generate-parentheses](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0053-maximum-subarray) |
+| [0062-unique-paths](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0152-maximum-product-subarray) |
@@ -692,4 +694,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0820-find-eventual-safe-states](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0820-find-eventual-safe-states) |
 | [1558-course-schedule-iv](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1558-course-schedule-iv) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
