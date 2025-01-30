@@ -15,11 +15,12 @@ public:
             while (!q.empty()) {
                 int node = q.front();
                 q.pop();
+                visited[node] = true;
 
                 for (int neighbor : graph[node]) {
                     if (st1.count(node)) { // If node is in st1, neighbor should be in st2
                         if (st1.count(neighbor)) return false; // Conflict detected
-                        else {
+                        if (!st2.count(neighbor)) {
                             st2.insert(neighbor);
                             q.push(neighbor);
                         }
@@ -31,7 +32,7 @@ public:
                         }
                     }
                 }
-                visited[node] = true;
+               
             }
         }
         return true; // No conflicts, graph is bipartite
