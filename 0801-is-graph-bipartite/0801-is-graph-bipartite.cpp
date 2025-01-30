@@ -1,30 +1,39 @@
 class Solution {
 public:
     bool isBipartite(vector<vector<int>>& graph) {
-        int n = graph.size();
-        vector<int> color(n, -1); // -1: unvisited, 0 & 1: two partitions
+        
+        int n=graph.size();
+        vector<int>color(n,-1);
 
-        for (int i = 0; i < n; i++) {
-            if (color[i] != -1) continue; // Already colored, skip
+        for(int i=0 ;i< n ;i++)
+        {
+            if(color[i]!=-1) continue;
 
-            stack<int> s;
-            s.push(i);
-            color[i] = 0; // Start coloring the first component
+            stack<int>st;
+            st.push(i);
+            color[i]=0;
 
-            while (!s.empty()) {
-                int node = s.top();
-                s.pop();
+            while(!st.empty())
+            {
+                int node=st.top();
+                st.pop();
+                
+                for(auto elem : graph[node])
+                {
+                    if(color[elem]==-1)
+                    {
+                        color[elem]=1-color[node];
+                        st.push(elem);
+                    }
 
-                for (int neighbor : graph[node]) {
-                    if (color[neighbor] == -1) {
-                        color[neighbor] = 1 - color[node]; // Alternate colors
-                        s.push(neighbor);
-                    } else if (color[neighbor] == color[node]) {
-                        return false; // Conflict detected
+                    else if(color[node]==color[elem])
+                    {
+                        return false;
                     }
                 }
             }
         }
-        return true; // No conflicts found
+        
+        return true;
     }
 };
