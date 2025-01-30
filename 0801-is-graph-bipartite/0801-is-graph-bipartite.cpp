@@ -2,38 +2,29 @@ class Solution {
 public:
     bool isBipartite(vector<vector<int>>& graph) {
         int n = graph.size();
-        set<int> st1, st2; // Two sets for bipartite checking
-        vector<bool> visited(n, false); // Track visited nodes
-        
-        for (int i = 0; i < n; i++) {  
-            if (visited[i]) continue;  // Skip already visited nodes
+        vector<int> color(n, -1); // -1: unvisited, 0 & 1: two partitions
 
-            queue<int> q;
-            q.push(i);
-            st1.insert(i); // Start with the first set
+        for (int i = 0; i < n; i++) {
+            if (color[i] != -1) continue; // Already colored, skip
 
-            while (!q.empty()) {
-                int node = q.front();
-                q.pop();
+            stack<int> s;
+            s.push(i);
+            color[i] = 0; // Start coloring the first component
+
+            while (!s.empty()) {
+                int node = s.top();
+                s.pop();
 
                 for (int neighbor : graph[node]) {
-                    if (st1.count(node)) { // If node is in st1, neighbor should be in st2
-                        if (st1.count(neighbor)) return false; // Conflict detected
-                        if (!st2.count(neighbor)) {
-                            st2.insert(neighbor);
-                            q.push(neighbor);
-                        }
-                    } else { // If node is in st2, neighbor should be in st1
-                        if (st2.count(neighbor)) return false; // Conflict detected
-                        if (!st1.count(neighbor)) {
-                            st1.insert(neighbor);
-                            q.push(neighbor);
-                        }
+                    if (color[neighbor] == -1) {
+                        color[neighbor] = 1 - color[node]; // Alternate colors
+                        s.push(neighbor);
+                    } else if (color[neighbor] == color[node]) {
+                        return false; // Conflict detected
                     }
                 }
-                visited[node] = true;
             }
         }
-        return true; // No conflicts, graph is bipartite
+        return true; // No conflicts found
     }
 };
