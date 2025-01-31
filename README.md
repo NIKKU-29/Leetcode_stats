@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0139-word-break](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0139-word-break) |
 | [0432-all-oone-data-structure](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0432-all-oone-data-structure) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0567-permutation-in-string](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0567-permutation-in-string) |
@@ -53,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0091-decode-ways) |
 | [0125-valid-palindrome](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0125-valid-palindrome) |
+| [0139-word-break](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0139-word-break) |
 | [0179-largest-number](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0179-largest-number) |
 | [0214-shortest-palindrome](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0214-shortest-palindrome) |
 | [0241-different-ways-to-add-parentheses](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0241-different-ways-to-add-parentheses) |
@@ -124,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0079-word-search) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0139-word-break](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0152-maximum-product-subarray) |
 | [0179-largest-number](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0179-largest-number) |
 | [0198-house-robber](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0198-house-robber) |
@@ -484,6 +487,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0091-decode-ways) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0139-word-break](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0213-house-robber-ii) |
@@ -547,6 +551,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0139-word-break) |
 | [0241-different-ways-to-add-parentheses](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0241-different-ways-to-add-parentheses) |
 | [1013-fibonacci-number](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1013-fibonacci-number) |
 | [1236-n-th-tribonacci-number](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1236-n-th-tribonacci-number) |
@@ -576,6 +581,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Trie
 |  |
 | ------- |
+| [0139-word-break](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0139-word-break) |
 | [0386-lexicographical-numbers](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0386-lexicographical-numbers) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 | [1907-count-pairs-with-xor-in-a-range](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1907-count-pairs-with-xor-in-a-range) |
