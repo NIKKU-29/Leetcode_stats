@@ -10,7 +10,7 @@ public:
             if(x!=j && board[i][x] == val) return false;
             if(x!=i && board[x][j] == val) return false;
             int subRow = 3 * (i / 3) + x / 3, subCol = 3 * (j / 3) + x % 3;
-            if ((subRow != i || subCol != j) && board[subRow][subCol] == val) return false;
+            if ((subRow != i && subCol != j) && board[subRow][subCol] == val) return false;
         }
 
         return true;
