@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0036-valid-sudoku](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0036-valid-sudoku) |
 | [0139-word-break](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0139-word-break) |
 | [0432-all-oone-data-structure](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0432-all-oone-data-structure) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
@@ -119,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0001-two-sum) |
 | [0031-next-permutation](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0031-next-permutation) |
+| [0036-valid-sudoku](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0036-valid-sudoku) |
 | [0046-permutations](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0047-permutations-ii) |
 | [0051-n-queens](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0051-n-queens) |
@@ -347,6 +349,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0036-valid-sudoku) |
 | [0079-word-search](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0079-word-search) |
 | [0407-trapping-rain-water-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0407-trapping-rain-water-ii) |
 | [0542-01-matrix](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0542-01-matrix) |
