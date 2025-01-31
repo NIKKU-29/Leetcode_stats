@@ -149,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0753-open-the-lock](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0753-open-the-lock) |
 | [0780-max-chunks-to-make-sorted](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0780-max-chunks-to-make-sorted) |
 | [0792-binary-search](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0792-binary-search) |
+| [0854-making-a-large-island](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0854-making-a-large-island) |
 | [0859-design-circular-deque](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0859-design-circular-deque) |
 | [0906-walking-robot-simulation](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0906-walking-robot-simulation) |
 | [0907-koko-eating-bananas](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0907-koko-eating-bananas) |
@@ -263,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0820-find-eventual-safe-states) |
+| [0854-making-a-large-island](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0854-making-a-large-island) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1396-count-servers-that-communicate](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1396-count-servers-that-communicate) |
@@ -289,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0753-open-the-lock](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0753-open-the-lock) |
 | [0801-is-graph-bipartite](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0820-find-eventual-safe-states) |
+| [0854-making-a-large-island](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0854-making-a-large-island) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1396-count-servers-that-communicate](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1396-count-servers-that-communicate) |
@@ -344,6 +347,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0407-trapping-rain-water-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0407-trapping-rain-water-ii) |
 | [0542-01-matrix](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0733-flood-fill) |
+| [0854-making-a-large-island](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0854-making-a-large-island) |
 | [1396-count-servers-that-communicate](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1396-count-servers-that-communicate) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1876-map-of-highest-peak](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1876-map-of-highest-peak) |
@@ -691,6 +695,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0684-redundant-connection](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0684-redundant-connection) |
 | [0801-is-graph-bipartite](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0801-is-graph-bipartite) |
+| [0854-making-a-large-island](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0854-making-a-large-island) |
 | [1396-count-servers-that-communicate](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1396-count-servers-that-communicate) |
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2764-maximum-number-of-fish-in-a-grid) |
