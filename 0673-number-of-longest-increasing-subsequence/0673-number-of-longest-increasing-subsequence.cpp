@@ -1,35 +1,35 @@
 class Solution {
 public:
     int findNumberOfLIS(vector<int>& nums) {
-        if (nums.empty()) return 0;
-        
         int n = nums.size();
-        vector<int> lengths(n, 1);  // Lengths of LIS ending at each index
-        vector<int> counts(n, 1);   // Counts of LIS ending at each index
+        vector<int> length(n, 1);  // LIS length ending at i
+        vector<int> count(n, 1);   // Number of LIS ending at i
         
-        int maxLength = 1;
+        int max_length = 1;
         
-        for (int i = 1; i < n; ++i) {
-            for (int j = 0; j < i; ++j) {
-                if (nums[i] > nums[j]) {
-                    if (lengths[j] + 1 > lengths[i]) {
-                        lengths[i] = lengths[j] + 1;
-                        counts[i] = counts[j];
-                    } else if (lengths[j] + 1 == lengths[i]) {
-                        counts[i] += counts[j];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < i; j++) {
+                if (nums[j] < nums[i]) {
+                    if (length[j] + 1 > length[i]) {
+                        // Found a longer subsequence
+                        length[i] = length[j] + 1;
+                        count[i] = count[j];
+                    } else if (length[j] + 1 == length[i]) {
+                        // Accumulate counts for same-length subsequences
+                        count[i] += count[j];
                     }
                 }
             }
-            maxLength = max(maxLength, lengths[i]);
+            max_length = max(max_length, length[i]);
         }
         
+        // Sum counts of all LIS with max_length
         int result = 0;
-        for (int i = 0; i < n; ++i) {
-            if (lengths[i] == maxLength) {
-                result += counts[i];
+        for (int i = 0; i < n; i++) {
+            if (length[i] == max_length) {
+                result += count[i];
             }
         }
-        
         return result;
     }
 };
