@@ -2,6 +2,8 @@ class Solution {
 public:
     bool solver(int k, int idx, int currsum, int target, vector<int>& nums, vector<bool>& visited) {
         if (k == 0) return true; // If all k subsets are successfully created
+
+        if(currsum > target) return false;
         
         if (currsum == target) {
             return solver(k - 1, 0, 0, target, nums, visited); // Start forming next subset
