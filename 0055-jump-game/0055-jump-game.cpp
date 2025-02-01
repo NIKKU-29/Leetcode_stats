@@ -11,8 +11,8 @@ public:
 
         for(int i = nums[idx]; i >=1; i--) {
             if(solver(idx + i, nums, dp)) {
-                dp[idx] = 1;  // Store as 1 instead of true
-                return true;
+                  // Store as 1 instead of true
+                return dp[idx]=true;
             }
         }
 
