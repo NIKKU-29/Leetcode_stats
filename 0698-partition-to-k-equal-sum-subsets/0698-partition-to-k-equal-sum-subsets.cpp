@@ -1,21 +1,22 @@
 class Solution {
 public:
-    bool solver(int k, int idx, int currsum, int target, vector<int>& nums, vector<bool>& visited) {
-        if (k == 0) return true; // If all k subsets are successfully created
-
-        if(currsum > target) return false;
-        
-        if (currsum == target) {
-            return solver(k - 1, 0, 0, target, nums, visited); // Start forming next subset
+    bool solver(vector<int>& nums, vector<int>& visited, int start_index, int k, int current_sum, int target) {
+        if (k == 0) return true;  // Only one subset left, no need to check further
+        if (current_sum == target) {
+            // Current subset is complete, proceed to the next subset
+            return solver(nums, visited, 0, k - 1, 0, target);
         }
 
-        for (int i = idx; i < nums.size(); i++) {
-            if (visited[i] || currsum + nums[i] > target) continue; // Skip used elements or exceed target
-
-            // Choose current element
-            visited[i] = true;
-            if (solver(k, i + 1, currsum + nums[i], target, nums, visited)) return true;
-            visited[i] = false; // Backtrack
+        for (int i = start_index; i < nums.size(); i++) {
+            if (!visited[i] && current_sum + nums[i] <= target) {
+                visited[i] = 1;  // Mark the element as used
+                if (solver(nums, visited, i + 1, k, current_sum + nums[i], target)) {
+                    return true;
+                }
+                visited[i] = 0;  // Unmark the element if it doesn't lead to a solution
+               if (current_sum == 0)
+                    return false;
+            }
         }
 
         return false;
@@ -23,15 +24,12 @@ public:
 
     bool canPartitionKSubsets(vector<int>& nums, int k) {
         int sum = accumulate(nums.begin(), nums.end(), 0);
-        if (sum % k != 0) return false; // Cannot be evenly divided
-        
+        if (sum % k != 0) return false;  // If the total sum is not divisible by k, return false
+
         int target = sum / k;
-        sort(nums.begin(), nums.end(), greater<int>()); // Optimization
+        vector<int> visited(nums.size(), 0);
+        sort(nums.begin(), nums.end(), greater<int>());  // Sorting to optimize the backtracking
 
-        // If the largest element is greater than `target`, it's impossible
-        if (nums[0] > target) return false;
-
-        vector<bool> visited(nums.size(), false);
-        return solver(k, 0, 0, target, nums, visited);
+        return solver(nums, visited, 0, k, 0, target);
     }
 };
