@@ -1,45 +1,30 @@
 class Solution {
 public:
+
+    bool solver(int idx,vector<int>& nums,int target,vector<vector<int>>&dp)
+    {
+        if(target==0) return true;
+        if(target<0) return false;
+        if(idx >= nums.size()) return false;
+
+        if(dp[idx][target]!=-1) return dp[idx][target];
+
+        bool take=solver(idx+1,nums,target-nums[idx],dp);
+        bool skip=solver(idx+1,nums,target,dp);
+
+        return dp[idx][target]= skip||take;
+        
+    }
+
     bool canPartition(vector<int>& nums) {
-        int n = nums.size();
-        int sum = 0;
+        int sum=accumulate(nums.begin(),nums.end(),0);
 
-        // Calculate the total sum of the array
-        for (int num : nums) {
-            sum += num;
-        }
+        if(sum%2!=0) return false;
+        int target=sum/2;
+        vector<vector<int>>dp(nums.size(),vector<int>(target+1,-1));
 
-        // If sum is odd, cannot partition into two subsets with equal sum
-        if (sum % 2 != 0) {
-            return false;
-        }
 
-        int k = sum / 2;
-        vector<vector<bool>> dp(n + 1, vector<bool>(k + 1, false));
+        return solver(0,nums,target,dp);
 
-        // Initialize dp[i][0] = true for all i
-        for (int i = 0; i <= n; i++) {
-            dp[i][0] = true;
-        }
-
-        // Initialize dp[0][nums[0]] if nums[0] <= k
-        if (nums[0] <= k) {
-            dp[0][nums[0]] = true;
-        }
-
-        // Fill the DP table
-        for (int idx = 1; idx < n; idx++) {
-            for (int target = 1; target <= k; target++) {
-                bool notake = dp[idx - 1][target];
-                bool take = false;
-                if (nums[idx] <= target) {
-                    take = dp[idx - 1][target - nums[idx]];
-                }
-                dp[idx][target] = take || notake;
-            }
-        }
-
-        // The result will be in dp[n-1][k]
-        return dp[n - 1][k];
     }
 };
