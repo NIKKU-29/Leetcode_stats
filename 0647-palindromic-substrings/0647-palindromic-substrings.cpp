@@ -27,13 +27,12 @@ public:
         curr.push_back(s[index]);
         
         // Check if the current contiguous substring is a palindrome.
-        if (isPalindrome(curr))
-            count++;
+        if (isPalindrome(curr)) count++;
         
         // Continue extending the substring (contiguously).
         buildSubstring(index + 1, start, s, curr, count);
         
-        // Backtrack: remove the last character to try a new substring starting at 'start'.
+        
         
     }
     
