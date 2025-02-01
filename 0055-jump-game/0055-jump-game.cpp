@@ -16,8 +16,8 @@ public:
             }
         }
 
-        dp[idx] = 0;  // Store as 0 instead of false
-        return false;
+          // Store as 0 instead of false
+        return dp[idx] = false;
     }
 
     bool canJump(vector<int>& nums) {
