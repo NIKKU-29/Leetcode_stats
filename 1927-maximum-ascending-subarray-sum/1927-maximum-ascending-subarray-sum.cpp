@@ -17,6 +17,19 @@ public:
         //     ans=max(ans,sum);
         // }
 
+
+        //two pinetrs
+
+        /* 12 17 15 13 10 11 12
+                ?   break
+                29 til idx1
+                    ? break
+                    15 till idx 2
+                       ? break
+                        13 till idx 3
+                                33 ? stop till last  
+        */
+
         int n=nums.size();
         int i=0;
         int j=0;
