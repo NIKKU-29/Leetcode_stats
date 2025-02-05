@@ -27,11 +27,11 @@ public:
         int left = INT_MAX, right = INT_MAX;  // Initialize left and right to a large value
 
         if(root->left) 
-            left = 1 + solver(root->left);  // Recurse on left subtree
+            left = solver(root->left);  // Recurse on left subtree
         if(root->right) 
-            right = 1 + solver(root->right);  // Recurse on right subtree
+            right = solver(root->right);  // Recurse on right subtree
 
-        return min(left, right);  // Return the minimum depth
+        return 1+ min(left, right);  // Return the minimum depth
     }
 
     int minDepth(TreeNode* root) {
