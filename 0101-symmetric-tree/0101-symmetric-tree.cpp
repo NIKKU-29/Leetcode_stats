@@ -12,17 +12,18 @@
 class Solution {
 public:
 
-    bool solver(TreeNode* left,TreeNode* right)
+    bool solver(TreeNode* t1 , TreeNode* t2)
     {
-        if(left == nullptr && right == nullptr) return true;
-        if(left == nullptr || right == nullptr) return false;
+        if(t1==nullptr && t2==nullptr) return true;
+        if(t1==nullptr || t2==nullptr || t1->val !=t2->val) return false;
 
-        return (left->val == right->val) && solver(left->left,right->right) && solver(right->left,left->right); 
+        bool a=solver(t1->left,t2->right);
+        bool b=solver(t1->right,t2->left);
+
+        return a & b;
     }
 
     bool isSymmetric(TreeNode* root) {
-
-            if(root==nullptr) return true;
-            return solver(root->left,root->right);
+        return solver(root->left,root->right);
     }
 };
