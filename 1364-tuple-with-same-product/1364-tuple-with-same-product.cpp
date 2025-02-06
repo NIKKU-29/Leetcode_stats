@@ -31,8 +31,11 @@ public:
 
        // take [1,12,2,6] then take [1,12,3,4] and last take [2,6,3,4]
        
-       // which make our Valid touple count to 3 no we have 3 tuples
+       // which make our Valid touple count to 3 now we have 3 tuples
        // that gives total 24 combinatinons 8 from each  
+
+       //dircet formula is n(n-1)/2; to found number of valid tuples
+       //where n is the SameProductCount.
 
        int count=0;
 
