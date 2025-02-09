@@ -14,20 +14,13 @@ public:
 
     int solver(TreeNode * root , int& ans)
     {
-        if(root == nullptr)
-        {
-            return 0;
-        }
+        if(root == nullptr) return 0;
 
         int left = max(0,solver(root->left , ans));
         int right = max(0,solver(root->right , ans));
 
         ans= max(ans,root->val + left + right);
-
-
         return root->val + max(left,right);
-
-
     }
 
     int maxPathSum(TreeNode* root) {
