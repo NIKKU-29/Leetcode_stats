@@ -34,39 +34,47 @@ public:
 //         return solver(root,st,k);
 //     }
 
-    void inorder(TreeNode* root , vector<int>&vec)
-    {
-        if(root==nullptr) return ;
-        inorder(root->left,vec);
-        vec.push_back(root->val);
-        inorder(root->right,vec);
-    }
-
-
+    // 
+    
+//     class Solution {
+// public:
     bool findTarget(TreeNode* root, int k) {
-        //2md apporcah building ana array using 2 pointers
-        vector<int>vec;
-        inorder(root,vec);
+        TreeNode *left = root, *right = root;
+        stack<TreeNode*> leftStack, rightStack;
 
-        int left=0;
-        int right=vec.size()-1;
-
-        while(left < right)
-        {
-            int value = vec[left] + vec[right];
-
-            if(value == k) return true;
-
-           else if(value > k)
-            {
-                right--;
+        // Function to get the next smallest element in BST
+        auto getNextSmallest = [&]() -> int {
+            while (left) {
+                leftStack.push(left);
+                left = left->left;
             }
+            TreeNode* node = leftStack.top();
+            leftStack.pop();
+            left = node->right;
+            return node->val;
+        };
 
-            else{
-                left++;
+        // Function to get the next largest element in BST
+        auto getNextLargest = [&]() -> int {
+            while (right) {
+                rightStack.push(right);
+                right = right->right;
             }
+            TreeNode* node = rightStack.top();
+            rightStack.pop();
+            right = node->left;
+            return node->val;
+        };
+
+        int leftValue = getNextSmallest();
+        int rightValue = getNextLargest();
+
+        while (leftValue < rightValue) {
+            int sum = leftValue + rightValue;
+            if (sum == k) return true;
+            if (sum < k) leftValue = getNextSmallest();
+            else rightValue = getNextLargest();
         }
-
 
         return false;
     }
