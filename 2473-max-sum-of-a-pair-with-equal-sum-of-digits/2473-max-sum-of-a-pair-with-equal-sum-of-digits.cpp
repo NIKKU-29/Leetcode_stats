@@ -16,7 +16,7 @@ public:
             // cout<<sum<<" ";
         }
 
-        vector<int> mp(89,-1);
+        vector<int> mp(82,-1);
 
         int ans = -1;
 
