@@ -18,7 +18,7 @@ public:
             ll s2=pq.top();
             pq.pop();
 
-            long long value= (min(s1,s2) * 2) + max(s1,s2);
+            ll value= (min(s1,s2) * 2) + max(s1,s2);
             count++;
             pq.push(value);
             // cout<<value<<" ";
