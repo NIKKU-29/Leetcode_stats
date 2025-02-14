@@ -1,24 +1,32 @@
 class ProductOfNumbers {
 public:
-    vector<int> product={1};
-    int n=1;
-    ProductOfNumbers(){
-        product.reserve(40000);
+
+    vector<int>prod={1};
+    int multi=1;
+    ProductOfNumbers() {
+
+        prod.reserve(40001);
     }
     
     void add(int num) {
-        if (num==0) {
-            product={1};
-            n=1;
-        }
-        else{
-            product.push_back(product[n++-1]*num);
-        }
+         
+         if(num == 0)
+         {
+            prod={1};
+            multi=1;
+         }
+
+         else 
+         {
+                multi *= num;
+                prod.push_back(multi);
+         }
     }
     
     int getProduct(int k) {
-        if (n<=k) return 0;
-        return product[n-1]/product[n-k-1];
+        int n=prod.size();
+        if(k>=n) return 0;
+        return prod[n-1]/prod[n-k-1];
     }
 };
 
