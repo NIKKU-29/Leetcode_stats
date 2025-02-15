@@ -8,11 +8,11 @@ public:
         }  
 
           int num = 0;
-          
+
             for (int j = idx; j < s.size(); j++) {  
 
                 num = num * 10 + (s[j] - '0');     
-                if (num > target) break;           
+                           
                 if (Valid_Partition(j + 1, currsum + num, s, target)) {
                     return true; 
             }
