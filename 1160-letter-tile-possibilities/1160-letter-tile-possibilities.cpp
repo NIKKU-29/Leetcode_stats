@@ -11,7 +11,7 @@ public:
         return sequences.size() - 1;
     }
 
-private:
+
     void generateSequences(string& tiles, string current, vector<bool>& used,
                            unordered_set<string>& sequences) {
         // Add current sequence to set
