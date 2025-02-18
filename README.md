@@ -96,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2292-counting-words-with-a-given-prefix](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2300-construct-string-with-repeat-limit](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2300-construct-string-with-repeat-limit) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2414-move-pieces-to-obtain-a-string) |
+| [2456-construct-smallest-number-from-di-string](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2465-shifting-letters-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2465-shifting-letters-ii) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2691-count-vowel-strings-in-ranges) |
@@ -549,6 +550,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
+| [2456-construct-smallest-number-from-di-string](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3447-clear-digits](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3447-clear-digits) |
@@ -636,6 +638,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2300-construct-string-with-repeat-limit](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2300-construct-string-with-repeat-limit) |
+| [2456-construct-smallest-number-from-di-string](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2509-minimize-xor](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2509-minimize-xor) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2616-maximal-score-after-applying-k-operations) |
@@ -730,6 +733,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0494-target-sum) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1160-letter-tile-possibilities](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1160-letter-tile-possibilities) |
+| [2456-construct-smallest-number-from-di-string](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Monotonic Stack
 |  |
