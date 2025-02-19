@@ -1,11 +1,17 @@
 class Solution {
 public:
 
-    void solver(string &curr,vector<char>&vec,vector<string>&ans,int n)
+    void solver(string &curr,vector<char>&vec,string&ans,int n,int& k)
     {
-        if(curr.size() >= n)
+        if(curr.size() == n)
         {
-            ans.push_back(curr);
+            k--;
+
+            if(k==0)
+            {
+                ans=curr;
+            } 
+            
             return;
         }
 
@@ -14,7 +20,7 @@ public:
                 if(vec[i]!=curr.back())
                 {
                     curr+=vec[i];
-                    solver(curr,vec,ans,n);
+                    solver(curr,vec,ans,n,k);
                     curr.pop_back();
                 }
             }
@@ -24,18 +30,16 @@ public:
 
     string getHappyString(int n, int k) {
         vector<char>vec={'a','b','c'};
-        string curr="";
-        vector<string>ans;
+        string curr="",ans="";
 
         for(int i=0 ;i<3;i++)
         {
             curr+=vec[i];
-            solver(curr,vec,ans,n);
+            solver(curr,vec,ans,n,k);
             curr.pop_back();
             
         }
-
-        if(k > ans.size()) return ""; 
-        return ans[k-1];
+        if (!ans.empty()) return ans;
+        return "";
     }
 };
