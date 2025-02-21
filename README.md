@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1256-rank-transform-of-an-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1256-rank-transform-of-an-array) |
 | [1364-tuple-with-same-product](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1364-tuple-with-same-product) |
+| [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1502-construct-k-palindrome-strings](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1502-construct-k-palindrome-strings) |
@@ -302,6 +303,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1484-linked-list-in-binary-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
@@ -333,6 +335,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0854-making-a-large-island](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0854-making-a-large-island) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1396-count-servers-that-communicate) |
 | [1484-linked-list-in-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1484-linked-list-in-binary-tree) |
 | [1558-course-schedule-iv](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1558-course-schedule-iv) |
@@ -364,6 +367,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0854-making-a-large-island](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0854-making-a-large-island) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1396-count-servers-that-communicate) |
 | [1484-linked-list-in-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1484-linked-list-in-binary-tree) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -396,6 +400,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1484-linked-list-in-binary-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
@@ -701,6 +706,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0729-my-calendar-i](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0731-my-calendar-ii) |
 | [0859-design-circular-deque](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0859-design-circular-deque) |
+| [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1477-product-of-the-last-k-numbers](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1477-product-of-the-last-k-numbers) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1497-design-a-stack-with-increment-operation) |
 | [2434-design-a-number-container-system](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2434-design-a-number-container-system) |
