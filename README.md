@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0886-score-of-parentheses](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0886-score-of-parentheses) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1160-letter-tile-possibilities](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1160-letter-tile-possibilities) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1502-construct-k-palindrome-strings](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1502-construct-k-palindrome-strings) |
@@ -302,6 +303,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0515-find-largest-value-in-each-tree-row](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1484-linked-list-in-binary-tree) |
@@ -334,6 +336,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0820-find-eventual-safe-states](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0854-making-a-large-island) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1396-count-servers-that-communicate) |
@@ -399,6 +402,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0515-find-largest-value-in-each-tree-row](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1484-linked-list-in-binary-tree) |
