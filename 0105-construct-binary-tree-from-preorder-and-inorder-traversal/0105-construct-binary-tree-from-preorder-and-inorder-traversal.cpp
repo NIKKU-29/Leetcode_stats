@@ -14,7 +14,7 @@ public:
 
     TreeNode* solver(int prestart,int preend,int instart,vector<int>& preorder, vector<int>& inorder)
     {
-        if(preend < prestart)
+        if(prestart > preend)
         {
             return nullptr;
         }
@@ -38,6 +38,10 @@ public:
         tree->left = solver(prestart + 1, prestart + num - 1,instart,preorder,inorder);
 
         tree->right = solver(prestart + num ,preend,j + 1,preorder,inorder);
+
+
+        //jab ham 11 pe pochnge jab ye line run hogi hab left me na koi na hi right me koi to hum left se nullptr return karte huay then rigt se nullptr retuen karte huay then we reach thsi line which retuen this current tree which act as input for pprvious call whichever it may be either left or right
+
 
         return tree;
     }
