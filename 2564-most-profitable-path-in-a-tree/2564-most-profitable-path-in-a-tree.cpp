@@ -1,67 +1,97 @@
 class Solution {
 public:
-    int mostProfitablePath(vector<vector<int>>& edges, int bob, vector<int>& amount) {
-        int n = amount.size();
+    int ans=INT_MIN;
+
+    bool Timefinder(int bob,int currtime,vector<bool>&visited,vector<vector<int>>&adj,vector<int>&timingBob)
+    {
+        if(bob == 0)
+        {
+            timingBob[bob]=currtime;
+            return true;
+        }
+
+        for(auto neighbour : adj[bob])
+        {
+            if(!visited[neighbour])
+            {
+                
+                visited[neighbour]=true;
+                if(Timefinder(neighbour,currtime + 1,visited,adj,timingBob))
+                {
+                    timingBob[bob]=currtime;
+                    return true;
+                }
+                visited[neighbour]=false; //unmark if this donot contibute to teh path to the 0
+            }
+        }
+
+        return false;
+    }
+
+    void solver(int alice ,int timenow , int alicesum ,vector<vector<int>>&adj,vector<int>&amount,vector<int>&timingBob,vector<bool>&visited)
+    {
+      
+        if(timingBob[alice] == -1) //bob didnt visited this path
+        {
+            alicesum+=amount[alice];
+        }
+
+        else if(timingBob[alice] > timenow)
+        {
+            alicesum+=amount[alice]; //bob reaches here after alice
+        }
+
+        if(timingBob[alice] == timenow)
+        {
+            alicesum+=(amount[alice]/2); //reach together devide in half
+        }
+
         
-        // Build adjacency list
-        vector<vector<int>> adj(n);
-        for (auto& edge : edges) {
-            adj[edge[0]].push_back(edge[1]);
-            adj[edge[1]].push_back(edge[0]);
+
+        if (adj[alice].size() == 1 && alice != 0) {  //node reaching condition
+            ans = max(ans, alicesum); 
+            return;
+        }
+
+         for (int neighbor : adj[alice]) {
+            if (!visited[neighbor]) {
+                visited[neighbor] = true;
+                solver(neighbor, timenow + 1, alicesum, adj, amount, timingBob, visited);
+                visited[neighbor] = false; // Backtrack
+            }
         }
         
-        // Find Bob's path to root (node 0)
-        vector<int> bobTime(n, n); // Initialize with a value larger than any possible time
-        
-        // Find Bob's path
-        function<bool(int, int, int)> findBobPath = [&](int node, int par, int time) {
-            if (node == 0) {
-                bobTime[node] = time;
-                return true;
+    }
+
+    int mostProfitablePath(vector<vector<int>>& edges, int bob, vector<int>& amount) {
+
+            int n=amount.size();
+            vector<vector<int>>adj(n);
+            vector<bool>visited(n,false);
+
+
+            for(auto elem : edges)
+            {
+                int a=elem[0];
+                int b=elem[1];
+
+                adj[a].push_back(b);
+                adj[b].push_back(a);
             }
-            
-            for (int child : adj[node]) {
-                if (child != par) {
-                    if (findBobPath(child, node, time + 1)) {
-                        bobTime[node] = time;
-                        return true;
-                    }
-                }
-            }
-            
-            return false;
-        };
-        
-        findBobPath(bob, -1, 0);
-        
-        // DFS to find max path sum for Alice
-        int maxSum = INT_MIN;
-        function<void(int, int, int, int)> findMaxPath = [&](int node, int par, int time, int sum) {
-            // Calculate Alice's amount at this node
-            int currentAmount = 0;
-            if (time < bobTime[node]) {
-                currentAmount = amount[node];
-            } else if (time == bobTime[node]) {
-                currentAmount = amount[node] / 2;
-            }
-            
-            sum += currentAmount;
-            
-            // Check if it's a leaf node (other than root)
-            bool isLeaf = true;
-            for (int child : adj[node]) {
-                if (child != par) {
-                    isLeaf = false;
-                    findMaxPath(child, node, time + 1, sum);
-                }
-            }
-            
-            if (isLeaf && node != 0) {
-                maxSum = max(maxSum, sum);
-            }
-        };
-        
-        findMaxPath(0, -1, 0, 0);
-        return maxSum;
+
+            vector<int>timingBob(n,-1); //stores the time at which box is at the specific node
+
+            visited[bob]=true;
+            Timefinder(bob,0,visited,adj,timingBob);
+
+            int alicesum=0;
+            int timenow=0;
+
+            visited.assign(n, false); // Reset visited array
+            visited[0] = true;
+            solver(0,timenow,alicesum,adj,amount,timingBob,visited);
+
+            return ans;
+
     }
 };
