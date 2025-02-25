@@ -206,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1524-string-matching-in-an-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1524-string-matching-in-an-array) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1694-make-sum-divisible-by-p](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1694-make-sum-divisible-by-p) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1786-count-the-number-of-consistent-strings) |
@@ -270,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1013-fibonacci-number](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1013-fibonacci-number) |
 | [1236-n-th-tribonacci-number](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1236-n-th-tribonacci-number) |
 | [1477-product-of-the-last-k-numbers](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1477-product-of-the-last-k-numbers) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [2155-find-missing-observations](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2155-find-missing-observations) |
 | [2448-count-number-of-bad-pairs](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2448-count-number-of-bad-pairs) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2802-find-the-punishment-number-of-an-integer) |
@@ -551,6 +553,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1477-product-of-the-last-k-numbers](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1477-product-of-the-last-k-numbers) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1694-make-sum-divisible-by-p](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1694-make-sum-divisible-by-p) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2059-unique-length-3-palindromic-subsequences) |
@@ -628,6 +631,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1025-minimum-cost-for-tickets](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1025-minimum-cost-for-tickets) |
 | [1063-best-sightseeing-pair](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1063-best-sightseeing-pair) |
 | [1236-n-th-tribonacci-number](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1236-n-th-tribonacci-number) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [2164-two-best-non-overlapping-events](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2164-two-best-non-overlapping-events) |
 | [2562-count-ways-to-build-good-strings](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2562-count-ways-to-build-good-strings) |
