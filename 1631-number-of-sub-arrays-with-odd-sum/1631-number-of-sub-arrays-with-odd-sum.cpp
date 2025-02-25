@@ -29,14 +29,14 @@ public:
                     ans+=1;
                     oddcount+=1;
                     ans+= evencount;
-                    ans=ans%mod;
             }
 
             else{    
                     evencount+=1;
-                    ans+= oddcount;
-                    ans=ans%mod;
+                    ans+= oddcount;      
             }
+
+             ans=ans%mod;
         }
         
         return ans;
