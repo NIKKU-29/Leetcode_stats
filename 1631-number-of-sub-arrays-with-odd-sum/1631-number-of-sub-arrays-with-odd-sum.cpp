@@ -35,6 +35,7 @@ public:
             else{    
                     evencount+=1;
                     ans+= oddcount;
+                    ans=ans%mod;
             }
         }
         
