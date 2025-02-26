@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0036-valid-sudoku](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0036-valid-sudoku) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0139-word-break](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0139-word-break) |
 | [0432-all-oone-data-structure](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0432-all-oone-data-structure) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
@@ -155,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0079-word-search) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0139-word-break](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0152-maximum-product-subarray) |
@@ -301,6 +303,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0101-symmetric-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0110-balanced-binary-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -405,6 +408,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0101-symmetric-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0110-balanced-binary-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -835,6 +839,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0053-maximum-subarray](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0053-maximum-subarray) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0324-wiggle-sort-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0324-wiggle-sort-ii) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 ## Quickselect
