@@ -2,30 +2,34 @@ class Solution {
 public:
     int lenLongestFibSubseq(vector<int>& arr) {
         int n = arr.size();
-        unordered_map<int, int> index;
-        for (int i = 0; i < n; i++) {
-            index[arr[i]] = i;
+        // Create a map to store value -> index mapping
+        unordered_map<int, int> mp;
+        for(int i = 0; i < n; i++) {
+            mp[arr[i]] = i;
         }
         
-        // dp[i][j] = length of fib subsequence ending with arr[i] and arr[j]
-        vector<vector<int>> dp(n, vector<int>(n, 0));
-        int result = 0;
+        // dp[i][j] represents the length of Fibonacci sequence ending with arr[i] and arr[j]
+        vector<vector<int>> dp(n, vector<int>(n, 2));
+        int maxLen = 0;
         
-        for (int j = 0; j < n; j++) {
-            for (int i = 0; i < j; i++) {
-                int prev = arr[j] - arr[i];
+        // For each pair of numbers
+        for(int j = 1; j < n; j++) {
+            for(int i = 0; i < j; i++) {
+                // Current pair: arr[i], arr[j]
+                // We need to find if there's a number arr[k] where k < i
+                // such that arr[k] + arr[i] = arr[j]
+                int diff = arr[j] - arr[i];
                 
-                if (prev < arr[i] && index.count(prev)) {
-                    int k = index[prev];
-                    dp[i][j] = dp[k][i] + 1;
-                } else {
-                    dp[i][j] = 2;
+                if(diff < arr[i] && mp.find(diff) != mp.end()) {
+                    int k = mp[diff];
+                    if(k < i) {
+                        dp[i][j] = dp[k][i] + 1;
+                        maxLen = max(maxLen, dp[i][j]);
+                    }
                 }
-                
-                result = max(result, dp[i][j]);
             }
         }
         
-        return result >= 3 ? result : 0;
+        return maxLen >= 3 ? maxLen : 0;
     }
 };
