@@ -10,10 +10,10 @@ public:
              largest = max(largest, (int)curr.size());
         }
 
-        if (idx >= n) {
+        // if (idx >= n) {
            
-            return;
-        }
+        //     return;
+        // }
 
         int prev2=curr[curr.size() - 2];
         int prev1=curr[curr.size() - 1];
@@ -24,6 +24,11 @@ public:
             curr.push_back(sum);
             solver(mp[sum]+1,n,curr,arr,mp);
             curr.pop_back();
+        }
+
+        else{
+
+            return;
         }
 
        
