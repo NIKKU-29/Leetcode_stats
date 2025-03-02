@@ -2,31 +2,24 @@ class Solution {
 public:
     vector<vector<int>> mergeArrays(vector<vector<int>>& nums1, vector<vector<int>>& nums2) {
         
-        map<int,int>mp;
+        // map<int,int>mp;
+        vector<int>mp(1001,0);
 
         for(auto elem : nums1)
         {
-            mp[elem[0]]=elem[1];
+            mp[elem[0]]+=elem[1];
         }
 
         for(auto elem : nums2)
         {
-            if(mp.find(elem[0])!=mp.end())
-            {
-                mp[elem[0]]+=elem[1];
-            }
-
-            else{
-                    mp[elem[0]]=elem[1]; 
-              }
-            
+            mp[elem[0]]+=elem[1];
         }
 
         vector<vector<int>>ans;
 
-        for(auto elem : mp)
+        for(int i=0 ;i<= 1000 ;i++)
         {
-            ans.push_back({elem.first,elem.second});
+            if(mp[i] != 0) ans.push_back({i,mp[i]});
         }
 
         return ans;
