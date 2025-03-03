@@ -1,21 +1,33 @@
 class Solution {
 public:
     vector<int> pivotArray(vector<int>& nums, int pivot) {
-        vector<int> less, equal, greater;
+        
+        deque<int>dq;
+        int n=nums.size();
+        for(int i=0 ; i<n ; i++)
+        {
+            if(nums[i] > pivot)
+            {
+                dq.push_back(nums[i]);
+            }
 
-        for (int num : nums) {
-            if (num < pivot) less.push_back(num);
-            else if (num == pivot) equal.push_back(num);
-            else greater.push_back(num);
+            else if(nums[i] == pivot)
+            {
+                dq.push_front(nums[i]);
+            }
         }
 
-        // Concatenate all parts efficiently
-        vector<int> ans;
-        ans.reserve(nums.size()); // Allocate memory in advance
-        ans.insert(ans.end(), less.begin(), less.end());
-        ans.insert(ans.end(), equal.begin(), equal.end());
-        ans.insert(ans.end(), greater.begin(), greater.end());
-
+        for(int i=n-1 ;i >= 0 ;i--)
+        {
+            if(nums[i] < pivot)
+            {
+                dq.push_front(nums[i]);
+            }
+        }
+        
+        vector<int> ans(dq.begin(), dq.end());
         return ans;
+
+
     }
 };
