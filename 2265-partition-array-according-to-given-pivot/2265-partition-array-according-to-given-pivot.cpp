@@ -6,6 +6,8 @@ public:
         int n=nums.size();
         for(int i=0 ; i<n ; i++)
         {
+            int j=n-i-1;
+
             if(nums[i] > pivot)
             {
                 dq.push_back(nums[i]);
@@ -24,10 +26,8 @@ public:
                 dq.push_front(nums[i]);
             }
         }
-        
+
         vector<int> ans(dq.begin(), dq.end());
         return ans;
-
-
     }
 };
