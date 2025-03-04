@@ -11,17 +11,15 @@ class Solution {
 public:
     
 
-    TreeNode* solver(TreeNode* root,TreeNode* p ,TreeNode* q, bool findp,bool findq)
+    TreeNode* solver(TreeNode* root,TreeNode* p ,TreeNode* q)
     { 
-        
-        if (root == nullptr) return nullptr;
 
          if (root == nullptr || root == p || root == q) {
             return root;
         }
 
-        TreeNode* left =solver(root->left, p, q, findp, findq);
-        TreeNode* right=solver(root->right, p, q, findp, findq);
+        TreeNode* left =solver(root->left, p, q);
+        TreeNode* right=solver(root->right, p, q);
 
         if(left && right)
         {
@@ -38,7 +36,7 @@ public:
 
             bool findp=false;
             bool findq=false;
-            return solver(root,p,q,findp,findq);
+            return solver(root,p,q);
     
     }
 };
