@@ -34,8 +34,6 @@ public:
 
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
 
-            bool findp=false;
-            bool findq=false;
             return solver(root,p,q);
     
     }
