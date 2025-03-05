@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0906-walking-robot-simulation](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0906-walking-robot-simulation) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [1129-longest-string-chain](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1129-longest-string-chain) |
 | [1160-letter-tile-possibilities](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1160-letter-tile-possibilities) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1256-rank-transform-of-an-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1256-rank-transform-of-an-array) |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0920-uncommon-words-from-two-sentences](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [1129-longest-string-chain](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1129-longest-string-chain) |
 | [1160-letter-tile-possibilities](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1160-letter-tile-possibilities) |
 | [1170-shortest-common-supersequence](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1170-shortest-common-supersequence) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
@@ -206,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1025-minimum-cost-for-tickets](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1025-minimum-cost-for-tickets) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1063-best-sightseeing-pair](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1063-best-sightseeing-pair) |
+| [1129-longest-string-chain](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1129-longest-string-chain) |
 | [1256-rank-transform-of-an-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1256-rank-transform-of-an-array) |
 | [1364-tuple-with-same-product](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1396-count-servers-that-communicate) |
@@ -470,6 +473,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0908-middle-of-the-linked-list](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0908-middle-of-the-linked-list) |
 | [1002-maximum-width-ramp](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1002-maximum-width-ramp) |
+| [1129-longest-string-chain](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1129-longest-string-chain) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1923-sentence-similarity-iii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1923-sentence-similarity-iii) |
@@ -668,6 +672,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1013-fibonacci-number](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1013-fibonacci-number) |
 | [1025-minimum-cost-for-tickets](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1025-minimum-cost-for-tickets) |
 | [1063-best-sightseeing-pair](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1063-best-sightseeing-pair) |
+| [1129-longest-string-chain](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1170-shortest-common-supersequence) |
 | [1236-n-th-tribonacci-number](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1236-n-th-tribonacci-number) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
@@ -685,6 +690,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0611-valid-triangle-number](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0611-valid-triangle-number) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0780-max-chunks-to-make-sorted](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0780-max-chunks-to-make-sorted) |
+| [1129-longest-string-chain](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1129-longest-string-chain) |
 | [1256-rank-transform-of-an-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1256-rank-transform-of-an-array) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1468-check-if-n-and-its-double-exist) |
 | [2164-two-best-non-overlapping-events](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2164-two-best-non-overlapping-events) |
