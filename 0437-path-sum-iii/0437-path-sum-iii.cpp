@@ -20,10 +20,8 @@ public:
 
         currsum+=root->val;
 
-        if(mp.find(currsum - k)!=mp.end())
-        {
-            count+=mp[currsum-k];
-        }
+        count+=mp[currsum-k];
+
 
         mp[currsum]++;
 
