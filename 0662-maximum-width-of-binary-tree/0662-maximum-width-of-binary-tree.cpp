@@ -11,42 +11,33 @@
  */
 class Solution {
 public:
-    int widthOfBinaryTree(TreeNode* root) {
-        if (!root) {
-        return 0;
-    }
 
-    std::queue<std::pair<TreeNode*, unsigned long long>> q;
-    q.push({root, 0});
-    int maxWidth = 0;
+    int maxi;
+    typedef pair<TreeNode*,int> p;
+    void solver(TreeNode* root)
+    {
+        queue<p>q;
+        q.push({root,0});
 
-    while (!q.empty()) {
-        int size = q.size();
-        unsigned long long minIndex = q.front().second;
-        unsigned long long first, last;
+        while(!q.empty())
+        {
+            int siz=q.size();
+            maxi=max(maxi, q.back().second - q.front().second + 1);
+            while(siz--)
+            {
+                TreeNode* node = q.front().first;
+                int idx = q.front().second;
+                q.pop();
 
-        for (int i = 0; i < size; ++i) {
-            TreeNode* node = q.front().first;
-            unsigned long long currentIndex = q.front().second - minIndex;
-            q.pop();
 
-            if (i == 0) {
-                first = currentIndex;
-            }
-            if (i == size - 1) {
-                last = currentIndex;
-            }
-
-            if (node->left) {
-                q.push({node->left, 2 * currentIndex + 1});
-            }
-            if (node->right) {
-                q.push({node->right, 2 * currentIndex + 2});
+                if(node->left)q.push({node->left,2*idx + 1});
+                if(node->right)q.push({node->right,2*idx + 2});
             }
         }
-        maxWidth = std::max(maxWidth, (int)(last - first + 1));
     }
 
-    return maxWidth;
+    int widthOfBinaryTree(TreeNode* root) {
+        solver(root);
+        return maxi;
     }
 };
