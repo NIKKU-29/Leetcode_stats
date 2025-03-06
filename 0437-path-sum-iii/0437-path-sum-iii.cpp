@@ -14,7 +14,7 @@ public:
 
     int count;
 
-    void solver(long long currsum,TreeNode* root,int k,unordered_map<long long,long long>mp)
+    void solver(long long currsum,TreeNode* root,int k,unordered_map<long long,long long>&mp)
     {
         if(!root) return;
 
