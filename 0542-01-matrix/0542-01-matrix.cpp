@@ -25,7 +25,7 @@ public:
             auto [x, y] = q.front();
             q.pop();
 
-            for(auto elem : directions)
+            for(auto& elem : directions)
             {
                 int newx = x + elem[0];
                 int newy = y + elem[1];
