@@ -20,18 +20,20 @@ public:
 
         vector<vector<int>>directions = {{1,0},{-1,0},{0,1},{0,-1}};
 
-        while(!q.empty()){
-            auto [i, j] = q.front();  // ✅ Cleaner way to extract values
+        while(!q.empty())
+        {
+            auto [x, y] = q.front();
             q.pop();
 
-            for(auto& dir : directions){
-                int newi = i + dir[0];
-                int newj = j + dir[1];
+            for(auto& elem : directions)
+            {
+                int newx = x + elem[0];
+                int newy = y + elem[1];
 
-                // ✅ Corrected Bounds Check
-                if(newi >= 0 && newi < m && newj >= 0 && newj < n && result[newi][newj] == -1){
-                    result[newi][newj] = result[i][j] + 1;
-                    q.push({newi, newj});
+                if(newx < m && newx >=0 && newy < n && newy >=0 && result[newx][newy] == -1)
+                {
+                    result[newx][newy] = result[x][y] + 1;
+                    q.push({newx,newy});
                 }
             }
         }
