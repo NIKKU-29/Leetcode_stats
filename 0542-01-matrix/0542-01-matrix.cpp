@@ -1,12 +1,10 @@
 class Solution {
 public:
 
-    int m,n;
-
     vector<vector<int>> updateMatrix(vector<vector<int>>& mat) {
         
-        m = mat.size();
-        n= mat[0].size();
+        int m = mat.size();
+        int n= mat[0].size();
         vector<vector<int>>result(m,vector<int>(n,-1));
         
         queue<pair<int,int>>q;
@@ -28,8 +26,7 @@ public:
 
         while(!q.empty())
         {
-            int x =q.front().first;
-            int y =q.front().second;
+            auto [x, y] = q.front();
             q.pop();
 
             for(auto elem : directions)
