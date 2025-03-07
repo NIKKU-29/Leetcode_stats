@@ -1,33 +1,59 @@
 class Solution {
 public:
 
-    void solver(vector<vector<int>>& image, int start, int end, int color,int n,int m,int value)
+    vector<vector<int>>directions = {{0,-1},{0,1},{-1,0},{1,0}};
+    int m,n;
+    typedef pair<int,int> P;
+    void solver(vector<vector<int>>& image, int x, int y, int color , int value)
     {
-            if(start < 0 || end < 0 || start >= n || end >=m || image[start][end]!=value) return ;
 
-            image[start][end]=color;
+        queue<P>q;
+        q.push({x,y});
 
-            solver(image,start+1,end,color,n,m,value);
-            solver(image,start-1,end,color,n,m,value);
-            solver(image,start,end+1,color,n,m,value);
-            solver(image,start,end-1,color,n,m,value);
+        while(!q.empty())
+        {
+            int siz = q.size();
+
+            while(siz--)
+            {
+                P tp = q.front();
+                int x=tp.first;
+                int y=tp.second;
+                image[x][y] = color;
+                q.pop();
+
+               for(auto elem : directions)
+               {
+                    int newx = x + elem[0];
+                    int newy = y + elem[1];
+
+                    if(newx >= 0 && newx < m && newy >= 0 && newy < n && image[newx][newy]== value)
+                    {
+                        q.push({newx,newy});
+                    }
+
+               }
+
+            }
+        }
+
+        
+
+
+
+
     }
 
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
-            int n=image.size();
-            int m=image[0].size();
-            int value=image[sr][sc];
+        
 
-            if (value == color) 
-            {
-            return image;
-            }
+        m= image.size();
+        n= image[0].size();
+        if (image[sr][sc] == color) return image;
+        int value = image[sr][sc];
 
+        solver(image,sr,sc,color,value);
+        return image;
 
-
-            solver(image,sr,sc,color,n,m,value);
-
-            return image;
-           
     }
 };
