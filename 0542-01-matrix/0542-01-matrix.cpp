@@ -7,14 +7,16 @@ public:
         n = mat[0].size();
 
         queue<pair<int, int>> q;
+        vector<vector<bool>> visited(m, vector<bool>(n, false));
 
-        // Step 1: Initialize queue and mark unvisited cells
+        // Step 1: Initialize queue and visited array
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 if (mat[i][j] == 0) {
                     q.push({i, j});
+                    visited[i][j] = true; // Mark visited
                 } else {
-                    mat[i][j] = -1;  // Mark unvisited
+                    mat[i][j] = -1; // Placeholder for distance
                 }
             }
         }
@@ -30,9 +32,10 @@ public:
                 int newx = x + elem[0];
                 int newy = y + elem[1];
 
-                if (newx >= 0 && newx < m && newy >= 0 && newy < n && mat[newx][newy] == -1) {
+                if (newx >= 0 && newx < m && newy >= 0 && newy < n && !visited[newx][newy]) {
                     mat[newx][newy] = mat[x][y] + 1;
                     q.push({newx, newy});
+                    visited[newx][newy] = true; // Mark as visited
                 }
             }
         }
