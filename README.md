@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0214-shortest-palindrome](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0214-shortest-palindrome) |
 | [0241-different-ways-to-add-parentheses](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0241-different-ways-to-add-parentheses) |
 | [0459-repeated-substring-pattern](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0459-repeated-substring-pattern) |
+| [0516-longest-palindromic-subsequence](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0516-longest-palindromic-subsequence) |
 | [0539-minimum-time-difference](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0539-minimum-time-difference) |
 | [0567-permutation-in-string](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0647-palindromic-substrings) |
@@ -683,6 +684,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0377-combination-sum-iv](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0377-combination-sum-iv) |
 | [0416-partition-equal-subset-sum](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0494-target-sum) |
+| [0516-longest-palindromic-subsequence](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0516-longest-palindromic-subsequence) |
 | [0542-01-matrix](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0542-01-matrix) |
 | [0647-palindromic-substrings](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0647-palindromic-substrings) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0673-number-of-longest-increasing-subsequence) |
