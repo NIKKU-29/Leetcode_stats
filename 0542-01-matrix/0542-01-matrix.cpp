@@ -9,16 +9,12 @@ public:
         
         queue<pair<int,int>>q;
 
-        for(int  i=0 ;i< m ;i++)
-        {
-            for(int j=0 ; j< n ;j++)
-            {
-                if(mat[i][j] == 0)
-                {
-                    result[i][j]=0;
-                    q.push({i,j});
+        for(int i = 0; i < m; i++){  // ✅ Corrected Loop Order
+            for(int j = 0; j < n; j++){
+                if(mat[i][j] == 0){
+                    result[i][j] = 0;
+                    q.push({i, j});
                 }
-
             }
         }
 
