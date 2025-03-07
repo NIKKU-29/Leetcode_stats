@@ -1,46 +1,51 @@
-#include <vector>
-#include <queue>
-#include <climits>
-using namespace std;
-
 class Solution {
 public:
-    vector<vector<int>> updateMatrix(vector<vector<int>>& W) {
-        int m = W.size();
-        int n = W[0].size();
-        queue<pair<int, int>> q;
 
-        // Initialize the queue with all '0's and mark '1's as INT_MAX
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                if (W[i][j] == 0) {
-                    q.push({i, j}); // Push all 0's into the queue
-                } else {
-                    W[i][j] = INT_MAX; // Mark 1's as unvisited
+    int m,n;
+
+    vector<vector<int>> updateMatrix(vector<vector<int>>& mat) {
+        
+        m = mat.size();
+        n= mat[0].size();
+        
+        queue<pair<int,int>>q;
+
+        for(int  i=0 ;i< m ;i++)
+        {
+            for(int j=0 ; j< n ;j++)
+            {
+                if(mat[i][j] == 0)
+                {
+                    q.push({i,j});
+                }
+
+                else{
+                    mat[i][j] = -1; //unvisted;
                 }
             }
         }
 
-        // Directions for BFS traversal (right, left, down, up)
-        vector<pair<int, int>> directions = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
+        vector<vector<int>>directions = {{1,0},{-1,0},{0,1},{0,-1}};
 
-        // BFS
-        while (!q.empty()) {
-            auto [x, y] = q.front();
+        while(!q.empty())
+        {
+            int x =q.front().first;
+            int y =q.front().second;
             q.pop();
 
-            for (auto [dx, dy] : directions) {
-                int nx = x + dx;
-                int ny = y + dy;
+            for(auto elem : directions)
+            {
+                int newx = x + elem[0];
+                int newy = y + elem[1];
 
-                // Check bounds and whether the neighbor's distance can be reduced
-                if (nx >= 0 && nx < m && ny >= 0 && ny < n && W[nx][ny] > W[x][y] + 1) {
-                    W[nx][ny] = W[x][y] + 1; // Update distance
-                    q.push({nx, ny});        // Add neighbor to the queue
+                if(newx < m && newx >=0 && newy < n && newy >=0 && mat[newx][newy] == -1)
+                {
+                    mat[newx][newy] = mat[x][y] + 1;
+                    q.push({newx,newy});
                 }
             }
         }
 
-        return W;
+        return mat;
     }
 };
