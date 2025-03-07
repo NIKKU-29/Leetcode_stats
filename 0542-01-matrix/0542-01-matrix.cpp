@@ -7,6 +7,7 @@ public:
         
         m = mat.size();
         n= mat[0].size();
+        vector<vector<int>>result(m,vector<int>(n,-1));
         
         queue<pair<int,int>>q;
 
@@ -16,12 +17,10 @@ public:
             {
                 if(mat[i][j] == 0)
                 {
+                    result[i][j]=0;
                     q.push({i,j});
                 }
 
-                else{
-                    mat[i][j] = -1; //unvisted;
-                }
             }
         }
 
@@ -38,14 +37,14 @@ public:
                 int newx = x + elem[0];
                 int newy = y + elem[1];
 
-                if(newx < m && newx >=0 && newy < n && newy >=0 && mat[newx][newy] == -1)
+                if(newx < m && newx >=0 && newy < n && newy >=0 && result[newx][newy] == -1)
                 {
-                    mat[newx][newy] = mat[x][y] + 1;
+                    result[newx][newy] = result[x][y] + 1;
                     q.push({newx,newy});
                 }
             }
         }
 
-        return mat;
+        return result;
     }
 };
