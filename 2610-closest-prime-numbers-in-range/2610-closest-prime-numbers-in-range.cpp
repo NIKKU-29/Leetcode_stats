@@ -31,8 +31,6 @@ public:
             //     lastPrime = i;
             // }
 
-             
-
             if(i - lastPrime < mini)
             {       
                     cout<<i<<"__"<<lastPrime;
