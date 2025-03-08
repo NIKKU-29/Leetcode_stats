@@ -1,56 +1,59 @@
-//Comment and Upvote
-
 class Solution {
 public:
     vector<int> findMinHeightTrees(int n, vector<vector<int>>& edges) {
-        //base case i.e only one node is available
-        if(n==1) return vector<int>{0};
+         
+         vector<int> indegree(n, 0);
+         vector<vector<int>>adj(n);
         
-        //Now we need to find the list of nodes for adjacency
-        vector<vector<int>>graph(n);
-        
-        //Now count the degree of nodes
-        vector<int>degree(n,0);
-        
-        //populate graph adjacency list and degree count of nodes
-        for(int i=0;i<edges.size();i++){
-            int a=edges[i][0], b=edges[i][1];
-            
-            graph[a].push_back(b);
-            graph[b].push_back(a);
-            degree[a]++;
-            degree[b]++;
-        }
-        queue<int>queue_degree_1;
-        
-        //push all the nodes with degree 1
-        for(int i=0;i<n;i++) if(degree[i]==1) queue_degree_1.push(i);
-        
-        //MHT root nodes
-        vector<int>res;
-        
-        //Run BFS until queue is empty
-        while(!queue_degree_1.empty()){
-            int n = queue_degree_1.size();
-            res.clear();//clear the root nodes
-            
-            //This is our level order traverse
-            while(n--){
-                int node = queue_degree_1.front();
-                queue_degree_1.pop();
+        if(n == 1) return {0};
+
+         queue<int>q;
+
+         for(auto elem : edges)
+         {
+            int u = elem[0];
+            int v = elem[1];
+            indegree[u]++;
+            indegree[v]++;
+            adj[u].push_back(v);
+            adj[v].push_back(u);
+         }
+
+         for(int i=0 ;i<indegree.size();i++)
+         {
+            if(indegree[i] == 1) q.push(i);
+         }
+
+         while(n > 2)
+         {
+            int siz = q.size();
+            n-=siz;
+
+            while(siz--)
+            {
+                int u = q.front();
+                q.pop();
                 
-                //add current node into the root node vector
-                res.push_back(node);
-                
-                //Now it's time for neighbouring nodes
-                for(int i=0;i<graph[node].size();i++){
-                    //decrease degree of neighbour nodes and push leaff nodes intp queue
-                    degree[graph[node][i]]--;
-                    if(degree[graph[node][i]]==1) queue_degree_1.push(graph[node][i]);
+                for(auto& v : adj[u])
+                {
+                    indegree[v]--;
+                    if(indegree[v] == 1)
+                    {
+                        q.push(v);
+                    }
                 }
+
             }
-        }
-        
-        return res;//root nodes of MHT
+         }
+
+         vector<int>ans;
+
+         while(!q.empty())
+         {
+            ans.push_back(q.front());
+            q.pop();
+         }
+
+        return ans;
     }
 };
