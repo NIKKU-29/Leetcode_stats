@@ -377,6 +377,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0310-minimum-height-trees](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0310-minimum-height-trees) |
 | [0337-house-robber-iii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0337-house-robber-iii) |
 | [0386-lexicographical-numbers](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0386-lexicographical-numbers) |
 | [0437-path-sum-iii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0437-path-sum-iii) |
@@ -415,6 +416,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0111-minimum-depth-of-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0226-invert-binary-tree) |
+| [0310-minimum-height-trees](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0310-minimum-height-trees) |
 | [0322-coin-change](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0322-coin-change) |
 | [0407-trapping-rain-water-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0407-trapping-rain-water-ii) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0515-find-largest-value-in-each-tree-row) |
@@ -884,6 +886,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph
 |  |
 | ------- |
+| [0310-minimum-height-trees](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0310-minimum-height-trees) |
 | [0684-redundant-connection](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0684-redundant-connection) |
 | [0801-is-graph-bipartite](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0820-find-eventual-safe-states) |
@@ -941,6 +944,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Topological Sort
 |  |
 | ------- |
+| [0310-minimum-height-trees](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0310-minimum-height-trees) |
 | [0820-find-eventual-safe-states](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0820-find-eventual-safe-states) |
 | [1558-course-schedule-iv](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1558-course-schedule-iv) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
