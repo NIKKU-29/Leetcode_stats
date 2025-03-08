@@ -8,7 +8,7 @@ public:
         
         if(n == 1) return blocks[0] == 'W' ? 1 : 0;
 
-        while(j <= n)
+        while(j < n)
         {
             while(j-i+1 <= k)
                 {
