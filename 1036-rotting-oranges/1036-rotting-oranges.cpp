@@ -27,7 +27,7 @@ public:
                     if(newx >= 0 && newx < m && newy >= 0 && newy < n && grid[newx][newy] == 1)
                     {
                         q.push({newx,newy});
-                        grid[newx][newy] = 0;
+                        grid[newx][newy] = 2;
                         oranges--;
                         
                     }
