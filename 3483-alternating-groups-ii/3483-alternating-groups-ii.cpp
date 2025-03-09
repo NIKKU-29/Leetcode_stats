@@ -13,11 +13,12 @@ public:
                 i = j;
             }
             
-            if(j - i + 1 == k)
+            if(j - i + 1 == k) 
             {
                 count++;
                 i++;
-            }
+            }            
+            
 
             j++;
       }
