@@ -59,6 +59,6 @@ public:
             return -1;
         }
 
-        return (time == 0) ? -1 : time;
+        return  time;
     }
 };
