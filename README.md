@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3570-count-of-substrings-containing-every-vowel-and-k-consonants-i](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3570-count-of-substrings-containing-every-vowel-and-k-consonants-i) |
 ## String
 |  |
 | ------- |
@@ -125,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3447-clear-digits](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3447-clear-digits) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3455-minimum-length-of-string-after-operations) |
+| [3570-count-of-substrings-containing-every-vowel-and-k-consonants-i](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3570-count-of-substrings-containing-every-vowel-and-k-consonants-i) |
 ## Sliding Window
 |  |
 | ------- |
@@ -137,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3483-alternating-groups-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3483-alternating-groups-ii) |
+| [3570-count-of-substrings-containing-every-vowel-and-k-consonants-i](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3570-count-of-substrings-containing-every-vowel-and-k-consonants-i) |
 ## Simulation
 |  |
 | ------- |
