@@ -4,19 +4,23 @@ public:
         
         int n = s.size();
         int i=0,j=0;
-        unordered_map<char,int>mp;
+        // unordered_map<char,int>mp;
+        int a=0,b=0,c=0;
         int ans =0;
 
         while(j < n )
         {
-            mp[s[j]]++;
+           if(s[j] == 'a') a++;
+           if(s[j] == 'b') b++;
+           if(s[j] == 'c') c++;
           
 
-            while(i < n && mp.size() >= 3)
+            while(i < n && a>0 && b > 0 && c > 0)
             {
                 ans+= n - j;
-                mp[s[i]]--;
-                if(mp[s[i]] == 0) mp.erase(s[i]);
+                if(s[i] == 'a') a--;
+                if(s[i] == 'b') b--;
+                if(s[i] == 'c') c--;
                 i++;
             }
 
