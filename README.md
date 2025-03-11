@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0721-accounts-merge](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0721-accounts-merge) |
 | [0740-delete-and-earn](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0740-delete-and-earn) |
 | [0753-open-the-lock](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0753-open-the-lock) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0539-minimum-time-difference](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0539-minimum-time-difference) |
 | [0567-permutation-in-string](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0647-palindromic-substrings) |
+| [0721-accounts-merge](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0721-accounts-merge) |
 | [0753-open-the-lock](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0753-open-the-lock) |
 | [0886-score-of-parentheses](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0886-score-of-parentheses) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0920-uncommon-words-from-two-sentences) |
@@ -205,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0673-number-of-longest-increasing-subsequence](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0698-partition-to-k-equal-sum-subsets) |
+| [0721-accounts-merge](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0721-accounts-merge) |
 | [0729-my-calendar-i](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0731-my-calendar-ii) |
 | [0733-flood-fill](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0733-flood-fill) |
@@ -399,6 +402,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0662-maximum-width-of-binary-tree) |
 | [0684-redundant-connection](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0684-redundant-connection) |
+| [0721-accounts-merge](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0820-find-eventual-safe-states) |
@@ -438,6 +442,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0662-maximum-width-of-binary-tree) |
 | [0684-redundant-connection](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0684-redundant-connection) |
+| [0721-accounts-merge](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0733-flood-fill) |
 | [0753-open-the-lock](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0753-open-the-lock) |
 | [0801-is-graph-bipartite](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0801-is-graph-bipartite) |
@@ -733,6 +738,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0539-minimum-time-difference](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0539-minimum-time-difference) |
 | [0611-valid-triangle-number](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0611-valid-triangle-number) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0721-accounts-merge](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0721-accounts-merge) |
 | [0780-max-chunks-to-make-sorted](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0780-max-chunks-to-make-sorted) |
 | [1129-longest-string-chain](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1129-longest-string-chain) |
 | [1256-rank-transform-of-an-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1256-rank-transform-of-an-array) |
@@ -952,6 +958,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0684-redundant-connection](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0684-redundant-connection) |
+| [0721-accounts-merge](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0721-accounts-merge) |
 | [0801-is-graph-bipartite](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0801-is-graph-bipartite) |
 | [0854-making-a-large-island](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0854-making-a-large-island) |
 | [1396-count-servers-that-communicate](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1396-count-servers-that-communicate) |
