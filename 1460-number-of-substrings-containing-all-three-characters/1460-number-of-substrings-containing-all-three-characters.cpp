@@ -12,7 +12,7 @@ public:
             mp[s[j]]++;
           
 
-            while(i < n && mp.size() == 3)
+            while(i < n && mp.size() >= 3)
             {
                 ans+= n - j;
                 mp[s[i]]--;
