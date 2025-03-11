@@ -14,10 +14,8 @@ public:
 
             while(i < n && mp.size() == 3)
             {
-                cout<<n-j<<"-<>"<<endl;
                 ans+= n - j;
                 mp[s[i]]--;
-              
                 if(mp[s[i]] == 0) mp.erase(s[i]);
                 i++;
             }
