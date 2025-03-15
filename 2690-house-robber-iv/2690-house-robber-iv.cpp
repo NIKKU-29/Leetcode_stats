@@ -11,6 +11,7 @@ public:
             if(nums[i] <= mid)
             {
                 count++;
+                if(count >= k) return true;
                 i+=2;
             } 
 
@@ -19,8 +20,8 @@ public:
             }  
         }
 
-        if(count >= k) return true;
-        else return false;
+        
+        return false;
     }
 
     int minCapability(vector<int>& nums, int k) {
