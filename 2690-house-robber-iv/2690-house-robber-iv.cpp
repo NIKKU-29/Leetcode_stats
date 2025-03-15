@@ -1,33 +1,49 @@
 class Solution {
 public:
-    bool canSteal(vector<int>& nums, int capability, int k) {
-        int count = 0;
-        int i = 0;
-        while (i < nums.size()) {
-            if (nums[i] <= capability) {
+
+    bool valid(vector<int>nums,int mid , int k)
+    {   
+        int n = nums.size();
+        int count=0;
+        int i=0;
+        while(i < n)
+        {
+            if(nums[i] <= mid)
+            {
                 count++;
-                i += 2; // Skip the adjacent house
-            } else {
-                i++; // Move to the next house
-            }
-            if (count >= k) return true;
+                i+=2;
+            } 
+
+            else{
+                    i+=1;
+            }  
         }
-        return false;
+
+        if(count >= k) return true;
+        else return false;
     }
-    
+
     int minCapability(vector<int>& nums, int k) {
-        int left = 1;
-        int right = 1e9; // Maximum possible value in the array
         
-        while (left < right) {
-            int mid = left + (right - left) / 2;
-            if (canSteal(nums, mid, k)) {
-                right = mid;
-            } else {
-                left = mid + 1;
+        int SL = *min_element(nums.begin(),nums.end());
+        int LL = *max_element(nums.begin(),nums.end());
+        int ans = 0;
+        while(SL <= LL)
+        {
+            int mid = SL + (LL-SL)/2;
+            
+            if(valid(nums,mid,k))
+            {
+                 ans = mid;
+                 LL = mid -1;
             }
+
+            else{
+                 SL = mid +1;
+            }
+            
         }
-        
-        return left;
+
+        return ans;
     }
 };
