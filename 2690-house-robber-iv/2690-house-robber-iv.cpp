@@ -1,7 +1,7 @@
 class Solution {
 public:
 
-    bool valid(vector<int>nums,int mid , int k)
+    bool valid(vector<int>&nums,int mid , int k)
     {   
         int n = nums.size();
         int count=0;
