@@ -13,11 +13,11 @@ public:
         return ans;
     }
 
-    long long repairCars(vector<int>& ranks, long long cars) {
+    long long repairCars(vector<int>& ranks, int cars) {
         
         int n = ranks.size();
         long long l = 1;
-        long long r = 100 * cars * cars;
+        long long r = 100LL * cars * cars;
         
         long long ans = r;
         while( l <= r)
