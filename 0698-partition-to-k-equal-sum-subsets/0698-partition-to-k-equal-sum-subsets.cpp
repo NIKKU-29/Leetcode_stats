@@ -15,7 +15,7 @@ public:
                 nums[i] = -1; //mark visited
                 if(solver(i+1,sum+temp,target,k,nums)) return true;
                 nums[i] = temp;
-                // if (sum == 0) return false;
+                if (sum == 0) return false;
             }
         
         }
