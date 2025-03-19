@@ -67,7 +67,19 @@ public:
                     idx=i;
                 }
 
-                else if(s[i]==s[j] && dp[i+1][j-1])
+                else if(s[i]==s[j] && dp[i+1][j-1]) 
+//yahe par sirf i+1 and j-1 dp ko check karke hame pata
+//laga sakte hai ki kya jo abhi badi string hai
+//vo palindrom hai ya nahi kuki agar curr i and j dono
+//barbar hai to i+1 and j-1 check karo ki vo barbar
+//hai ya nhai kuki agar vo plaindrom honge 
+//hqamne phele hi true mark kar rakha honge
+// kuki jab i + diff == j hua hoga tab hamne
+//check kar klia hoga ki vo plaindrom hai ya nahi 
+// if i = 2 and j = 5 check ho rah hai to jab diff == 3
+//hoga tba ham ye check kar chuke honge
+//kuki ab diff == 4 hai jo bad a hai aur diff 3 vale already
+//calculate honge
                 {
                     dp[i][j]=true;
                     if(j-i+1 > maxL)
