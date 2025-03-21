@@ -1,48 +1,69 @@
 class Solution {
 public:
     vector<string> findAllRecipes(vector<string>& recipes, vector<vector<string>>& ingredients, vector<string>& supplies) {
-        unordered_map<string, int> Available;
-        vector<bool> done(recipes.size(), false);  // Track which recipes are already made
-        
-        // Mark all initial supplies as available
-        for (auto& elem : supplies) Available[elem]++;
-        
-        int count = recipes.size();  // Number of recipes to process
-        while (count--) {
-            bool madeRecipe = false;  // Track if at least one recipe is made in this iteration
 
-            for (int i = 0; i < recipes.size(); i++) {
-                if (done[i]) continue;  // Skip recipes that are already made
+            int n = recipes.size();
+            unordered_map<string,vector<int>>adj;
+            unordered_map<string,int>mp;
+            vector<int>indegree(n,0);
 
-                int n = ingredients[i].size();
-                bool outlier = false;
-                
-                // Check if all ingredients are available
-                for (int j = 0; j < n; j++) {
-                    if (Available.find(ingredients[i][j]) == Available.end()) {
-                        outlier = true;
-                        break;
+            for(auto elem : supplies)
+            {
+                mp[elem]++;
+            }
+
+
+            for(int i =0 ;i< n ;i++)
+            {
+                for(auto elem : ingredients[i])
+                {
+                    if(mp.find(elem) == mp.end())
+                    {
+                        adj[elem].push_back(i);
+                        indegree[i]++;
                     }
                 }
 
-                // If all ingredients are available, mark recipe as done
-                if (!outlier) {
-                    Available[recipes[i]]++;
-                    done[i] = true;  // Mark this recipe as made
-                    madeRecipe = true;
+            }
+
+
+
+            vector<string>ans;
+            queue<int>q;
+
+
+            for(int i =0 ;i< n ; i++)
+            {
+                if(indegree[i] == 0)
+                {
+                    q.push(i);
                 }
             }
 
-            // If no new recipe was made in this iteration, break early
-            if (!madeRecipe) break;
-        }
 
-        // Collect all successfully made recipes
-        vector<string> ans;
-        for (int i = 0; i < recipes.size(); i++) {
-            if (done[i]) ans.push_back(recipes[i]);
-        }
+            while(!q.empty())
+            {
+                int n = q.size();
 
+                while(n--)
+                {
+                    int topi = q.front();
+                    q.pop();
+                    string ind = recipes[topi];
+                    ans.push_back(ind);
+                    for(auto nbr : adj[ind])
+                    {
+                        indegree[nbr]--;
+                        if(indegree[nbr] == 0)
+                        {
+                            q.push(nbr);
+                        }
+                    }
+                }
+            }
+
+        
         return ans;
+
     }
 };
