@@ -36,7 +36,7 @@ public:
                 int nbr = topi.second;
                 pq.pop();
 
-                if(distance > dist[nbr]) continue;
+                // if(distance > dist[nbr]) continue;
 
                 for(auto elem : adj[nbr])
                 {
