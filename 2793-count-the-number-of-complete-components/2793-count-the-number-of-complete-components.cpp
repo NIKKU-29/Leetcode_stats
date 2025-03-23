@@ -1,6 +1,6 @@
 class Solution {
 public:
-    vector<int> parent, size;
+    vector<int> parent, rank;
 
     int find(int x) {
         if (parent[x] == x) return x;
@@ -11,15 +11,20 @@ public:
         int rootA = find(a);
         int rootB = find(b);
         if (rootA != rootB) {
-            if (size[rootA] < size[rootB]) swap(rootA, rootB);
-            parent[rootB] = rootA;
-            size[rootA] += size[rootB];
+            if (rank[rootA] < rank[rootB]) {
+                parent[rootA] = rootB;
+            } else if (rank[rootA] > rank[rootB]) {
+                parent[rootB] = rootA;
+            } else { 
+                parent[rootB] = rootA;
+                rank[rootA]++; // Increase rank if both have the same rank
+            }
         }
     }
 
     int countCompleteComponents(int n, vector<vector<int>>& edges) {
         parent.resize(n);
-        size.resize(n, 1);
+        rank.resize(n, 1);
         vector<int> degree(n, 0);  // Store the degree of each node
 
         // Initialize DSU
