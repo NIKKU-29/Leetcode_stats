@@ -20,7 +20,8 @@ public:
 
         priority_queue<pair<long long, int>, vector<pair<long long, int>>, greater<pair<long long, int>>> pq;
         vector<long long> dist(n, LLONG_MAX);
-        unordered_map<int,long long> ways;
+        vector<long long> ways(n, 0);
+
 
         
         pq.push({0,0});
