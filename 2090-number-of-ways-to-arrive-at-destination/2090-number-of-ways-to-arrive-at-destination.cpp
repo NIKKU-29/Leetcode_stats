@@ -1,12 +1,13 @@
 class Solution {
 public:
 
-    const int MOD = 1e9 + 7;
+    const int MOD = e9 + 7;
 
   int countPaths(int n, vector<vector<int>>& roads) {
 
         vector<vector<pair<int,int>>>adj(n);
         //adj list of each node with pair having neighbourt and time taken to reach
+        unordered_map<int,long long>mp;
 
         for(auto elem : roads)
         {
@@ -20,9 +21,7 @@ public:
 
         priority_queue<pair<long long, int>, vector<pair<long long, int>>, greater<pair<long long, int>>> pq;
         vector<long long> dist(n, LLONG_MAX);
-        vector<long long> ways(n, 0);
-
-
+        unordered_map<int,int>ways;
         
         pq.push({0,0});
         dist[0]=0;
@@ -36,7 +35,7 @@ public:
                 int nbr = topi.second;
                 pq.pop();
 
-                // if(distance > dist[nbr]) continue;
+                if(distance > dist[nbr]) continue;
 
                 for(auto elem : adj[nbr])
                 {
@@ -51,8 +50,7 @@ public:
                     }
                     else if(newDist + distance == dist[newnbr])
                     {
-                        ways[newnbr] = (ways[newnbr] + ways[nbr]) % MOD;
-
+                        ways[newnbr]+=ways[nbr];
                     }
                 }
             
