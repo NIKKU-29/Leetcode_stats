@@ -3,6 +3,7 @@ public:
     int countDays(int days, vector<vector<int>>& meetings) {
         
         int initialday = days,free = 0;
+        sort(meetings.begin(),meetings.end());
         int prefix =0;
         map<int,int>mp;
 
