@@ -37,7 +37,7 @@ public:
                     }
 
                     else{
-                        vec.push_back({x,y});
+                        vec.push_back(elem);
                     }
 
             }
