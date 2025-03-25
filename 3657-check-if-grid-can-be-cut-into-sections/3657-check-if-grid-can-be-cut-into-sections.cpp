@@ -4,7 +4,7 @@ public:
         return canCut(rectangles, 0) || canCut(rectangles, 1);
     }
     
-private:
+
     bool canCut(vector<vector<int>>& rectangles, int axis) {
         vector<pair<int,int>>intervals;
 
