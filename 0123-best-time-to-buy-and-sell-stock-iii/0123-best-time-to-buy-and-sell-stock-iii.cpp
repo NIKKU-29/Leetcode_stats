@@ -7,17 +7,17 @@ public:
         vector<vector<vector<int>>> dp(n+1, vector<vector<int>>(2, vector<int>(3, 0)));;
         
 
-         for(int idx = 0 ;idx <= n ;idx++)
-        {
-            dp[idx][0][2] = 0;
-            dp[idx][1][2] = 0;
-        }
+        //  for(int idx = 0 ;idx <= n ;idx++)
+        // {
+        //     dp[idx][0][2] = 0;
+        //     dp[idx][1][2] = 0;
+        // }
 
-        for(int txnCount = 0 ;txnCount <= 2 ; txnCount++)
-        {   
-            dp[n][0][txnCount] = 0;
-            dp[n][1][txnCount] = 0;
-        }
+        // for(int txnCount = 0 ;txnCount <= 2 ; txnCount++)
+        // {   
+        //     dp[n][0][txnCount] = 0;
+        //     dp[n][1][txnCount] = 0;
+        // }
         
 
 
