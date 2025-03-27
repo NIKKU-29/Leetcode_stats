@@ -37,12 +37,12 @@ public:
             }
 
             int n =nums.size();
-
-            int total = 0;
-            for (int x : nums) {
-                if (x == elem) total++;
+            int total =0;
+            for(auto ele : nums)
+            {
+                if(ele == elem) total++;
             }
-            if (total * 2 <= n) return -1;
+
             int cnt =0;
 
             for(int i = 0 ;i< n-1 ;i++)
