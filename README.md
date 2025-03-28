@@ -179,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0001-two-sum) |
 | [0031-next-permutation](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0031-next-permutation) |
 | [0036-valid-sudoku](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0036-valid-sudoku) |
+| [0045-jump-game-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0047-permutations-ii) |
 | [0051-n-queens](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0051-n-queens) |
@@ -733,6 +734,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0005-longest-palindromic-substring) |
 | [0010-regular-expression-matching](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0010-regular-expression-matching) |
 | [0022-generate-parentheses](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0022-generate-parentheses) |
+| [0045-jump-game-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0062-unique-paths) |
@@ -808,6 +810,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0179-largest-number](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0179-largest-number) |
