@@ -6,7 +6,7 @@ public:
         vector<bool> isPrime(limit + 1, true);
         isPrime[0] = isPrime[1] = false;
 
-        for (long long i = 2; i * i <= limit; i++) {
+        for (long long i = 2; i * i <= limit+1; i++) {
             if (isPrime[i]) {
                 for (long long j = i * i; j <= limit; j += i) {
                     isPrime[j] = false;
@@ -28,7 +28,7 @@ public:
         long long count = 0;
 
         for (auto prime : primes) {
-            if (prime * prime > num) break;  // Stop early if prime^2 > num
+            if (prime * prime > num) break;  // Stop earlyy prime^2 > num
 
             if (num % prime == 0) {
                 count++;
