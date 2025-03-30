@@ -22,7 +22,7 @@ public:
               if(i == limit && i < n)
               {
                     ans.push_back((limit+1) - prev);
-                    prev = limit+1;
+                    prev = i+1;
               } 
         }
 
