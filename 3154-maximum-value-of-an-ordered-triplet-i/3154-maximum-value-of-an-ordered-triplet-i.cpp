@@ -9,8 +9,8 @@ public:
         for(long long elem : nums)
         {
             max3= max(max3,maxdiff * elem);
-            maxdiff = max(maxdiff,maxSofar - elem);
             maxSofar = max(maxSofar,elem);
+            maxdiff = max(maxdiff,maxSofar - elem);
         }
 
         return max3;
