@@ -1,12 +1,15 @@
 class Solution {
 public:
+    
+    typedef long long ll;
+
     long long maximumTripletValue(vector<int>& nums) {
 
-        long long maxSofar = 0;
-        long long max3 = 0 ;
-        long long maxdiff = 0;
+        ll maxSofar = 0;
+        ll max3 = 0 ;
+        ll maxdiff = 0;
 
-        for(long long elem : nums)
+        for(ll elem : nums)
         {
             max3= max(max3,maxdiff * elem);
             // cout<<max3<<"-";
