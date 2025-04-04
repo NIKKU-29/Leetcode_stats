@@ -11,27 +11,27 @@
  */
 class Solution {
 public:
-    
- TreeNode* solver(TreeNode* temp,int& depth)
+
+    TreeNode* solver(TreeNode* temp, int&depth)
     {
         if(!temp) return nullptr;
 
-        int leftdepth=0;
-        int rightdepth=0;
-        TreeNode* left=solver(temp->left,leftdepth);
-        TreeNode* right=solver(temp->right,rightdepth);
+        int leftdepth = 0;
+        int rightdepth = 0;
 
-        depth=max(leftdepth,rightdepth)+1;
-        //ha level pe depth calulate hogi taki make sure ho sake ki deppest balanced ya unbalanced ans hi return ho
-        
+        TreeNode * left = solver(temp->left,leftdepth);
+        TreeNode * right = solver(temp->right,rightdepth);
 
-        if(leftdepth==rightdepth) return temp; //balance hone pe node return matlab self return agar left aur right dono side barabar legth hai to hi khud ko return karo
+        depth = max(leftdepth,rightdepth) + 1;
 
-        return leftdepth > rightdepth ? left : right; //otehwise check when hs more depth let or right
+        if(leftdepth == rightdepth) return temp;
+
+        return leftdepth > rightdepth ? left : right;
     }
 
+
     TreeNode* lcaDeepestLeaves(TreeNode* root) {
-        int depth=0;
+        int depth = 0;
         return solver(root,depth);
     }
 };
