@@ -1,6 +1,6 @@
 class Solution {
 public:
-    vector<vector<int>> dp;
+  
 
     bool solver(int idx, int target, vector<int>& nums,vector<vector<int>>&dp) {
         if (target == 0) return true;
@@ -18,7 +18,7 @@ public:
         if (sum % 2 != 0) return false;
         int n = nums.size();
         int target = sum / 2;
-           vector<vector<int>> dp(n+1,vector<int>(sum+1,-1));
+        vector<vector<int>> dp(n+1,vector<int>(sum+1,-1));
         
         return solver(0, target, nums,dp);
     }
