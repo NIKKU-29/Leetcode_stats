@@ -1,44 +1,40 @@
 class Solution {
 public:
     int minimumOperations(vector<int>& nums) {
-        int n =nums.size();
         map<int,int>mp;
-        int N = n;
-
+        int n=nums.size();
+        int elemcount=n;
         for(auto elem : nums)
-        {
-            mp[elem]++;
-        }
+            {mp[elem]++;}
 
-        int count =0;
-        
-        for(int i = 0 ; i<N ;i+=3)
-        {
-            if(mp.size() != N)
+
+        int count=0; //number of times removing starting 3 is done
+        for(int i=0 ; i < n ;i+=3)
             {
-
-                if(N < 3)
+                if(mp.size()!=elemcount)
                 {
+                    if(mp.size() < 3) 
+                    {
+
+                        count++;
+                        return count;
+                    }
+                    
+                    //remove starting 3
+                    mp[nums[i]]--;
+                    if(mp[nums[i]]==0) mp.erase(nums[i]);
+                    mp[nums[i+1]]--;
+                    if(mp[nums[i+1]]==0) mp.erase(nums[i+1]);
+                    mp[nums[i+2]]--;
+                    if(mp[nums[i+2]]==0) mp.erase(nums[i+2]);
+                    elemcount-=3;
                     count++;
-                    return count;
                 }
-
-                mp[nums[i]]--;
-                if(mp[nums[i]]==0) mp.erase(nums[i]);
-                mp[nums[i+1]]--;
-                if(mp[nums[i+1]]==0) mp.erase(nums[i+1]);
-                mp[nums[i+2]]--;
-                if(mp[nums[i+2]]==0) mp.erase(nums[i+2]);
-
-                N-=3;
-                count++;
+                    
+                else{
+                        return count;
+                }
             }
-
-            else{
-                    return count;
-            }
-        }
-
 
         return count;
     }
