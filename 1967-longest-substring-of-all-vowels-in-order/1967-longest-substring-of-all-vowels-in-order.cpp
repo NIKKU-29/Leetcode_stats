@@ -1,10 +1,10 @@
 // class Solution {
 // public:
 
-//     // bool valid(unordered_map<char,int>&mp)
-//     // {
-//     //     if()
-//     // }
+    // bool valid(unordered_map<char,int>&mp)
+    // {
+    //     if()
+    // }
 
 //     int longestBeautifulSubstring(string word) {
 //         int n = word.size();
@@ -36,36 +36,32 @@
 // };
 
 
-
 class Solution {
 public:
-    int longestBeautifulSubstring(string word) {
-        int n = word.size();
-        int start = 0, end = 0;
-        int maxlen = 0;
+    int helper(string& word, int i, int n) {
+        if (i >= n) return 0;
 
-        while (start < n) {
-            if (word[start] != 'a') {
-                start++;
-                continue;
-            }
-
-            end = start;
-            int diff = 1; // We start from 'a', so 1 vowel found
-
-            while (end + 1 < n && word[end] <= word[end + 1]) {
-                if (word[end] < word[end + 1])
-                    diff++; // New vowel in order
-                end++;
-            }
-
-            if (diff == 5) {
-                maxlen = max(maxlen, end - start + 1);
-            }
-
-            start = end + 1; // Move to the next possible segment
+        if (word[i] != 'a') {
+            return helper(word, i + 1, n);
         }
 
-        return maxlen;
+        int vowelCount = 1; // 'a' is first
+        int end = i;
+
+        while (end + 1 < n && word[end] <= word[end + 1]) {
+            if (word[end] < word[end + 1]) {
+                vowelCount++;
+            }
+            end++;
+        }
+
+        int currLen = (vowelCount == 5) ? end - i + 1 : 0;
+
+        // Start next recursion from character after this block
+        return max(currLen, helper(word, end + 1, n));
+    }
+
+    int longestBeautifulSubstring(string word) {
+        return helper(word, 0, word.size());
     }
 };
