@@ -115,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [1923-sentence-similarity-iii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1923-sentence-similarity-iii) |
+| [1967-longest-substring-of-all-vowels-in-order](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1967-longest-substring-of-all-vowels-in-order) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2076-sum-of-digits-of-string-after-convert) |
@@ -150,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1967-longest-substring-of-all-vowels-in-order](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1967-longest-substring-of-all-vowels-in-order) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2478-longest-nice-subarray](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2478-longest-nice-subarray) |
 | [2868-continuous-subarrays](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2868-continuous-subarrays) |
