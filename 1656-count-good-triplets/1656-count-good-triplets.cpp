@@ -9,11 +9,14 @@ public:
         {
             for(int j = i + 1 ; j < n ; j++)
             {
-                for(int k = j + 1; k< n ; k++)
+                if(abs(arr[i] - arr[j]) <= a)
                 {
-                    if(abs(arr[i] - arr[j]) <= a && abs(arr[j] - arr[k]) <= b && abs(arr[i] - arr[k]) <= c)
+                    for(int k = j + 1; k< n ; k++)
                     {
-                        count++;
+                        if(abs(arr[j] - arr[k]) <= b && abs(arr[i] - arr[k]) <= c)
+                        {
+                            count++;
+                        }
                     }
                 }
             }
