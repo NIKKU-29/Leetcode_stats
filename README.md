@@ -283,6 +283,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2232-adding-spaces-to-a-string](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2232-adding-spaces-to-a-string) |
 | [2262-solving-questions-with-brainpower](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2262-solving-questions-with-brainpower) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2265-partition-array-according-to-given-pivot) |
+| [2280-count-good-triplets-in-an-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2280-count-good-triplets-in-an-array) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2308-divide-array-into-equal-pairs](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2308-divide-array-into-equal-pairs) |
 | [2358-number-of-ways-to-split-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2358-number-of-ways-to-split-array) |
@@ -678,6 +679,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1468-check-if-n-and-its-double-exist](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2164-two-best-non-overlapping-events](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2164-two-best-non-overlapping-events) |
+| [2280-count-good-triplets-in-an-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2280-count-good-triplets-in-an-array) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2665-minimum-time-to-repair-cars](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2665-minimum-time-to-repair-cars) |
@@ -934,12 +936,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0673-number-of-longest-increasing-subsequence](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0729-my-calendar-i](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0731-my-calendar-ii) |
+| [2280-count-good-triplets-in-an-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2280-count-good-triplets-in-an-array) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 ## Ordered Set
 |  |
 | ------- |
 | [0729-my-calendar-i](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0731-my-calendar-ii) |
+| [2280-count-good-triplets-in-an-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2280-count-good-triplets-in-an-array) |
 | [2434-design-a-number-container-system](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2434-design-a-number-container-system) |
 | [2868-continuous-subarrays](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2868-continuous-subarrays) |
 ## Queue
@@ -1048,6 +1052,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0324-wiggle-sort-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0324-wiggle-sort-ii) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [2280-count-good-triplets-in-an-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2280-count-good-triplets-in-an-array) |
 ## Quickselect
 |  |
 | ------- |
@@ -1061,6 +1066,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [2280-count-good-triplets-in-an-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2280-count-good-triplets-in-an-array) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 ## Union Find
 |  |
@@ -1122,4 +1128,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1993-sum-of-all-subset-xor-totals](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2998-count-symmetric-integers](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2998-count-symmetric-integers) |
 | [3548-find-the-count-of-good-integers](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3548-find-the-count-of-good-integers) |
+## Merge Sort
+|  |
+| ------- |
+| [2280-count-good-triplets-in-an-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2280-count-good-triplets-in-an-array) |
 <!---LeetCode Topics End-->
