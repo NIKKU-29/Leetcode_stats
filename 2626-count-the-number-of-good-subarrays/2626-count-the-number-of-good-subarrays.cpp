@@ -8,39 +8,30 @@ public:
         long long pairCount = 0;
         
         while (r < n) {
-            // Before adding the new element
+    
             int oldFreq = freq[nums[r]];
             long long oldPairs = (long long)oldFreq * (oldFreq - 1) / 2;
-            
-            // Add the new element
+          
             freq[nums[r]]++;
-            
-            // After adding the new element
+        
             int newFreq = freq[nums[r]];
             long long newPairs = (long long)newFreq * (newFreq - 1) / 2;
-            
-            // Update the pair count with the difference
             pairCount += (newPairs - oldPairs);
-            
-            // Shrink window from left if we have enough pairs
-            while (pairCount >= k) {
-                // Count all valid subarrays ending at or after r
-                count += n - r;
+         
+            while (pairCount >= k) 
+            {
                 
-                // Before removing the left element
+                count += n - r;
+           
                 oldFreq = freq[nums[l]];
                 oldPairs = (long long)oldFreq * (oldFreq - 1) / 2;
-                
-                // Remove the left element
+              
                 freq[nums[l]]--;
-                
-                // After removing the left element
+                         
                 newFreq = freq[nums[l]];
                 newPairs = (long long)newFreq * (newFreq - 1) / 2;
-                
-                // Update the pair count with the difference
+              
                 pairCount -= (oldPairs - newPairs);
-                
                 l++;
             }
             
