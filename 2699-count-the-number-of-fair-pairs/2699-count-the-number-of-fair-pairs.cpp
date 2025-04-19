@@ -1,7 +1,7 @@
 class Solution {
 public:
     long long solver(int curr, int low, int up, vector<int>& nums, int startIdx) {
-        return lower_bound(nums.begin() + startIdx, nums.end(), up - curr + 1) -
+        return upper_bound(nums.begin() + startIdx, nums.end(), up - curr ) -
                lower_bound(nums.begin() + startIdx, nums.end(), low - curr);
     }
 
