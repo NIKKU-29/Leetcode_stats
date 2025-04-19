@@ -3,13 +3,13 @@ public:
     long long countFairPairs(vector<int>& nums, int lower, int upper) {
         
         sort(nums.begin(),nums.end());
-        return lower_B(nums,upper + 1) - lower_B(nums,lower);
+        return Small_count(nums,upper + 1) - Small_count(nums,lower);
     }
 
     private:
 
         
-        long long lower_B(vector<int>&nums,int limit)
+        long long Small_count(vector<int>&nums,int limit)
         {
             long long count = 0;
             int left = 0;
@@ -39,7 +39,7 @@ public:
 // public:
 //     long long solver(int curr, int low, int up, vector<int>& nums, int startIdx) {
 //         return upper_bound(nums.begin() + startIdx, nums.end(), up - curr ) -
-//                lower_bound(nums.begin() + startIdx, nums.end(), low - curr);
+//                Small_countound(nums.begin() + startIdx, nums.end(), low - curr);
 //     }
 
 //     long long countFairPairs(vector<int>& nums, int lower, int upper) {
