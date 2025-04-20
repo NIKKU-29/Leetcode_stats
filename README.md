@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1256-rank-transform-of-an-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1256-rank-transform-of-an-array) |
 | [1364-tuple-with-same-product](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1364-tuple-with-same-product) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
+| [1407-group-the-people-given-the-group-size-they-belong-to](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1407-group-the-people-given-the-group-size-they-belong-to) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
@@ -254,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1364-tuple-with-same-product](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1396-count-servers-that-communicate) |
+| [1407-group-the-people-given-the-group-size-they-belong-to](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1407-group-the-people-given-the-group-size-they-belong-to) |
 | [1435-xor-queries-of-a-subarray](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1435-xor-queries-of-a-subarray) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1477-product-of-the-last-k-numbers](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1477-product-of-the-last-k-numbers) |
@@ -869,6 +871,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0768-partition-labels](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0768-partition-labels) |
 | [0780-max-chunks-to-make-sorted](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0780-max-chunks-to-make-sorted) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1407-group-the-people-given-the-group-size-they-belong-to](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1407-group-the-people-given-the-group-size-they-belong-to) |
 | [1502-construct-k-palindrome-strings](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1502-construct-k-palindrome-strings) |
 | [1917-maximum-average-pass-ratio](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1917-maximum-average-pass-ratio) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
