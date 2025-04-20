@@ -17,7 +17,7 @@ public:
 
                 // if(num == 0) sum+=count;
                 
-                     double d = ceil((double)count / (num + 1));
+                     int d = ceil((double)count / (num + 1));
                      sum += d * (num+1);
            
             }
