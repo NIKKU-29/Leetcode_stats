@@ -1,6 +1,28 @@
 class Solution {
 public:
     int numRabbits(vector<int>& answers) {
+        
+        /*
+            1->2                  2->3                  3->4
+            1,1->2                2,2->3                3,3->4 
+            1,1,1->4              2,2,2->3              3,3,3->4
+            1,1,1,1->4            2,2,2,2->6            3,3,3,3->4
+            1,1,1,1,1->6          2,2,2,2,2->6          3,3,3,3,3->8
+               
+            1 wouch for 1         2 wouch for 3         3 wouch for 4
+            1,1 wouch for 2       2,2 wouch for 3..      ............
+            1,1,1 woucch for 4    ................ 
+
+
+            similary u can observe that  num wouch for num + 1 rabits
+            whem u have found how many num + 1 rabist u have
+            just calculate how many of them are wouching for each other
+            which is simple as doing % of count with num+1
+            then the left rabbits woudl wouch for each other at min
+            giving num +1
+
+        */
+
 
             map<int,int>mp;
             for(auto elem : answers)
@@ -15,17 +37,19 @@ public:
                 int num = elem.first;
                 int count = elem.second;
 
-                if(num == 0) sum+=count;
-
-                else if(count <= num + 1 )
+                if(count <= num + 1 )
                 {
                     sum+=(num+1);
                 }
 
-                else
-                {
-                    double d = ceil((double)count / (num + 1));
-                    sum+= d * (num+1);
+                else{
+                    
+                    int d = count / (num + 1);
+                    int q = count % (num + 1);
+                    sum+= d*(num + 1);
+
+                    if(q) sum+=(num+1);
+
                 }
             }
 
