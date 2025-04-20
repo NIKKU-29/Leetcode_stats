@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0740-delete-and-earn](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0740-delete-and-earn) |
 | [0753-open-the-lock](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0753-open-the-lock) |
 | [0768-partition-labels](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0768-partition-labels) |
+| [0797-rabbits-in-forest](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0797-rabbits-in-forest) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0905-length-of-longest-fibonacci-subsequence) |
@@ -239,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0753-open-the-lock](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0753-open-the-lock) |
 | [0780-max-chunks-to-make-sorted](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0780-max-chunks-to-make-sorted) |
 | [0792-binary-search](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0792-binary-search) |
+| [0797-rabbits-in-forest](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0797-rabbits-in-forest) |
 | [0854-making-a-large-island](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0854-making-a-large-island) |
 | [0859-design-circular-deque](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0859-design-circular-deque) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0905-length-of-longest-fibonacci-subsequence) |
@@ -360,6 +362,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0241-different-ways-to-add-parentheses](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0241-different-ways-to-add-parentheses) |
 | [0368-largest-divisible-subset](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0368-largest-divisible-subset) |
 | [0539-minimum-time-difference](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0539-minimum-time-difference) |
+| [0797-rabbits-in-forest](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0797-rabbits-in-forest) |
 | [1013-fibonacci-number](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1013-fibonacci-number) |
 | [1236-n-th-tribonacci-number](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1236-n-th-tribonacci-number) |
 | [1477-product-of-the-last-k-numbers](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1477-product-of-the-last-k-numbers) |
@@ -870,6 +873,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0768-partition-labels](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0768-partition-labels) |
 | [0780-max-chunks-to-make-sorted](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0780-max-chunks-to-make-sorted) |
+| [0797-rabbits-in-forest](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0797-rabbits-in-forest) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1407-group-the-people-given-the-group-size-they-belong-to](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1407-group-the-people-given-the-group-size-they-belong-to) |
 | [1502-construct-k-palindrome-strings](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1502-construct-k-palindrome-strings) |
