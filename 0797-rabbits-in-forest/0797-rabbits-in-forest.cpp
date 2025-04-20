@@ -47,21 +47,20 @@ public:
                 int num = elem.first;
                 int count = elem.second;
 
-                if(count <= num + 1 )
-                {
-                    sum+=(num+1);
-                }
+                // if(count <= num + 1 )
+                // {
+                //     sum+=(num+1);
+                // }
 
-                else{
+                // else{
                     
                     // int d = count / (num + 1);
                     // int q = count % (num + 1);
                     // sum+= d*(num + 1);
-
                     // if(q) sum+=(num+1);
                     
                     sum += ((count / (num + 1)) + (count % (num + 1) == 0 ? 0 : 1 )) * (num + 1);
-                }
+                // }
             }
 
         return sum;
