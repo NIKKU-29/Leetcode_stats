@@ -15,11 +15,11 @@ public:
                 int num = elem.first;
                 int count = elem.second;
 
-                if(num == 0) sum+=count;
-                else{
+                // if(num == 0) sum+=count;
+                
                      double d = ceil((double)count / (num + 1));
                      sum += d * (num+1);
-                }
+           
             }
 
         return sum;
