@@ -37,7 +37,7 @@ public:
             map<int,int>mp;
             for(auto elem : answers)
             {
-                mp[elem + 1]++;
+                mp[elem]++;
             }
 
             int sum = 0;
@@ -59,7 +59,7 @@ public:
                     // sum+= d*(num + 1);
                     // if(q) sum+=(num+1);
                     
-                    sum += ((count / num) + (count % num == 0 ? 0 : 1 )) * (num);
+                    sum += ((count / (num + 1)) + (count % (num + 1) == 0 ? 0 : 1 )) * (num + 1);
                 // }
             }
 
