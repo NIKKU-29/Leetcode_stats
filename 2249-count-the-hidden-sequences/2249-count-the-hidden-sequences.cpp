@@ -1,28 +1,17 @@
 class Solution {
 public:
     int numberOfArrays(vector<int>& differences, int lower, int upper) {
+        long long sum = 0, min_sum = 0, max_sum = 0;
         
-        long long maxi = LLONG_MIN;
-        long long mini = LLONG_MAX;
-        long long sum = 0;
-        
-        for(auto elem : differences)
-        {
-            sum+=elem;
-            maxi = max(maxi,sum);
-            mini = min(mini,sum);
+        for (int diff : differences) {
+            sum += diff;
+            min_sum = min(min_sum, sum);
+            max_sum = max(max_sum, sum);
         }
 
-        int count = 0;
+        long long left = lower - min_sum;
+        long long right = upper - max_sum;
 
-        for(int i = lower ; i <= upper ; i++)
-        {
-            if( i - mini >= lower && i - mini <= upper && i - maxi >= lower && i - maxi <= upper)
-            {
-                count++;
-            }
-        }
-           
-           return count;
+        return max(0LL, right - left + 1);
     }
 };
