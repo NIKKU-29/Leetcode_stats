@@ -2,7 +2,7 @@ class Solution {
 public:
     int wiggleMaxLength(vector<int>& nums) {
        int n = nums.size();
-    if (n < 2) return n;
+       if (n < 2) return n;
     
     // Start with 1 for the first element
     int count = 1;
@@ -18,7 +18,7 @@ public:
         if ((diff > 0 && prevDiff <= 0) || (diff < 0 && prevDiff >= 0)) {
             count++;
             // Update direction
-            prevDiff = diff > 0 ? 1 : -1;
+            prevDiff = diff;
         }
     }
     
