@@ -14,7 +14,7 @@ public:
             {
                 sum+= (temp % 10);
                 temp/=10;
-                cout<<sum;
+                // cout<<sum;
             }
 
             mp[sum]++;
