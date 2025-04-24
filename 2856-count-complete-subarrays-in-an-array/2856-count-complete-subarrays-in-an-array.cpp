@@ -17,7 +17,7 @@ public:
         while(r < n)
         {
             Wmp[nums[r]]++;
-            // cout<<"HI";
+           
             // cout<<Wmp.size()<<"___"<<mp.size()<<"->"<<r<<endl;
 
             while(Wmp.size() == mp.size() && l < n)
