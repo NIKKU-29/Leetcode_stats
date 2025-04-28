@@ -48,7 +48,7 @@ public:
             //THIS ALSO INCRESE THE COUNT BY 2 AS J- I + 1 IS 2 - 1 + 1 = 2;
               
             ans += (j - i + 1);
-            cout<<ans;
+            // cout<<ans;
             
             j++;
         }
