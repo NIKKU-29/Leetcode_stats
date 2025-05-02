@@ -103,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0721-accounts-merge) |
 | [0753-open-the-lock](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0753-open-the-lock) |
 | [0768-partition-labels](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0768-partition-labels) |
+| [0868-push-dominoes](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0868-push-dominoes) |
 | [0886-score-of-parentheses](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0886-score-of-parentheses) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -604,6 +605,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0647-palindromic-substrings](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0647-palindromic-substrings) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0768-partition-labels](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0768-partition-labels) |
+| [0868-push-dominoes](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0868-push-dominoes) |
 | [0908-middle-of-the-linked-list](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0908-middle-of-the-linked-list) |
 | [1002-maximum-width-ramp](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1002-maximum-width-ramp) |
 | [1129-longest-string-chain](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1129-longest-string-chain) |
@@ -841,6 +843,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0740-delete-and-earn](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0740-delete-and-earn) |
 | [0747-min-cost-climbing-stairs](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0747-min-cost-climbing-stairs) |
+| [0868-push-dominoes](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0868-push-dominoes) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1013-fibonacci-number](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1013-fibonacci-number) |
 | [1025-minimum-cost-for-tickets](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1025-minimum-cost-for-tickets) |
