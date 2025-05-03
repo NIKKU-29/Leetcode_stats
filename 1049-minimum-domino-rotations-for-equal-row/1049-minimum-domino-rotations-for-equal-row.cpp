@@ -5,7 +5,7 @@ public:
         //trying making top equal
         int siz = tops.size();
         int count = INT_MAX;
-        int countc = 0;
+        
 
         for(int i = 1 ; i <= 6 ; i++)
         {
@@ -27,7 +27,7 @@ public:
 
                 else if(tops[j] != i && bottoms[j] != i)
                 {
-                    countc++;
+                  
                     counta = INT_MAX;
                     countb = INT_MAX;
                     break;
@@ -39,9 +39,7 @@ public:
 
         }
 
-        if(countc == 6) return -1;
-
-        else return count;
+        return count == INT_MAX ? -1 : count;
         
     }
 };
