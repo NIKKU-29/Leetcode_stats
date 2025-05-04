@@ -1,30 +1,19 @@
 class Solution {
 public:
     int numEquivDominoPairs(vector<vector<int>>& dominoes) {
-
-        map<pair<int,int>,int>mp;
+        map<pair<int, int>, int> mp;
         int pairs = 0;
 
+        for (auto& d : dominoes) {
+            int a = d[0], b = d[1];
+            if (a > b) swap(a, b);
 
-        for (auto elem : dominoes)
-            {
-                int a = elem[0];
-                int b = elem[1];
+            // Add existing count directly to the result
+            pairs += mp[{a, b}]++;
 
-                if (a <= b) mp[{a, b}]++;
-                else mp[{b, a}]++;
-            }
-
-
-            for(auto elem : mp)
-            {
-                int count = elem.second;
-
-                if(count > 1)
-                {
-                    pairs += (count * (count -1))/2;
-                }
-            }
+            // This works because for each new identical domino,
+            // it can pair with all previous ones of the same type
+        }
 
         return pairs;
     }
