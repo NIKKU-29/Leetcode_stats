@@ -847,6 +847,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0740-delete-and-earn](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0740-delete-and-earn) |
 | [0747-min-cost-climbing-stairs](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0747-min-cost-climbing-stairs) |
+| [0806-domino-and-tromino-tiling](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0806-domino-and-tromino-tiling) |
 | [0868-push-dominoes](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0868-push-dominoes) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1013-fibonacci-number](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1013-fibonacci-number) |
