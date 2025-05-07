@@ -1,34 +1,35 @@
 class Solution {
 public:
-    int minTimeToReach(vector<vector<int>>& moveTime) {
-        int n = moveTime.size(), m = moveTime[0].size();
+    int minTimeToReach(vector<vector<int>>& M) {
+        int n = M.size(), m = M[0].size();
         vector<vector<int>> dp(n, vector<int>(m, INT_MAX));
-        priority_queue<vector<int>, vector<vector<int>>, greater<vector<int>>> minh;
-        minh.push({0, 0, 0});
-        moveTime[0][0] = 0;
+        vector<pair<int,int>> directions = {{1,0},{-1,0},{0,-1},{0,1}};
+        
+        // Min-heap: {time, {x, y}}
+        priority_queue<pair<int, pair<int, int>>, vector<pair<int, pair<int, int>>>, greater<>> q;
+        q.push({0, {0, 0}});
 
-        vector<vector<int>> directions = {{1, 0}, {0, 1}, {-1, 0}, {0, -1}};
-        while (!minh.empty()) {
-            auto current = minh.top();
-            minh.pop();
-            int currTime = current[0];
-            int currRow = current[1];
-            int currCol = current[2];
-            if (currTime >= dp[currRow][currCol]) continue;
-            if (currRow == n - 1 && currCol == m - 1) return currTime;
-            dp[currRow][currCol] = currTime;
+        while (!q.empty()) {
+            auto p = q.top(); q.pop();
+            int currtime = p.first;
+            int x = p.second.first;
+            int y = p.second.second;
 
-            for (auto& direction : directions) {
-                int nextRow = currRow + direction[0];
-                int nextCol = currCol + direction[1];
-                if (nextRow >= 0 && nextRow < n &&
-                    nextCol >= 0 && nextCol < m &&
-                    dp[nextRow][nextCol] == INT_MAX) {
-                    int nextTime = max(moveTime[nextRow][nextCol], currTime) + 1;
-                    minh.push({nextTime, nextRow, nextCol});
+            if (x == n - 1 && y == m - 1) return currtime;
+            if (currtime >= dp[x][y]) continue;
+            dp[x][y] = currtime;
+
+            for (auto elem : directions) {
+                int newx = x + elem.first;
+                int newy = y + elem.second;
+
+                if (newx >= 0 && newx < n && newy >= 0 && newy < m && M[newx][newy] != -1) {
+                    int nextTime = max(currtime, M[newx][newy]) + 1;
+                    q.push({nextTime, {newx, newy}});
                 }
             }
         }
+
         return -1;
     }
 };
