@@ -26,7 +26,7 @@ public:
                 if (newX >= 0 && newX < n && newY >= 0 && newY < m) {
                     int moveDuration = isFast ? 1 : 2;
                     int nextTime = max(currTime , M[newX][newY]) + moveDuration;
-                    pq.push({nextTime, newX, newY, 1 - isFast});
+                    pq.push({nextTime, newX, newY, !isFast});
                 }
             }
         }
