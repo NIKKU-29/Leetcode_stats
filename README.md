@@ -679,6 +679,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1773-percentage-of-users-attended-a-contest](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1773-percentage-of-users-attended-a-contest) |
 | [1801-average-time-of-process-per-machine](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1801-average-time-of-process-per-machine) |
 | [1827-invalid-tweets](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1827-invalid-tweets) |
+| [1882-the-number-of-employees-which-report-to-each-employee](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1882-the-number-of-employees-which-report-to-each-employee) |
 | [1908-recyclable-and-low-fat-products](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1908-recyclable-and-low-fat-products) |
 | [2087-confirmation-rate](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2087-confirmation-rate) |
 ## Number Theory
