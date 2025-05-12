@@ -1,56 +1,39 @@
+#include <iostream>
+#include <vector>
+#include <string>
+#include <algorithm>
+#include <set>
+#include <map>
+
 class Solution {
 public:
-    vector<int> findEvenNumbers(vector<int>& digits) {
-        
-        unordered_map<int,int>mp;
-
-        for(auto elem : digits)
-        {
-            mp[elem]++;
+    std::vector<int> findEvenNumbers(std::vector<int>& digits) {
+        std::set<int> ans_set;
+        std::map<int, int> counts;
+        for (int digit : digits) {
+            counts[digit]++;
         }
 
-        
-
-        vector<int>ans;
-
-        for(int i = 100 ; i < 1000 ; i++)
-        {
-
-            unordered_map<int,int>proxy = mp;
-
-            if(i % 2 == 0)
-            {   
-               
-                string num = to_string(i);
-                
-                bool valid = true;
-
-                    for(auto elem : num)
-                    {
-                        int digit = elem - '0';
-
-                         if(proxy.find(digit) == proxy.end())
-                         {
-                            
-                            valid = false;
-                            break;
-                         }
-
-                        else{
-
-                                proxy[digit]--;
-                                if(proxy[digit] == 0) proxy.erase(digit);
+        for (int i = 1; i <= 9; ++i) {
+            if (counts[i] > 0) {
+                counts[i]--;
+                for (int j = 0; j <= 9; ++j) {
+                    if (counts[j] > 0) {
+                        counts[j]--;
+                        for (int k = 0; k <= 8; k += 2) {
+                            if (counts[k] > 0) {
+                                ans_set.insert(i * 100 + j * 10 + k);
+                            }
                         }
+                        counts[j]++; // Backtrack
                     }
-
-                   
-                if(valid) ans.push_back(i);
-                    
+                }
+                counts[i]++; // Backtrack
             }
         }
 
-
+        std::vector<int> ans(ans_set.begin(), ans_set.end());
+        std::sort(ans.begin(), ans.end());
         return ans;
-
     }
 };
