@@ -217,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0051-n-queens](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0055-jump-game) |
+| [0075-sort-colors](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0079-word-search) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -620,6 +621,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0031-next-permutation](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0031-next-permutation) |
 | [0061-rotate-list](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0061-rotate-list) |
+| [0075-sort-colors](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0125-valid-palindrome) |
 | [0283-move-zeroes](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0283-move-zeroes) |
 | [0567-permutation-in-string](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0567-permutation-in-string) |
@@ -899,6 +901,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0075-sort-colors) |
 | [0179-largest-number](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0179-largest-number) |
 | [0324-wiggle-sort-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0324-wiggle-sort-ii) |
 | [0368-largest-divisible-subset](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0368-largest-divisible-subset) |
