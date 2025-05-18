@@ -25,21 +25,34 @@ public:
         return true;
     }
 
-    int solver(vector<string>& combinations, int col, int prevIndex, vector<vector<int>>& dp) {
-        if (col == n) return 1;
-        if (prevIndex != -1 && dp[col][prevIndex] != -1) return dp[col][prevIndex];
+    int solve(int remainCols, int prevIdx, int m, vector<string>& combinations, vector<vector<int>>& dp) {
+    if (remainCols == 0) return 1;
+    if (dp[remainCols][prevIdx] != -1) return dp[remainCols][prevIdx];
 
-        int ans = 0;
+    int ways = 0;
+    string prevState = combinations[prevIdx];
 
-        for (int i = 0; i < combinations.size(); i++) {
-            if (prevIndex == -1 || isValid(combinations[i], combinations[prevIndex])) {
-                ans = (ans + solver(combinations, col + 1, i, dp)) % MOD;
+    for (int i = 0; i < combinations.size(); i++) {
+        if (i == prevIdx) continue;
+
+        string currState = combinations[i];
+        bool valid = true;
+
+        for (int j = 0; j < m; j++) {
+            if (prevState[j] == currState[j]) {
+                valid = false;
+                break;
             }
         }
 
-        if (prevIndex != -1) dp[col][prevIndex] = ans;
-        return ans;
+        if (valid) {
+            ways = (ways + solve(remainCols - 1, i, m, combinations, dp)) % 1000000007;
+        }
     }
+
+    return dp[remainCols][prevIdx] = ways;
+}
+
 
     int colorTheGrid(int _m, int _n) {
         m = _m;
@@ -52,6 +65,12 @@ public:
         int k = combinations.size();
         vector<vector<int>> dp(n, vector<int>(k, -1));
 
-        return solver(combinations, 0, -1, dp);
+         int ans = 0;
+
+        for (int i = 0; i < combinations.size(); i++) {
+            ans = (ans + solve(n - 1, i, m, combinations, dp)) % MOD;
+        }
+
+        return ans;
     }
 };
