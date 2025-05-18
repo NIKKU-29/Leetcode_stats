@@ -46,7 +46,7 @@ public:
         }
 
         if (valid) {
-            ways = (ways + solve(remainCols - 1, i, m, combinations, dp)) % 1000000007;
+            ways = (ways + solve(remainCols - 1, i, m, combinations, dp)) % MOD;
         }
     }
 
