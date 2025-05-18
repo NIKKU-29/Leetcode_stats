@@ -18,12 +18,7 @@ public:
         }
     }
 
-    bool isValid(string& a, string& b) {
-        for (int i = 0; i < a.size(); i++) {
-            if (a[i] == b[i]) return false;
-        }
-        return true;
-    }
+    
 
     int solve(int remainCols, int prevIdx, int m, vector<string>& combinations, vector<vector<int>>& dp) {
     if (remainCols == 0) return 1;
