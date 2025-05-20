@@ -10,8 +10,8 @@ public:
             int start = elem[0];
             int end = elem[1];
 
-            vec[start]-=1;
-            if(end+1 < n) vec[end+1]+=1;
+            vec[start]--;
+            if(end+1 < n) vec[end+1]++;
 
         }
 
@@ -25,7 +25,6 @@ public:
 
         for(int i = 0 ;i < n ; i++)
         {
-            // cout<<vec[i]<<"_";
             if(nums[i] + presum[i] > 0) return false;
         }
 
