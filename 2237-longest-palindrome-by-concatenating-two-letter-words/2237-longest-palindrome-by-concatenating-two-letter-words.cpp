@@ -1,25 +1,33 @@
 class Solution {
 public:
 
-    bool ispalind(string s) {
-        return s[0] == s[1]; // Shortcut for 2-letter words
+    bool ispalind(string s)
+    {
+        string t = s;
+        reverse(t.begin(), t.end());
+        return s == t;
     }
 
     int longestPalindrome(vector<string>& words) {
-        unordered_map<string, int> mp;
-        unordered_map<string, int> selfpalindrom;
-        int count = 0;
+        
+        unordered_map<string,int>mp;
+        unordered_map<string,int>selfpalindrom;
 
-        // Separate palindromes and others
-        for (auto& word : words) {
-            if (ispalind(word)) {
-                selfpalindrom[word]++;
-            } else {
-                mp[word]++;
+        for(auto elem : words)
+        {
+            if(ispalind(elem))
+            {
+                selfpalindrom[elem]++;
+            }
+
+            else{
+                    mp[elem]++;
             }
         }
 
-        // Count pairs like "ab" and "ba"
+        int count= 0;
+
+        
         for (auto& [curr, freq] : mp) {
             string rev = curr;
             reverse(rev.begin(), rev.end());
@@ -28,18 +36,19 @@ public:
                 int pairs = min(freq, mp[rev]);
                 count += pairs * 4;
 
-                mp[rev] = 0; // Avoid recounting
+                mp[rev] = 0; 
                 mp[curr] = 0;
             }
         }
 
-        // Handle self-palindromic words like "gg", "aa", etc.
-        bool midAdded = false;
-        for (auto& [pal, freq] : selfpalindrom) {
-            count += (freq / 2) * 4; // pairs of palindromes
-            if (freq % 2 == 1 && !midAdded) {
-                count += 2; // One can go in the middle
-                midAdded = true;
+        bool added = false;
+        for(auto& [elem , cnt] : selfpalindrom)
+        {
+            count+=((cnt/2) * 4);
+            if(cnt % 2 == 1 && !added)
+            {
+                count += 2;
+                added = true;
             }
         }
 
