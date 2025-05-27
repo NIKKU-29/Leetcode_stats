@@ -5,8 +5,7 @@ public:
 
     int differenceOfSums(int n, int m) {
         
-        ll s1 = 0;
-        ll s2 = 0;
+        ll s1 = 0,s2 = 0;
    
         for(int i = 1 ; i <= n ; i++)
         {
