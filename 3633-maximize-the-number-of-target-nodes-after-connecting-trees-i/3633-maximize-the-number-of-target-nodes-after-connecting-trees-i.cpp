@@ -1,71 +1,29 @@
 class Solution {
 public:
+    vector<vector<int>> buildList(const vector<vector<int>>& edges) {
+        vector<vector<int>> adj(edges.size() + 1);
+        for (auto &e : edges) {
+            adj[e[0]].push_back(e[1]);
+            adj[e[1]].push_back(e[0]);
+        }
+        return adj;
+    }
+    
+    int dfs(const vector<vector<int>>& adj, int u, int p, int k) {
+        if (k < 0) return 0;
+        int cnt = 1;
+        for (int v : adj[u])
+            if (v != p) cnt += dfs(adj, v, u, k-1);
+        return cnt;
+    }
+    
     vector<int> maxTargetNodes(vector<vector<int>>& edges1, vector<vector<int>>& edges2, int k) {
-    
-        auto graph1 = buildGraph(edges1);
-        auto graph2 = buildGraph(edges2);
-        
-       
-        vector<int> result(graph1.size(), 0);
-        
-        
-        vector<int> reachable1(graph1.size(), 0);
-        vector<int> reachable2(graph2.size(), 0);
-        
-        for (int node = 0; node < graph1.size(); ++node) {  //upto k
-            reachable1[node] = countNodesWithinDistance(graph1, node, k);
-        }
-        for (int node = 0; node < graph2.size(); ++node) { // up to k-1
-            reachable2[node] = countNodesWithinDistance(graph2, node, k - 1);
-        }
-        
+        auto adj1 = buildList(edges1), adj2 = buildList(edges2);
+        int n = adj1.size(), m = adj2.size(), maxiB = 0;
+        vector<int> res(n);
 
-        for (int node1 = 0; node1 < graph1.size(); ++node1) {
-            int maxTargets = 0;
-            for (int node2 = 0; node2 < graph2.size(); ++node2) {
-                maxTargets = max(maxTargets, reachable1[node1] + reachable2[node2]);
-            }
-            result[node1] = maxTargets;
-            
-            //cout<<result[node1]<<" ";
-        }
-        
-        return result;
-    }
-
-    
-    unordered_map<int, vector<int>> buildGraph(const vector<vector<int>>& edges) {
-        unordered_map<int, vector<int>> graph;
-        for (const auto& edge : edges) {
-            graph[edge[0]].push_back(edge[1]);
-            graph[edge[1]].push_back(edge[0]);
-        }
-        return graph;
-    }
-    
-    
-    int countNodesWithinDistance(const unordered_map<int, vector<int>>& graph, int start, int maxDistance) {
-        vector<int> visited(graph.size(), 0);
-        queue<pair<int, int>> q;
-        q.push({start, 0});
-        visited[start] = 1;
-        int count = 0;
-        
-        while (!q.empty()) {
-            auto [node, dist] = q.front();
-            q.pop();
-            
-            if (dist > maxDistance) continue; ///skip
-            count++;
-            
-            for (int neighbor : graph.at(node)) {
-                if (!visited[neighbor]) {
-                    visited[neighbor] = 1;
-                    q.push({neighbor, dist + 1});
-                }
-            }
-        }
-        
-        return count;
+        for (int i = 0; i < m; i++) maxiB = max(maxiB, dfs(adj2, i, -1, k - 1));
+        for (int i = 0; i < n; i++) res[i] = dfs(adj1, i, -1, k) + maxiB;
+        return res;
     }
 };
