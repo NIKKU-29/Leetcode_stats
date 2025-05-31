@@ -2,49 +2,60 @@ class Solution {
 public:
 
     typedef pair<int,int> pp;
-    int n = 0;
+    int n =0;
 
-    // Helper to map 1D cell number to 2D coordinates
     pp helper(int num)
     {
         int row = n - 1 - (num - 1) / n;
         int col = (num - 1) % n;
-
+        
         if ((n - 1 - row) % 2 == 1) col = n - 1 - col;
 
         return {row , col};
+        
     } 
 
     int snakesAndLadders(vector<vector<int>>& board) {
+
         n = board.size();
-        vector<bool> visited(n * n + 1, false);
-        queue<pair<int, int>> q; // {cell_number, steps}
-        
-        q.push({1, 0});
+        vector<bool>visited( n * n + 1 , 0);
+        queue<pp>q;
+
+        q.push({1,0});
         visited[1] = true;
 
-        while (!q.empty()) {
-            auto [curr, steps] = q.front();
+        while(!q.empty())
+        {
+            pp elem = q.front();
             q.pop();
 
-            if (curr == n * n) return steps;
+            int num = elem.first;
+            int step = elem.second;
 
-            for (int move = 1; move <= 6; ++move) {
-                int next = curr + move;
-                if (next > n * n) break;
+            if(num == n * n) return step;
 
-                auto [r, c] = helper(next);
-                if (board[r][c] != -1) {
-                    next = board[r][c];  // Move via snake or ladder
+            for(int i = 1 ; i <= 6 ; i++)
+            {
+                int next = num + i;
+                if(next > n * n) break;
+
+                pp converted = helper(next);
+                int r = converted.first;
+                int c = converted.second;
+                if(board[r][c] != -1)
+                {
+                    next = board[r][c];
                 }
 
-                if (!visited[next]) {
+                if(!visited[next])
+                {
                     visited[next] = true;
-                    q.push({next, steps + 1});
+                    q.push({next,step+1});
                 }
+
             }
         }
-
-        return -1; // Unreachable
+        
+        return -1;
     }
 };
