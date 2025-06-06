@@ -1,33 +1,22 @@
 class Solution {
 public:
     string robotWithString(string s) {
-        
-        unordered_map<char,int>mp;
+        unordered_map<char,int> freq;
+        for (char c : s) freq[c]++;
 
-        for(auto elem : s)
-        {
-            mp[elem]++;
-        }
-
-
-        stack<char>st;
-        string ans = "";
+        string temp = "", ans = "";
         char mini = 'a';
-        
-        for(auto elem : s)
-        {
-            st.push(elem);
-            mp[elem]--;
 
-            while(mini != 'z' && mp[mini] == 0)
-            {
+        for (char c : s) {
+            temp.push_back(c);
+            freq[c]--;
+
+            while (mini <= 'z' && freq[mini] == 0)
                 mini++;
-            }
 
-            while(!st.empty() && st.top() <= mini)
-            {
-                ans+=st.top();
-                st.pop();
+            while (!temp.empty() && temp.back() <= mini) {
+                ans.push_back(temp.back());
+                temp.pop_back();
             }
         }
 
