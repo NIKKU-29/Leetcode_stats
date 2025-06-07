@@ -1,33 +1,49 @@
 class Solution {
 public:
     string clearStars(string s) {
-        map<char, vector<int>> pos_map;
 
-        for (int i = 0; i < s.size(); i++) {
-            if (s[i] != '*') {
-                pos_map[s[i]].push_back(i);
-            } else {
-                // Remove latest index of smallest available char
-                for (auto& [ch, idxs] : pos_map) {
-                    if (!idxs.empty()) {
-                        idxs.pop_back();
-                        break;
+        map<char,vector<int>>mp;
+
+        for(int i =0 ; i < s.size() ; i++)
+        {
+            if(s[i] != '*')
+            {
+                mp[s[i]].push_back(i);
+            }
+
+            else{
+                    for(char i = 'a' ; i <= 'z' ; i++)
+                    {
+                        if(mp.find(i) != mp.end())
+                        {
+                            mp[i].pop_back();
+                            if(mp[i].size() == 0) mp.erase(i);
+                            break;
+                        }
                     }
-                }
             }
         }
 
-        // Mark remaining indices
-        unordered_set<int> keep;
-        for (auto& [ch, idxs] : pos_map) {
-            for (int i : idxs) keep.insert(i);
+
+        set<int>valid;
+
+        for(auto elem : mp)
+        {
+            for(auto ele : elem.second)
+            {
+                valid.insert(ele);
+            }
         }
 
         string ans = "";
-        for (int i = 0; i < s.size(); i++) {
-            if (keep.count(i)) ans += s[i];
+
+        for(int i = 0 ; i < s.size() ; i++)
+        {
+            if(valid.count(i)) ans+=s[i];
         }
 
+
         return ans;
+        
     }
 };
