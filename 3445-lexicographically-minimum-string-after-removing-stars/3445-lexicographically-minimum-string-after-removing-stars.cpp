@@ -16,32 +16,38 @@ public:
                     {
                         if(mp.find(i) != mp.end())
                         {
+                            s[mp[i].back()] = '*';
                             mp[i].pop_back();
                             if(mp[i].size() == 0) mp.erase(i);
                             break;
+
                         }
                     }
             }
         }
 
 
-        set<int>valid;
+        // set<int>valid;
 
-        for(auto elem : mp)
-        {
-            for(auto ele : elem.second)
-            {
-                valid.insert(ele);
-            }
-        }
+        // for(auto elem : mp)
+        // {
+        //     for(auto ele : elem.second)
+        //     {
+        //         valid.insert(ele);
+        //     }
+        // }
 
         string ans = "";
 
-        for(int i = 0 ; i < s.size() ; i++)
-        {
-            if(valid.count(i)) ans+=s[i];
-        }
+        // for(int i = 0 ; i < s.size() ; i++)
+        // {
+        //     if(valid.count(i)) ans+=s[i];
+        // }
 
+        for(auto elem : s)
+        {
+            if(elem != '*') ans+=elem;
+        }
 
         return ans;
         
