@@ -5,11 +5,10 @@ public:
     {
         if(curr > limit) return;
         ans.push_back(curr);
-
+ 
         for(int i = 0 ; i <= 9 ; i++)
         {
             int next = curr * 10 + i;
-            // if(next > limit) continue;
             solver(next,limit,ans);
         }
     }
