@@ -9,7 +9,7 @@ public:
         for(int i = 0 ; i <= 9 ; i++)
         {
             int next = curr * 10 + i;
-            if(next > limit) continue;
+            // if(next > limit) continue;
             solver(next,limit,ans);
         }
     }
