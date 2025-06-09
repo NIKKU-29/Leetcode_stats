@@ -1,51 +1,34 @@
 class Solution {
-
-    typedef long l;
-
 public:
+    int counter(long curr, long next, int limit) {
+        int siblings = 0;
 
-    int solver( l curr,l next, int limit)
-    {
-        int num_count=0;
-
-        while(curr<=limit)
-        {
-            num_count += min(next, (l)limit + 1) - curr;
-            next*=10;
-            curr*=10;
+        while (curr <= limit) {
+            siblings += min((long)(limit + 1), next) - curr;
+            curr *= 10;
+            next *= 10;
         }
 
-        return num_count;
+        return siblings;
     }
 
-
-
     int findKthNumber(int n, int k) {
+        int curr = 1;
+        k--;
 
+        while (k > 0) {
+            int border = curr + 1;
+            int brothers = counter(curr, border, n);  
 
-        int curr=1;
-        k-=1;
-
-        while(k>0)
-        {
-            int next=curr+1;
-            int count=solver(curr,next,n);
-
-
-            if(count <= k)
-            {
+            if (brothers <= k) {
                 curr++;
-                k-=count;
-            }
-            else
-            {
-                curr*=10;
+                k -= brothers;
+            } else {
+                curr *= 10;
                 k--;
             }
         }
 
-
         return curr;
-        
     }
 };
