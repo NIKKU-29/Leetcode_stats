@@ -24,20 +24,20 @@ public:
             }
         }
 
-        string maxi,mini;
+        string maxi, mini;
 
         for(auto elem : number)
         {
-            if(elem == selecteda) maxi+='9';
-            if(elem != selecteda) maxi+=elem;
-            if(elem == selectedb && number[0] != '1') mini+='1';
-            if(elem == selectedb && number[0] == '1') mini+='0';
-            if(elem != selectedb) mini+=elem;
+            if(elem == selecteda) maxi += '9';
+            else maxi += elem;
+
+            if(elem == selectedb && number[0] != selectedb) mini += '0';
+            else if(elem == selectedb && number[0] == selectedb) mini += '1';
+            else mini += elem;
         }
 
         if(selectedb == '\0') mini = number;
 
         return stoi(maxi) - stoi(mini);
-
     }
 };
