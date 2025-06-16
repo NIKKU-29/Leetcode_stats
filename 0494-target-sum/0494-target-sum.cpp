@@ -1,32 +1,40 @@
 class Solution {
 public:
 
-    int solver(int idx, int sum , vector<int>& nums, int target,vector<vector<int>>&dp)
+    
+
+    int solver(int idx,int currsum , vector<vector<int>>&dp , int target , vector<int>& nums)
     {
         int n=nums.size();
-
         if(idx==n)
         {
-           if(sum==target) return 1;
-           return 0;
+            if(currsum==target)
+            {
+                return 1;
+            }
+
+            return 0;
         }
 
-        
-
-        if(dp[idx][sum+1000]!=-1)
+        if(dp[idx][currsum + 1000]!=-1)
         {
-            return dp[idx][sum+1000];
+            return dp[idx][currsum+1000];
         }
 
-        int plus=solver(idx+1,sum+nums[idx],nums,target,dp);
-        int neg=solver(idx+1,sum-nums[idx],nums,target,dp);
 
-        return dp[idx][sum+1000]=plus+neg;
+        int plus=solver(idx+1,currsum+nums[idx],dp,target,nums);
+        int neg=solver(idx+1,currsum-nums[idx],dp,target,nums);
+
+        return dp[idx][currsum+1000]=plus + neg;
+        
     }
 
+
     int findTargetSumWays(vector<int>& nums, int target) {
+
         int n=nums.size();
-        vector<vector<int>>dp(n,vector<int>(2001,-1));
-        return solver(0,0,nums,target,dp);
+        vector<vector<int>> dp(n + 1, vector<int>(2001, -1));
+        int count=solver(0,0,dp,target,nums);
+        return count;
     }
 };
