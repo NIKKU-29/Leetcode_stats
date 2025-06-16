@@ -323,6 +323,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1993-sum-of-all-subset-xor-totals](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2107-find-unique-binary-string](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2107-find-unique-binary-string) |
+| [2144-maximum-difference-between-increasing-elements](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2145-grid-game](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2145-grid-game) |
 | [2155-find-missing-observations](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2155-find-missing-observations) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
