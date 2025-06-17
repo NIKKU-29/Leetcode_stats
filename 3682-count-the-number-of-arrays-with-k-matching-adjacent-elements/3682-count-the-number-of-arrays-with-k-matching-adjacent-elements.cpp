@@ -7,9 +7,11 @@ public:
         base = base % mod;
 
         while (exp > 0) {
-            if (exp & 1) {
+            if (exp & 1) 
+            {
                 result = (result * base) % mod;
             }
+
             base = (base * base) % mod;
             exp = exp >> 1;
         }
@@ -26,7 +28,7 @@ public:
             den = (den * (r - i)) % mod;
         }
 
-        return (int)((num * power(den, mod - 2)) % mod); 
+        return ( num * power(den,mod-2) ) % mod;
     }
 
     int countGoodArrays(int n, int m, int k) {
