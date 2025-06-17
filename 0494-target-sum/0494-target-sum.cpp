@@ -21,7 +21,7 @@ public:
 
         int n = arr.size();
         int sum = accumulate(arr.begin(), arr.end(), 0);
-        int offset = 2001;
+        int offset = 2000;
 
         vector<vector<int>> mem(n + 1, vector<int>(2 * sum + 1 + offset, 0));
         mem[n][k + offset] = 1;
