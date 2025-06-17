@@ -23,7 +23,7 @@ public:
         long long num = 1, den = 1;
         for (int i = 0; i < r; i++) {
             num = (num * (n - i)) % mod;
-            den = (den * (i + 1)) % mod;
+            den = (den * (r - i)) % mod;
         }
 
         return (int)((num * power(den, mod - 2)) % mod); 
