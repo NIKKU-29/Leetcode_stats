@@ -1,32 +1,38 @@
 class Solution {
 public:
+    // int f(vector<int>& arr, int k, int i, int curr, vector<vector<int>>& mem,
+    //       int& sum) {
 
-    int solver(int idx, int sum , vector<int>& nums, int target,vector<vector<int>>&dp)
-    {
-        int n=nums.size();
+    //     int n = arr.size();
+    //     if (i == n) {
+    //         if (curr == k)
+    //             return 1;
+    //         return 0;
+    //     }
 
-        if(idx==n)
-        {
-           if(sum==target) return 1;
-           return 0;
+    //     if (mem[i][curr + sum] != -1)
+    //         return mem[i][curr + sum];
+
+    //     return mem[i][curr + sum] = f(arr, k, i + 1, curr - arr[i], mem, sum) +
+    //                                 f(arr, k, i + 1, curr + arr[i], mem, sum);
+    // }
+
+    int findTargetSumWays(vector<int>& arr, int k) {
+
+        int n = arr.size();
+        int sum = accumulate(arr.begin(), arr.end(), 0);
+        int offset = 2001;
+
+        vector<vector<int>> mem(n + 1, vector<int>(2 * sum + 1 + offset, 0));
+        mem[n][k + offset] = 1;
+
+        for (int i = n - 1; i >= 0; --i) {
+            for (int curr = -sum; curr <= sum; ++curr) {
+                mem[i][curr + offset] = mem[i + 1][curr - arr[i] + offset] +
+                                        mem[i + 1][curr + arr[i] + offset];
+            }
         }
 
-        
-
-        if(dp[idx][sum+1000]!=-1)
-        {
-            return dp[idx][sum+1000];
-        }
-
-        int plus=solver(idx+1,sum+nums[idx],nums,target,dp);
-        int neg=solver(idx+1,sum-nums[idx],nums,target,dp);
-
-        return dp[idx][sum+1000]=plus+neg;
-    }
-
-    int findTargetSumWays(vector<int>& nums, int target) {
-        int n=nums.size();
-        vector<vector<int>>dp(n,vector<int>(2001,-1));
-        return solver(0,0,nums,target,dp);
+        return mem[0][offset];
     }
 };
