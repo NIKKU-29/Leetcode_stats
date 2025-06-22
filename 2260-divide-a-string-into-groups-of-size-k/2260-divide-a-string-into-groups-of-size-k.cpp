@@ -10,12 +10,11 @@ public:
             {
                 ans.push_back(curr);
                 curr = "";
-                curr+=elem;
+               
             }
 
-            else{
-                    curr+=elem;
-            }
+                curr+=elem;
+            
         }
 
         if(!curr.empty())
