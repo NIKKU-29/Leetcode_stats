@@ -13,7 +13,7 @@ public:
                
             }
 
-                curr+=elem;
+            curr+=elem;
             
         }
 
