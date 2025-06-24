@@ -4,14 +4,14 @@ public:
         
         int n = nums.size();
         vector<int>ans;
-        vector<pair<int,int>>mp;
+        vector<int>mp;
         // int lastindex = -1;
 
         for(int i = 0 ; i < n; i++)
         {
             if(nums[i] == key)
             {
-                mp.push_back({key,i});
+                mp.push_back(i);
                 // lastindex = i;
             }
         }
@@ -20,9 +20,9 @@ public:
 
         for(int i = 0 ; i < n ; i++)
         {
-            for(auto& [_,idx] : mp)
+            for(auto elem : mp)
             {
-                if(abs(i - idx) <= k) 
+                if(abs(i - elem) <= k) 
                 {
                     ans.push_back(i); 
                     break;
