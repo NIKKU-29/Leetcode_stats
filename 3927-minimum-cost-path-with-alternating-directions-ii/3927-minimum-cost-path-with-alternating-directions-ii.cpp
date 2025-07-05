@@ -1,53 +1,34 @@
 class Solution {
 public:
-    typedef tuple<long long, int, int, int> State; // {cost, x, y, time_parity}
-    int M, N;
-    vector<pair<int,int>> direction = {{0,1},{1,0}};  // right and down
-
-    long long minCost(int m, int n, vector<vector<int>>& waitCost) {
-        M = m;
-        N = n;
-
-        // dp[x][y][parity] = min cost to reach (x,y) at given parity
-        vector<vector<vector<long long>>> dp(M, vector<vector<long long>>(N, vector<long long>(2, LLONG_MAX)));
-        priority_queue<State, vector<State>, greater<State>> pq;
-
-        // Start at (0,0), time=1 (odd), cost = entry cost (1*1=1)
-        pq.emplace(1, 0, 0, 1); // cost, x, y, time_parity
-        dp[0][0][1] = 1;
-
-        while (!pq.empty()) {
-            auto [cost, x, y, parity] = pq.top(); pq.pop();
-
-            // Goal reached
-            if (x == M - 1 && y == N - 1)
-                return cost;
-
-            // Already found a better path
-            if (dp[x][y][parity] < cost) continue;
-
-            if (parity == 1) { // odd time, can move
-                for (auto [dx, dy] : direction) {
-                    int nx = x + dx, ny = y + dy;
-                    if (nx < M && ny < N) {
-                        long long entryCost = 1LL * (nx + 1) * (ny + 1);
-                        long long newCost = cost + entryCost;
-                        if (newCost < dp[nx][ny][0]) {
-                            dp[nx][ny][0] = newCost;
-                            pq.emplace(newCost, nx, ny, 0);
-                        }
-                    }
-                }
-            } else { // even time, must wait
-                long long wait = waitCost[x][y];
-                long long newCost = cost + wait;
-                if (newCost < dp[x][y][1]) {
-                    dp[x][y][1] = newCost;
-                    pq.emplace(newCost, x, y, 1);
-                }
-            }
+    long long recur(int i, int j, bool isEven, vector<vector<int>>& waitCost, int m, int n, vector<vector<vector<long long>>>& dp) {
+        if (i >= m || j >= n) return LLONG_MAX;
+        if (i == m - 1 && j == n - 1) return 0;
+        if (i == 0 && j == 0 && !isEven) {
+            long long val1 = LLONG_MAX, val2 = LLONG_MAX;
+            if (m > 1) val1 = (2LL * 1) + recur(1, 0, true, waitCost, m, n, dp);
+            if (n > 1) val2 = (1LL * 2) + recur(0, 1, true, waitCost, m, n, dp);
+            return (1LL * 1) + min(val1, val2);
         }
 
-        return -1; // unreachable
+        if (dp[i][j][isEven] != -1) return dp[i][j][isEven];
+
+        long long cost = 0;
+        if (isEven) {
+            cost = waitCost[i][j] + recur(i, j, false, waitCost, m, n, dp);
+        } else {
+            long long val1 = LLONG_MAX, val2 = LLONG_MAX;
+            if (i + 1 < m)
+                val1 = (1LL * (i + 2) * (j + 1)) + recur(i + 1, j, true, waitCost, m, n, dp);
+            if (j + 1 < n)
+                val2 = (1LL * (i + 1) * (j + 2)) + recur(i, j + 1, true, waitCost, m, n, dp);
+            cost = min(val1, val2);
+        }
+
+        return dp[i][j][isEven] = cost;
+    }
+
+    long long minCost(int m, int n, vector<vector<int>>& waitCost) {
+        vector<vector<vector<long long>>> dp(m, vector<vector<long long>>(n, vector<long long>(2, -1)));
+        return recur(0, 0, false, waitCost, m, n, dp);
     }
 };
