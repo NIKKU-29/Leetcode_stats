@@ -1,34 +1,52 @@
 class Solution {
 public:
-    long long recur(int i, int j, bool isEven, vector<vector<int>>& waitCost, int m, int n, vector<vector<vector<long long>>>& dp) {
-        if (i >= m || j >= n) return LLONG_MAX;
-        if (i == m - 1 && j == n - 1) return 0;
-        if (i == 0 && j == 0 && !isEven) {
-            long long val1 = LLONG_MAX, val2 = LLONG_MAX;
-            if (m > 1) val1 = (2LL * 1) + recur(1, 0, true, waitCost, m, n, dp);
-            if (n > 1) val2 = (1LL * 2) + recur(0, 1, true, waitCost, m, n, dp);
-            return (1LL * 1) + min(val1, val2);
+    struct State {
+        long long cost;
+        int x, y, tmod;
+
+        bool operator>(const State& other) const {
+            return cost > other.cost;
         }
-
-        if (dp[i][j][isEven] != -1) return dp[i][j][isEven];
-
-        long long cost = 0;
-        if (isEven) {
-            cost = waitCost[i][j] + recur(i, j, false, waitCost, m, n, dp);
-        } else {
-            long long val1 = LLONG_MAX, val2 = LLONG_MAX;
-            if (i + 1 < m)
-                val1 = (1LL * (i + 2) * (j + 1)) + recur(i + 1, j, true, waitCost, m, n, dp);
-            if (j + 1 < n)
-                val2 = (1LL * (i + 1) * (j + 2)) + recur(i, j + 1, true, waitCost, m, n, dp);
-            cost = min(val1, val2);
-        }
-
-        return dp[i][j][isEven] = cost;
-    }
+    };
 
     long long minCost(int m, int n, vector<vector<int>>& waitCost) {
-        vector<vector<vector<long long>>> dp(m, vector<vector<long long>>(n, vector<long long>(2, -1)));
-        return recur(0, 0, false, waitCost, m, n, dp);
+        vector<vector<vector<long long>>> dist(m, vector<vector<long long>>(n, vector<long long>(2, LLONG_MAX)));
+
+        priority_queue<State, vector<State>, greater<State>> pq;
+
+        dist[0][0][1] = 1;  // Starting with time = 1, cost = (0+1)*(0+1)
+        pq.push({1, 0, 0, 1}); // cost, x, y, time_parity
+
+        vector<pair<int, int>> dir = {{1, 0}, {0, 1}};  // Down, Right
+
+        while (!pq.empty()) {
+            auto [currCost, x, y, tmod] = pq.top(); pq.pop();
+
+            if (x == m - 1 && y == n - 1)
+                return currCost;
+
+            if (dist[x][y][tmod] < currCost) continue;
+
+            if (tmod == 1) { // Move time
+                for (auto [dx, dy] : dir) {
+                    int nx = x + dx, ny = y + dy;
+                    if (nx < m && ny < n) {
+                        long long moveCost = 1LL * (nx + 1) * (ny + 1);
+                        if (currCost + moveCost < dist[nx][ny][0]) {
+                            dist[nx][ny][0] = currCost + moveCost;
+                            pq.push({dist[nx][ny][0], nx, ny, 0});
+                        }
+                    }
+                }
+            } else { // Wait time
+                long long wait = waitCost[x][y];
+                if (currCost + wait < dist[x][y][1]) {
+                    dist[x][y][1] = currCost + wait;
+                    pq.push({dist[x][y][1], x, y, 1});
+                }
+            }
+        }
+
+        return -1; // Should never reach here
     }
 };
