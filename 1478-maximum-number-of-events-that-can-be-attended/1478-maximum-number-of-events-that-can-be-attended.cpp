@@ -2,7 +2,7 @@ class Solution {
 public:
     int maxEvents(vector<vector<int>>& events) {
 
-        set<int>s;
+        
 
         sort(events.begin(),events.end(),[](const vector<int>&a,const vector<int>&b){
 
@@ -11,7 +11,11 @@ public:
 
         int maxe = 0;
         for(auto elem : events) maxe = max(maxe,elem[1]);
-        for(int i = 1; i <= maxe ; i++) s.insert(i);
+        // set<int>s;
+        // for(int i = 1; i <= maxe ; i++) s.insert(i);
+        vector<int> days(maxe);
+        iota(days.begin(), days.end(), 1); 
+        set<int> s(days.begin(), days.end()); 
 
         int count = 0;
         for(auto ele : events)
