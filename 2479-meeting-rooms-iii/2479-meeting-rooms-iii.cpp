@@ -10,13 +10,12 @@ public:
         // Priority queue for available rooms (min-heap based on room numbers)
         priority_queue<int, vector<int>, greater<int>> available;
 
-        // Map to store the count of meetings in each room
-        map<int, int> room_counts;
+        // Vector to store the count of meetings in each room
+        vector<int> room_counts(n, 0);
 
         // Initialize available rooms (0 to n-1)
         for (int i = 0; i < n; i++) {
             available.push(i);
-            room_counts[i] = 0;  // Initialize room counts to 0
         }
 
         // Sort meetings based on start time to process them in order
@@ -55,12 +54,12 @@ public:
         int most_meetings = -1;
         int max_meeting_count = 0;
 
-        for (const auto& elem : room_counts) {
-            if (elem.second > max_meeting_count) {
-                max_meeting_count = elem.second;
-                most_meetings = elem.first;
-            } else if (elem.second == max_meeting_count && elem.first < most_meetings) {
-                most_meetings = elem.first;
+        for (int i = 0; i < n; i++) {
+            if (room_counts[i] > max_meeting_count) {
+                max_meeting_count = room_counts[i];
+                most_meetings = i;
+            } else if (room_counts[i] == max_meeting_count && i < most_meetings) {
+                most_meetings = i;
             }
         }
 
