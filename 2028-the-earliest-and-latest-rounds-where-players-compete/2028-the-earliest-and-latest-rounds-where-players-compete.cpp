@@ -27,7 +27,7 @@ public:
                 {
                     for(int j = 0 ; j <= mid_p1p2 ; ++j) // j -> count of elements between p1 qand p2
                     {
-                        pr ans = earliestAndLatest((n+1)/2,i+1,i+j+2);
+                        pr ans = earliestAndLatest((n+1)/2,i+1,i+1+j+1);
                         mini = min(mini,ans[0] + 1);
                         maxi = max(maxi,ans[1] + 1);
                     }
