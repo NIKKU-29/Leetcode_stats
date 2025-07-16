@@ -1,12 +1,20 @@
 class Solution {
 public:
-    int odd_even(const vector<int>& nums)
-    {
+
+    int maximumLength(vector<int>& nums) {
+        
         int ans = 0;
         int prev = -1;
         int count = 0;
+        int longodd = 0;
+        int longeven = 0;
+
         for (auto current : nums)
         {
+            
+            if(current % 2 == 0) longeven++;
+            if(current % 2 == 1) longodd++;
+
             if (prev == -1)
             {
                 prev = current;
@@ -19,34 +27,10 @@ public:
                     count++;
                     prev = current;
                 }
-               
             }
             ans = max(ans, count);
+            
         }
-        return ans;
-    }
-
-    int odd(const vector<int>& nums)
-    {
-        int count = 0;
-        for (int x : nums)
-        {
-            if (x % 2 == 1) count++; // pick all odd elements
-        }
-        return count;
-    }
-
-    int even(const vector<int>& nums)
-    {
-        int count = 0;
-        for (int x : nums)
-        {
-            if (x % 2 == 0) count++; // pick all even elements
-        }
-        return count;
-    }
-
-    int maximumLength(vector<int>& nums) {
-        return max({odd_even(nums), odd(nums), even(nums)});
+        return max(ans,max(longodd,longeven));        
     }
 };
