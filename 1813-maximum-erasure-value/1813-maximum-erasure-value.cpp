@@ -6,7 +6,7 @@ public:
         int i = 0; 
         int j = 0;
         int sum = 0;
-        int ans = INT_MIN;
+        int ans = 0;
 
         while(j < nums.size())
         {
