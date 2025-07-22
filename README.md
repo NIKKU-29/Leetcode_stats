@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1694-make-sum-divisible-by-p](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1694-make-sum-divisible-by-p) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1786-count-the-number-of-consistent-strings) |
+| [1813-maximum-erasure-value](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1813-maximum-erasure-value) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2059-unique-length-3-palindromic-subsequences) |
@@ -201,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0594-longest-harmonious-subsequence](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0594-longest-harmonious-subsequence) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1813-maximum-erasure-value](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1813-maximum-erasure-value) |
 | [1967-longest-substring-of-all-vowels-in-order](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1967-longest-substring-of-all-vowels-in-order) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
@@ -339,6 +341,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1694-make-sum-divisible-by-p](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1694-make-sum-divisible-by-p) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1786-count-the-number-of-consistent-strings) |
+| [1813-maximum-erasure-value](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1813-maximum-erasure-value) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1876-map-of-highest-peak](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1876-map-of-highest-peak) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
