@@ -7,7 +7,7 @@ public:
         vector<int> xor_val = nums;
         vector<int> degree(n, 0);
 
-        // Step 1: Build the graph
+        // Build the graph
         for (const auto& e : edges) {
             int u = e[0], v = e[1];
             graph[u].push_back(v);
@@ -20,7 +20,7 @@ public:
         queue<int> q;
         vector<bool> seen(n, false);
 
-        // Step 2: Calculate total XOR and prepare leaves for processing
+        // Calculate total XOR and prepare leaves for processing
         for (int i = 0; i < n; ++i) {
             total_xor ^= nums[i];
             if (degree[i] == 1) {
@@ -29,7 +29,7 @@ public:
             }
         }
 
-        // Step 3: Build the tree (bottom-up), track children and XOR values
+        // Build the tree (bottom-up), track children and XOR values
         while (!q.empty()) {
             int cur = q.front();
             q.pop();
@@ -50,7 +50,7 @@ public:
 
         int res = INT_MAX;
 
-        // Step 4: Try removing two edges and calculate XOR partitions
+        // Try removing two edges and calculate XOR partitions
         for (int i = 0; i < edges.size() - 1; ++i) {
             for (int j = i + 1; j < edges.size(); ++j) {
                 int a = edges[i][0], b = edges[i][1];
