@@ -1,54 +1,41 @@
-class Solution 
-{
+class Solution {
 public:
-    int maximumGain(string s, int x, int y) {
-        // Step 1: Remove higher-value substring first
-        if (x < y)
+
+    int sum(string &s ,int money , string find)
+    {
+        stack<char>st;
+        int sum = 0;
+        
+        for(auto elem : s)
         {
-            return remove(s, 'b', 'a', y, x); // remove "ba" first
+            
+            if(!st.empty() && elem == find[1] && st.top() == find[0])
+            {
+                 st.pop();
+                 sum+=money;
+            }
+            else st.push(elem);
         }
-        else
+
+        s="";
+        while(!st.empty())
         {
-            return remove(s, 'a', 'b', x, y); // remove "ab" first
+            s+=st.top();
+            st.pop();
         }
+
+        reverse(s.begin(),s.end());
+
+        return sum;
     }
 
-private:
-    int remove(string& s, char first, char second, int firstPoints, int secondPoints) 
-    {
-        int score = 0;
-        vector<char> stack;
+    int maximumGain(string s, int x, int y) {
+        
+        int ans = 0;
+        if(x > y) ans += sum(s,x,"ab") + sum(s,y,"ba");
+        else ans += sum(s,y,"ba") + sum(s,x,"ab");
 
-        // Step 2: First pass - remove the higher-value substring
-        for (char c : s) 
-        {
-            if (!stack.empty() && stack.back() == first && c == second) 
-            {
-                stack.pop_back();
-                score += firstPoints;
-            } 
-            else 
-            {
-                stack.push_back(c);
-            }
-        }
+        return ans; 
 
-        // Step 3: Second pass - remove the lower-value substring from remaining string
-        vector<char> stack2;
-        for (char c : stack) 
-        {
-            if (!stack2.empty() && stack2.back() == second && c == first) 
-            {
-                stack2.pop_back();
-                score += secondPoints;
-            } 
-            else 
-            {
-                stack2.push_back(c);
-            }
-        }
-
-        // Step 4: Return total score
-        return score;
     }
 };
