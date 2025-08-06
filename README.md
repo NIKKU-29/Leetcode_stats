@@ -470,6 +470,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
+| [3791-fruits-into-baskets-iii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3791-fruits-into-baskets-iii) |
 ## Math
 |  |
 | ------- |
@@ -868,6 +869,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3427-special-array-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3427-special-array-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3643-zero-array-transformation-ii) |
+| [3791-fruits-into-baskets-iii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3791-fruits-into-baskets-iii) |
 | [3908-minimum-time-for-k-connected-components](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3908-minimum-time-for-k-connected-components) |
 ## Counting
 |  |
@@ -1206,6 +1208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0731-my-calendar-ii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0731-my-calendar-ii) |
 | [2280-count-good-triplets-in-an-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2280-count-good-triplets-in-an-array) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
+| [3791-fruits-into-baskets-iii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3791-fruits-into-baskets-iii) |
 ## Ordered Set
 |  |
 | ------- |
@@ -1214,6 +1217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2280-count-good-triplets-in-an-array](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2280-count-good-triplets-in-an-array) |
 | [2434-design-a-number-container-system](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2434-design-a-number-container-system) |
 | [2868-continuous-subarrays](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2868-continuous-subarrays) |
+| [3791-fruits-into-baskets-iii](https://github.com/NIKKU-29/Leetcode_stats/tree/master/3791-fruits-into-baskets-iii) |
 ## Queue
 |  |
 | ------- |
