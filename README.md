@@ -477,6 +477,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0062-unique-paths](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0070-climbing-stairs) |
+| [0231-power-of-two](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0231-power-of-two) |
 | [0241-different-ways-to-add-parentheses](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0241-different-ways-to-add-parentheses) |
 | [0368-largest-divisible-subset](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0368-largest-divisible-subset) |
 | [0539-minimum-time-difference](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0539-minimum-time-difference) |
@@ -818,6 +819,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0078-subsets](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0078-subsets) |
+| [0231-power-of-two](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0231-power-of-two) |
 | [0338-counting-bits](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0338-counting-bits) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0934-bitwise-ors-of-subarrays) |
@@ -964,6 +966,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0010-regular-expression-matching](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0010-regular-expression-matching) |
 | [0021-merge-two-sorted-lists](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0206-reverse-linked-list) |
+| [0231-power-of-two](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0231-power-of-two) |
 | [0241-different-ways-to-add-parentheses](https://github.com/NIKKU-29/Leetcode_stats/tree/master/0241-different-ways-to-add-parentheses) |
 | [1013-fibonacci-number](https://github.com/NIKKU-29/Leetcode_stats/tree/master/1013-fibonacci-number) |
 | [2050-count-good-numbers](https://github.com/NIKKU-29/Leetcode_stats/tree/master/2050-count-good-numbers) |
